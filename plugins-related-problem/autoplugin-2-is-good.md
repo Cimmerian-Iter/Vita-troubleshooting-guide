@@ -1,2 +1,2 @@
-# autoplugin 2 is good
+# Plugins not loading
 

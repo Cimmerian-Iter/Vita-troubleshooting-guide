@@ -11,8 +11,8 @@
 
 ## Plugins related problem
 
-* [autoplugins is bad](plugins-related-problem/autoplugins-is-bad.md)
-* [autoplugin 2 is good](plugins-related-problem/autoplugin-2-is-good.md)
+* [Error when using autoplugin](plugins-related-problem/autoplugins-is-bad.md)
+* [Plugins not loading](plugins-related-problem/autoplugin-2-is-good.md)
 * [bootloop](plugins-related-problem/bootloop.md)
 
 ## SD2VITA and memory corruption

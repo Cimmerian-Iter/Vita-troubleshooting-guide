@@ -1,2 +1,2 @@
-# autoplugins is bad
+# Error when using autoplugin
 
