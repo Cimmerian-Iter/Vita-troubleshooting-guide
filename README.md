@@ -8,6 +8,6 @@ Don't worry, this guide help you to recover whatever issue you're facing.
 
 The changes will be merged to gitbook and I will use it for making the guide, it probide a clear interface and will be user friendly. It is used in a lot of hacks domain like hackintoshing for exemple.
 
-This guide is unedr the MIT license
+This project is under the MIT license
 
 
