@@ -1,0 +1,2 @@
+# autoplugins is bad
+
