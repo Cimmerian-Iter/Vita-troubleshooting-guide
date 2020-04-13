@@ -1,1 +1,5 @@
 theme: jekyll-theme-hacker
+
+links:
+  - name: Adrenaline Troubleshooting
+    url: https://pipewarp.github.io/Vita-troubleshooting-guide/adrenaline-problems
