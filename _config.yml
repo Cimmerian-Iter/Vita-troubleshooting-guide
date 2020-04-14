@@ -3,8 +3,24 @@ title: Vita Troubleshooting Wiki
 description: The Guide to troubleshooting your PSVita!
 
 links:
-  - name: Adrenaline Troubleshooting
-    url: https://google.com
+  - name: Forums
+    url: https://forums.vitasdk.org
+  - name: Wiki
+    url: https://wiki.henkaku.xyz
+  - name: APIs
+    url: https://docs.vitasdk.org
+  - name: Samples
+    url: https://github.com/vitasdk/samples
+  - name: HENkaku
+    url: https://henkaku.xyz
+  - name: taiHEN
+    url: https://tai.henkaku.xyz
+  - name: Discord
+    url: https://discord.gg/AQc7KWG
+  - name: Matrix
+    url: https://matrix.to/#/!WMcHXkArACbUaOtreb:matrix.org?via=davee.pro&via=matrix.org&via=t2bot.io
+  - name: IRC
+    url: http://webchat.freenode.net/?channels=%23vitasdk
 
 gems:
   - jekyll-mentions
