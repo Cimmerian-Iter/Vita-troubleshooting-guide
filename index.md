@@ -1,3 +1,6 @@
+# Welcome to the vita troubleshooting guide!
+To begin, choose a link above on the menu, or look at the table of contents below
+
 # Table of contents
 
 * [Welcome to the vita troubleshooting guide !](README.md)
