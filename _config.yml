@@ -5,6 +5,9 @@ description: The Guide to troubleshooting your PSVita!
 links:
   - name: Adrenaline Troubleshooting
     url: https://cimmerian-iter.github.io/Vita-troubleshooting-guide/adrenaline-problems/
+  - name: PSVITA Hacking Troubleshooting
+    url: https://cimmerian-iter.github.io/Vita-troubleshooting-guide/hack-problems-related/
+    
 
 gems:
   - jekyll-mentions
