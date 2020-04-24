@@ -11,6 +11,7 @@ Restart the PSVita or reinstall hencore
 
 # Nothing worked above?
 Format the psvita and install hencore
-  
 
+# STILL Nothing working?
+https://discord.gg/PyCaBx9
 
