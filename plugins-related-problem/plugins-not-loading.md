@@ -4,15 +4,15 @@ description: halp they ate all my ram
 
 # Plugins not loading
 
-Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops we need to find the culprit/s with a witch hunt.Fortunately with the community experience we can narrow down the issues.  
+Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin(s) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issues.
   
 
 
 ## Plugins are programs.
 
-It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your system runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)  
+It may sound unrealistic, but plugins are small programs that can affect the system noticeably. The more plugins you try to load, the more system resources they will need, like RAM. If it asks for too much, it will lead to a bootloop. This is why you should only install essential and useful plugins, so you don't end up ruining your Vita's performance.  \(Someone once reached me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)  
   
-We will take an exemple on some common case i could find during the time i acted as a helper :   
+We will take an example a common case I could find during a time when I acted as a helper :   
   
 
 
@@ -60,32 +60,32 @@ ur0:tai/ps4linkcontrols.suprx
 ```
 
 OwO  
-pretty big list there. No wonder why his vita doesn't load anymore. Unfortunately in most of bootloop cases, the config looks like this. So let's take this exemple and see how we solve it.  
+That's a lot of plugins! No wonder his vita doesn't load anymore. Unfortunately in most bootloop cases, the config looks like this. So let's take this exemple and see how we solve it.
   
 \*not talking about the fact that he put some plugins inside a plugins folder which is not recommended\*  
 
 
-## Installing multiple plugins that does the same thing
+## Installing multiple plugins that do the same thing
 
-Yep that's his first mistake. Let's take a closer look.  
-The guy want to use his DS4 plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
-He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which use DS3 as a dependency\)  
+Yep, that's his first mistake. Let's take a closer look.  
+The guy wants to use his DS4 plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
+He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which uses DS3 as a dependency\)  
 
 
 ## SD2VITA and ioplus plugin not being at the top.
 
 Another common mistake is to not put the sd2vita at the begining of \*KERNEL. This is very important as normally every plugins need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.  
-As for ioplus it is a dependency used by other plugins to have access to more IO operation in userland. It need to be loaded before them.
+As for ioplus, it is a dependency used by other plugins to have access to more IO operations in userland. It need to be loaded before them.
 
 ## Loading heavy plugins when we don't always use them
 
-Ucdcd uvc plugin for streaming the psvita screen through the usb is one of the most heavy plugin and need a lot of resources. If you want to use it,  make some room for it. Let's see :
+The Ucdcd uvc plugin for streaming the psvita screen through usb is one of the most heavy plugins, so it needs a lot of resources. If you want to use it, make some room for it. Let's see :
 
-* i don't think you need to activate the music related plugins, that already remove 3 plugins from the list. 
+* I don't think you need to activate the music related plugins, that already removes 3 plugins from the list. 
 * PS4 link controls? Not useful in that case. 
-* Nopowerlimit, unless you really want to let the wifi open when playing a game that disable it you can also remove this one.
-*  Adrenaline plugin is one of the most useless plugins there. Just to avoid launching twice the app \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
-* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the vita control.  We did some cleanup so let's see how the config looks like. 
+* Nopowerlimit, unless you really want to let the wifi open when playing a demanding game, can be removed.
+* The Adrenaline plugin is one of the most useless plugins there, since all it does is allow you to not launch Adrenaline twice. \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
+* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the vita controls. We did some cleanup so let's see how the config looks like. 
 
 ```text
 # This file is used as an alternative if ux0:tai/config.txt is not found.
@@ -121,7 +121,7 @@ ur0:tai/vitagrafix.suprx
 
 
 
-It looks way more clean heh. As you have seen, people always tend to load more plugins than they really need. Using plugins you only need for the game session you will do allows you to enjoy your system without being blocked by bootloop. You can create multiple config.txt for each case if you want as long as the config isn't heavy \(more than 10 plugins at the same time is not recommended\).  
+It looks way more clean now. As you have seen, people always tend to load more plugins than they really need. Using plugins you only need for the game session you will do allows you to enjoy your system without being blocked by bootloop. You can create multiple config.txt for each case if you want as long as the config isn't heavy \(more than 10 plugins at the same time is not recommended\).  
 By following the same logic you can clear your config.txt easly without scratching your head over why it won't boot.   
   
   
