@@ -2,7 +2,7 @@
 description: robot does break
 ---
 
-# Error when using autoplugin
+# Error when using autoplugin/How to correctly install plugins
 
 #### Sometimes, autoplugin will fail, we know that autoplugin 1 tends to corrupt the config.txt \(and recently autoplugin 2 also corrupting the config.txt although the issue has been solved in 1.05 as of today\) It is importantly to know how to deal with plugins. Autoplugin is a great homebrew, but it shouldn't replace totally the knowledge of plugins and you can't expect it to be fail-proof. So we will see how can we recover from autoplugin misbehavior by learning about how tweaks works.
 

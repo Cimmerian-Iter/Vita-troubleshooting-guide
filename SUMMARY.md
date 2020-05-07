@@ -9,8 +9,8 @@
 
 ## Plugins related problem
 
-* [Error when using autoplugin](plugins-related-problem/autoplugins-is-bad.md)
-* [Plugins not loading](plugins-related-problem/autoplugin-2-is-good.md)
+* [Error when using autoplugin/How to correctly install plugins](plugins-related-problem/error-when-using-autoplugin.md)
+* [Plugins not loading](plugins-related-problem/plugins-not-loading.md)
 * [bootloop](plugins-related-problem/bootloop.md)
 
 ## SD2VITA and memory corruption
