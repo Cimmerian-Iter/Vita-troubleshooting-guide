@@ -1,3 +1,7 @@
+---
+description: 3.60 masterace yeyyy
+---
+
 # Firmware version : 3.60
 
 ## The browser keep crashing.

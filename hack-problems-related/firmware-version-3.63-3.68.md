@@ -1,3 +1,7 @@
+---
+description: no love for ya
+---
+
 # Firmware version : 3.61-3.73
 
 Fixing problems on non 3.60 firmware can be annoying and difficult considering the fact that hencore rely on the memorycard and qcma connection. Qcma tends to be unreliable and when you don't have access to the memory card for any reasons it makes things harder. \(like you forgot to delete id.dat and now that the spoof isn't working it force you to update or format the memorycard.\)  
