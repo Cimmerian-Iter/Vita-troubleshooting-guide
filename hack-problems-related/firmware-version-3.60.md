@@ -13,7 +13,7 @@ The best way to get it working is to :
 With that it should work fine.  
 
 
-## I have just downgraded from 3.61+ and hencore doesn't work
+## I have just downgraded from 3.60+ and hencore doesn't work
 
 Yeah it's normal, hencore is meant to work on 3.63+ the exploit will crash on 3.60 so use henkaku.  
 If you really want to have an app based exploit then you can install memecore \(by CelesteBlue which is a port of hencore to 3.60\) through final-hencore.
@@ -34,5 +34,7 @@ To reset henkaku all you need to do is to open the webkit exploit again and when
   
 
 
-## 
+## I really can't use the webkit exploit. Isn't there an alternative?
+
+Yeah sure, you can use finalhencore to install memecore \(hencore ported to 3.60 thanks to celeste blue\) and install henkaku from there. It's a last resort solution.
 
