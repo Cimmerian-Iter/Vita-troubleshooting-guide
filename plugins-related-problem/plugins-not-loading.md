@@ -73,18 +73,18 @@ He needs to make a choice, either use minitv or ds4. In this case let's go with 
 
 ## SD2VITA and ioplus plugin not being at the top.
 
-Another common mistake is to not put the sd2vita at the begining of \*KERNEL. This is very important as normally every plugins need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.  
-As for ioplus it is a dependency used by other plugins to have access to more IO operation in userland. It need to be loaded before them.
+Another common mistake is to not put the sd2vita at the begining of \*KERNEL. This is very important as normally every plugin need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.  
+As for ioplus it is a dependency used by other plugins to have access to more IO operation in userland. It needs to be loaded before them.
 
 ## Loading heavy plugins when we don't always use them
 
-Ucdcd uvc plugin for streaming the psvita screen through the usb is one of the most heavy plugin and need a lot of resources. If you want to use it,  make some room for it. Let's see :
+Ucdcd uvc plugin for streaming the psvita screen through the usb is one of the most heavy plugins and need a lot of resources. If you want to use it,  make some room for it. Let's see :
 
-* i don't think you need to activate the music related plugins, that already remove 3 plugins from the list. 
+* i don't think you need to activate the music related plugins, that already removes 3 plugins from the list. 
 * PS4 link controls? Not useful in that case. 
-* Nopowerlimit, unless you really want to let the wifi open when playing a game that disable it you can also remove this one.
-*  Adrenaline plugin is one of the most useless plugins there. Just to avoid launching twice the app \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
-* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the vita control.  We did some cleanup so let's see how the config looks like. 
+* Nopowerlimit, unless you really want to leave the wifi open while playing a game that disables it you can also remove this one
+*  Adrenaline plugin is one of the most useless plugins there. Just to avoid launching the app twice \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
+* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the vita control.  We did some cleanup so lets see what the config looks like 
 
 ```text
 # This file is used as an alternative if ux0:tai/config.txt is not found.
