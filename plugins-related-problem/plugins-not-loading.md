@@ -67,8 +67,8 @@ pretty big list there. It's no wonder why his vita doesn't load anymore. unfortu
 ## Installing multiple plugins that do the same thing
 
 Yep that's his first mistake. Let's take a closer look.  
-The guy want to use his DS4 plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
-He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which use DS3 as a dependency\)  
+This guy want to use his DS4 plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
+He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which uses DS3 as a dependency\)  
 
 
 ## SD2VITA and ioplus plugin not being at the top.
