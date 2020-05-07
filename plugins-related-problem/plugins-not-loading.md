@@ -10,7 +10,7 @@ Dealing with plugins is kind of annoying and hard to debug in some cases. If it 
 
 ## Plugins are programs.
 
-It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your system runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it ask too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)  
+It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your system runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)  
   
 We will take an exemple on some common case i could find during the time i acted as a helper :   
   
