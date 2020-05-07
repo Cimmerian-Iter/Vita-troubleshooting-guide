@@ -12,8 +12,7 @@ Dealing with plugins is kind of annoying and hard to debug in some cases. If it 
 
 It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your system runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)  
   
-We will take an exemple on some common case i could find during the time i acted as a helper :   
-  
+We will use an example on a common case i found during my time helping people :  
 
 
 ```text
@@ -60,12 +59,12 @@ ur0:tai/ps4linkcontrols.suprx
 ```
 
 OwO  
-pretty big list there. No wonder why his vita doesn't load anymore. Unfortunately in most of bootloop cases, the config looks like this. So let's take this exemple and see how we solve it.  
+pretty big list there. It's no wonder why his vita doesn't load anymore. unfortunately, in most cases of bootloop the config looks like this. So let's take this exemple and see how we solve it.  
   
 \*not talking about the fact that he put some plugins inside a plugins folder which is not recommended\*  
 
 
-## Installing multiple plugins that does the same thing
+## Installing multiple plugins that do the same thing
 
 Yep that's his first mistake. Let's take a closer look.  
 The guy want to use his DS4 plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
