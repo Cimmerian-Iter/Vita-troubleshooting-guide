@@ -4,7 +4,7 @@ description: halp they ate all my ram
 
 # Plugins not loading
 
-Dealing with plugins is kind of annoying and hard to debug in some cases. IIf it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issues..Fortunately with the community experience we can narrow down the issues.  
+Dealing with plugins is kind of annoying and hard to debug in some cases. IIf it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issues. Fortunately with the community experience we can narrow down the issues.  
   
 
 
