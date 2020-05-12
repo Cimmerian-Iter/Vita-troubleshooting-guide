@@ -13,7 +13,8 @@ But to enjoy the great world of the PSVita Hack, we need to overcome whatever pr
   
 I will guide you through the most commons problems you can have with your vita. In the menu select the topic where you face an issue and read throughfully the guide associated with the problem. If you don't understand something, or are unsure about a step. You can join the Henkaku server and ping the helper team to help you. Or contact me directly through Twitter with the following account : @Cimmerian\_Iter  
   
-I want to thanks this awesome community for the good memories i was able to make. Watching it grow from the start in 2016 to what it is today.   
+  
+Credit : I want to thanks this awesome community for the good memories i was able to make. Watching it grow from the start in 2016 to what it is today.   
 To have met different kind of people, whenever it's a simple end user asking for my help, or good buddies i was able to make like some CBPS members \(Dots TB, coderx, silica, caghandemir\) or SKGleba with who i really enjoyed testing his stuff and beating him in PUBG or Killzone ;\)   
 Thanks to those people i was able to learn a lot about the PSVita and it's software mecanism. How the hacks works. I was able to make myself a good knowledge about it that i can share with the end users and help them on whatever problems they have.   
 It also gave me the opportunity to speak to high figures of the hacks like Dave, Yfanlu, xyz, TheFlow something i had never imagined to do during the PSP era when i was merely a end user.   
