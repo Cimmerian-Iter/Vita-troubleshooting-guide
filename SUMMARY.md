@@ -15,14 +15,14 @@
 
 ## SD2VITA and memory corruption
 
-* [Untitled](sd2vita-and-memory-corruption/untitled.md)
-* [Untitled](sd2vita-and-memory-corruption/untitled-1.md)
+* [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
+* [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
 
-## Retroarch
+## QCMA <a id="you-worst-nightmare"></a>
 
-* [Untitled](retroarch/untitled.md)
+* [QCMA](you-worst-nightmare/untitled.md)
 
 ## Adrenaline problems
 
-* [Untitled](adrenaline-problems/untitled.md)
+* [Adrenaline](adrenaline-problems/untitled.md)
 
