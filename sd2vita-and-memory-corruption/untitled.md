@@ -6,14 +6,15 @@ description: i don't want to buy 100$ for 64G pls help
 
 You finally got ride of your little sony expensive memorycard and want to use that fresh SD2VITA you just bought 3bucks on Alie Express? But when you insert it into the vita it just doesn't works? Don't worry i'll cover the usual solutions to solve this.
 
-
-
 ## 1 Did i install the plugin the right way?
 
 This is the most common case. Usually people buy a SD2VITA as soon as they begin to hack their vita and they don't set the plugin correctly. And we can check that. If you're using storage manager, there's a way to know if it is running or no. Check ur0:tai/storagemgrlog.txt if it exist. If it doesn't then you didn't install the plugin correctly so head back to the plugin section and try to redo it.   
-If it exist then go to the next step :
+If it exist then go to the next step.  
+  
+Note for YAMT-Lite users : 
 
-
+* Only run the app once \(each time you will run it it will install/uninstallà\)
+* Do not let it active when you want to insert a Gamecard instead of a SD2VITA
 
 ## 2 Did i format the microsd according to the guide? 
 

@@ -18,7 +18,7 @@
 * [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
 * [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
 
-## QCMA <a id="you-worst-nightmare"></a>
+## Content manager connection issue <a id="you-worst-nightmare"></a>
 
 * [QCMA](you-worst-nightmare/untitled.md)
 
