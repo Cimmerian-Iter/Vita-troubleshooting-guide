@@ -1,9 +1,5 @@
 # Welcome to the vita troubleshooting guide !
 
-Have a problem with your vita?   
-Don't know what you did wrong and didn't get any clear answer ?  
-Don't worry, this guide help you to recover whatever issue you're facing.  
-  
 People Hack their vita for various reason, it can be to enjoy the great world of emulations, like doing some rampage in GTA, race with Gran turismo or have some action packed game like Pursuit Force. Going nostalgic and play the original Sonic games, Mario games and play Metal Slug and arcades game.  
   
 They can also hack it so they can hack their games, use mods to improve the experience. Like fant translation, Season update like FIFA 20, or asset swap.  
