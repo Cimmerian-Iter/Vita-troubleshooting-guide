@@ -11,7 +11,6 @@
 
 * [Error when using autoplugin/How to correctly install plugins](plugins-related-problem/error-when-using-autoplugin.md)
 * [Plugins not loading](plugins-related-problem/plugins-not-loading.md)
-* [Bootloop/Brick. Let's reinstall the firmware](plugins-related-problem/bootloop.md)
 
 ## SD2VITA and memory corruption
 
@@ -25,5 +24,13 @@
 ## Adrenaline problems
 
 * [Adrenaline](adrenaline-problems/untitled.md)
-* [PSN](psn.md)
+
+## PSN <a id="psn-1"></a>
+
+* [PSN](psn-1/psn.md)
+
+## Serious problems
+
+* [Enso EX](serious-problems/enso-ex.md)
+* [Bootloop/Brick. Let's reinstall the firmware](serious-problems/bootloop.md)
 
