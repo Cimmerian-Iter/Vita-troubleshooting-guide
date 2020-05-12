@@ -39,6 +39,8 @@ And if you understood the logic you can adapt it for futur updates.
 
 That's it on pc side. Now connect your vita through USB mode and do the option 5 : Update this system and chose update from PC and you should be reinstalling the firmware now.   
   
+Note : If after reinstalling or during the installation the vita turn off by itself \(not talking about the case where it run out of power, it just turn off without any reason\) and doesn't want to boot after you tried to reinstall the firmware for the 5th time, then it means you vita got some damage \(water damage usually\) so it's hopeless in that case. Try do open the vita and clean every part of it then re assemble it.  
+  
 If you have troubles making QCMA recognize your vita, head to the qcma section to know how to fix the errors.  
   
 Once you have reinstalled the firmware, redo the hack and it should be good now.

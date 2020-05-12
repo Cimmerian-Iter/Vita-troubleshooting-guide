@@ -31,7 +31,7 @@
 
 ## Serious problems
 
-* [Enso EX](serious-problems/enso-ex.md)
-* [GPU crash error](serious-problems/gpu-crash-error.md)
 * [Bootloop/Brick. Let's reinstall the firmware](serious-problems/bootloop.md)
+* [GPU crash error](serious-problems/gpu-crash-error.md)
+* [Enso EX](serious-problems/enso-ex.md)
 
