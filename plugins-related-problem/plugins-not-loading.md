@@ -121,6 +121,7 @@ ur0:tai/vitagrafix.suprx
 It looks way more clean heh. As you have seen, people always tend to load more plugins than they really need. Using only the plugins you need for the game session you will do allows you to enjoy your system without being blocked by bootloop. You can create multiple config.txt for each case if you want as long as the config isn't heavy \(more than 10 plugins at the same time is not recommended\).  
 By following the same logic you can clear your config.txt easly without scratching your head over why it won't boot.   
   
+Note : If vitabright doesn't work for you even though you did what i told you to do, then look at this : [https://github.com/devnoname120/vitabright/issues/13](https://github.com/devnoname120/vitabright/issues/13)  
   
 
 
