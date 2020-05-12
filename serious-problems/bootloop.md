@@ -4,13 +4,15 @@ description: 'welcome to the dark side, we have cookies'
 
 # Bootloop/Brick. Let's reinstall the firmware
 
-So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)  
-  
-
+So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)
 
 ## So doctor? what's the solution?
 
 First of all, what i always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It avoid the need to connect with a pc and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.  
+  
+Try to do the battery reset combo \(which will reset the syscon. Can save some cases like it did for me.\)
+
+press PWR+PS+SELECT+START+L for 15-20 secs then try to power on the PSVita  
   
 In order to reinstall the firmware, we will update yep. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.  
 
@@ -22,10 +24,9 @@ In order to reinstall the firmware, we will update yep. "Update to 3.60" is the 
 
 Once you have downloaded the pup, make sure you have qcma installed, and put the pup file in the update directory. \(look in qcma settings where is the update foledr. Usually called PSV updates.\)  
   
-And change qcma settings about the firmware to avoid the "you already have the latest version" message  
+And change qcma settings about the firmware to avoid the "you already have the latest version" message
 
-
-![3.60 masterace](../.gitbook/assets/capture-de-cran-2020-05-12-a-18.46.04.png)
+![Check ignore local file psp2updatlist and change the FW version](../.gitbook/assets/klk.PNG)
 
 You need to change the "FW : up to date" in use this version for updates into : custom.  
 Then in the custom PS Vita version field write the corresponding version to the target firmware
