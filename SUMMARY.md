@@ -11,7 +11,7 @@
 
 * [Error when using autoplugin/How to correctly install plugins](plugins-related-problem/error-when-using-autoplugin.md)
 * [Plugins not loading](plugins-related-problem/plugins-not-loading.md)
-* [bootloop](plugins-related-problem/bootloop.md)
+* [Bootloop/Brick. Let's reinstall the firmware](plugins-related-problem/bootloop.md)
 
 ## SD2VITA and memory corruption
 
