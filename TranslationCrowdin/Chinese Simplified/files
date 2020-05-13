@@ -1,33 +1,31 @@
----
-description: 'no love for ya, downgrade already'
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+  </head>
 
-# Firmware versions : 3.61-3.73
+  <body>
 
-Fixing problems on non 3.60 firmware can be annoying and difficult considering the fact that Hencore mainly relies on the MemoryCard and QCMA connection. QCMA tends to be unreliable and when you don't have access to the memory card for any reasons it makes things harder. \(like you forgot to delete id.dat and now that the spoof isn't working it force you to update or format the MemoryCard.\)  
-It's for that reason I recommend everyone to downgrade to 3.60 directly as it has a full support for plugins and the WebKit exploit to make it easier to recover from problems.
+    <header>
+      <div class="container">
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
-If your problem is that you can't connect to final-hencore or QCMA head to the QCMA page.
+        <section id="downloads">
+          {% for link in site.links %}
+          <a href="{{ link.url }}" class="btn">{{ link.name }}</a>
+          {% endfor %}
+          <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>GitHub</a>
+        </section>
+      </div>
+    </header>
 
-## Hencore doesn't open. I have a white screen only.
-
-hencore² needs you to press the R button when you open the app to access the bootstrap menu
-
-If you use h-encore² then keep trying. The success rate is pretty low \(around 25%\) and trimming the app decrease the success rate.
-
-## Final hencore gives me a sha256 error.
-
-This happen if the internet connection had failed midway and corrupted the download, thus having a sha256 mismatch. You need to delete the bittersmile.pkg from the data folder in the desktop \(you'll need to kill FinalHencore first\) and retry. Alternatively if you still face the issue, you can manually download the pkg and place it in the data folder. \(You can find the link of the pkg on the hencore github\)
-
-## Final hencore is stuck to whatever step it's trying to do.
-
-Might be your pc, all you can do is to close and retry the process and hope that it will works.
-
-## Final hencore simply doesn't want to work
-
-Manually install hencore, it's not difficult and the instructions are in the readme!
-
-[hencore1](https://github.com/TheOfficialFloW/h-encore)
-
-[hencore²](https://github.com/TheOfficialFloW/h-encore-2)
-
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+</html>
