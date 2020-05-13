@@ -1,41 +1,37 @@
 ---
-description: i don't want to buy 100$ for 64G pls help
+description: The worst ennemy of the PSVita
 ---
 
-# SD2VITA doesn't work
+# QCMA
 
-You finally got ride of your little Sony expensive MemoryCard and want to use that fresh SD2VITA you just bought for 3 bucks on Ali Express. But when you insert it into the Vita it just doesn't works? Don't worry I'll cover the usual solutions to solve this.
+You struggle with QCMA? Can't manage to connect to your PC? You're most likely facing a driver issue. We usually need prefer connecting the Vita through wifi with QCMA to avoid problems since it's used mostly for transfering H-encore to the PSVita. But if you need to connect your PSVita through usb \(for FW reinstallation or to make a backup that would take ages to complete through wifi because PSVita wifi chip is limited to 8mb/s\) then let's see how we can solve this.
 
-## 1 - Did I install the plugin the right way?
+Note : Everything here is destined for Windows users. Mac user have already the best OS when it comes to program installation and doesn't have any problems. Linux users shouldn't face too much problems neither.
 
-This is the most common case. Usually people buy a SD2VITA as soon as they begin to hack their Vita and they don't set the plugin correctly. And we can check that. If you're using storage manager, there's a way to know if it is running or no. Check ur0:tai/storagemgrlog.txt if it exist. If it doesn't then you didn't install the plugin correctly so head back to the plugin section and try to redo it.  
-If it exist then go to the next step.
+## 1 Make sure you don't have CMA installed
 
-Note for YAMT-Lite users :
+If you already installed it then it will conflict with QCMA, so you won't be able to successfully connect to the PC. Delete the drivers installed with the PSVita too.
 
-* Only run the app once \(each time you will run it it will install/uninstallà\)
-* Do not let it active when you want to insert a Gamecard instead of a SD2VITA
 
-## 2 - Did I format the microsd according to the guide?
+## 2 Delete the drivers manually and reinstall it.
 
-Another common issue, is that storagemgr can't read the SD2VITA, open the log.txt file and look for the GCD detection part.  
-If you see "GCD NOT DETECTED" in the log, then that means it couldn't read the SD2VITA.  
-There is 2 reason, you are the culprit or the SD2VITA is the culprit \(there's always a small chance of you getting a bad build but it happened a lot in the community, the only solution is to buy another. We can't tell you a reliable source and we can't know in advance if the SD2VITA is well made or no. Although V6 exist for that purpose\).
+For that we will do in 2 step. The first one is to delete the driver of the PSVita using the device manager in windows, then try to find the PSVita device. It should look like that :
 
-To see if you are the culprit, then let's try formating the microSD again.  
-Redo the formating step in vita hacks guide : [https://vita.hacks.guide/storage-format-\(windows\)](https://vita.hacks.guide/storage-format-%28windows%29)  
-If you're a Mac or Linux user, then don't follow that part and flash zzblank.img, it is only needed because Windows doesn't format the microSD card in the correct way for the vita. There's a Linux section and Mac section in the guide.
+![Get ride of this bad boy](../.gitbook/assets/adda.PNG)
 
-If Mac user wants my own instruction for formating their microSD card here's some commands you will need to input in a terminal to format it correctly.
+Right click on it, go to propreties, then uninstall the device \(make sure you tick the delete the driver box\)
 
-```bash
-diskutil list #find your sdcard (should be something like /dev/disk2)
-diskutil unmount /dev/disk2   sudo dd if=/dev/zero of=/dev/disk2 #don't forget to change disk2 to your disk number
-# remove and reinsert storage device 
-sudo newfs_exfat -R /dev/disk2 #for microsd up to 128GB (may need to remove and reinsert to see it in finder)
-sudo newfs_exfat -R  -c 128 /dev/disk2  #for microsd starting from 256GB
-#Copy contents over to memory card
-```
+Second step is to download the software zadig \(no virus garantee\) You can get it [there](https://zadig.akeo.ie/).
 
-If you followed the steps correctly and it still doesn't work, then try again with another microSD card. If it still doesn't work, then it's fair to assume that you got a bad SD2VITA. And the only option left is to buy another one.
+Once you have installed the app and run it, list all the devices and select the PSVita \(make sure the PSVita is connected ofc\).
+
+![First enable the list All devices option](../.gitbook/assets/addaa.PNG)
+
+As for the driver, we had better luck with libusbk so install it with zadig.
+
+![Sorry WinUsb, you won&apos;t be missed](../.gitbook/assets/li.PNG)
+
+Press the install button and it should be good. Reboot your pc and connect the vita and QCMA should connect fine to the Vita.
+
+Note : On a very rare occasion even after doing these steps. QCMA won't connect to the vita. You can try to use the official CMA from sony \(For cases like if you want to reinstall the firmware. It does the job\) Or take a virgin PC and install QCMA on it
 
