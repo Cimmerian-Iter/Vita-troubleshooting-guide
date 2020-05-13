@@ -1,20 +1,37 @@
 ---
-description: The blue screen of death of the Vita
+description: The worst ennemy of the PSVita
 ---
 
-# GPU crash error
+# QCMA
 
-You're playing a game and finally beat that boss after the 89 try, until a GPU crash error appear? It occurs most of the time and now you want to see if a Vita can survive a 50m high free fall? Don't, we can still try to solve this error.
+You struggle with QCMA? Can't manage to connect to your PC? You're most likely facing a driver issue. We usually need prefer connecting the Vita through wifi with QCMA to avoid problems since it's used mostly for transfering H-encore to the PSVita. But if you need to connect your PSVita through usb \(for FW reinstallation or to make a backup that would take ages to complete through wifi because PSVita wifi chip is limited to 8mb/s\) then let's see how we can solve this.
 
-## 1 - Try to boot in a unhacked state to see if the problem come from the hack.
+Note : Everything here is destined for Windows users. Mac user have already the best OS when it comes to program installation and doesn't have any problems. Linux users shouldn't face too much problems neither.
 
-Try to reinstall the firmware, and see if when you play some games the GPU crash appear. If not, then reinstall the hack, and play again to see if it appears. Then add one by one the plugins until you catch an idea of what is causing the GPU crash.
+## 1 Make sure you don't have CMA installed
 
-## 2 - Memory corruption
+If you already installed it then it will conflict with QCMA, so you won't be able to successfully connect to the PC. Delete the drivers installed with the PSVita too.
 
-And yeah again it can be possible. I told you this can cause various problems. Go to the memory corruption page and try to apply the solution i gave you.
 
-## 3 - Does your vita has some damage?
+## 2 Delete the drivers manually and reinstall it.
 
-Yep hardware damage can cause that. For example water damage, or if you dropped it down the stairs. If you recall that it might be the case, and the GPU crash are always happening whatever you try to do, then there's nothing to do instead of buying another vita or swap the motherboard. If you feel confident with your skills, you can open the vita and clean every part of it then reassemble it.
+For that we will do in 2 step. The first one is to delete the driver of the PSVita using the device manager in windows, then try to find the PSVita device. It should look like that :
+
+![Get ride of this bad boy](../.gitbook/assets/adda.PNG)
+
+Right click on it, go to propreties, then uninstall the device \(make sure you tick the delete the driver box\)
+
+Second step is to download the software zadig \(no virus garantee\) You can get it [there](https://zadig.akeo.ie/).
+
+Once you have installed the app and run it, list all the devices and select the PSVita \(make sure the PSVita is connected ofc\).
+
+![First enable the list All devices option](../.gitbook/assets/addaa.PNG)
+
+As for the driver, we had better luck with libusbk so install it with zadig.
+
+![Sorry WinUsb, you won&apos;t be missed](../.gitbook/assets/li.PNG)
+
+Press the install button and it should be good. Reboot your pc and connect the vita and QCMA should connect fine to the Vita.
+
+Note : On a very rare occasion even after doing these steps. QCMA won't connect to the vita. You can try to use the official CMA from sony \(For cases like if you want to reinstall the firmware. It does the job\) Or take a virgin PC and install QCMA on it
 
