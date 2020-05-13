@@ -1,36 +1,46 @@
 ---
-description: The worst ennemy of the PSVita
+description: 'welcome to the dark side, we have cookies'
 ---
 
-# QCMA
+# Bootloop/Brick. Let's reinstall the firmware
 
-You struggle with QCMA? Can't manage to connect to your PC? You're most likely facing a driver issue. We usually need prefer connecting the Vita through Wi-Fi with QCMA to avoid problems since it's used mostly for transfering H-encore to the PSVita. But if you need to connect your PSVita through USB \(for FW reinstallation or to make a backup that would take ages to complete through Wi-Fi because the PSVita Wi-Fi chip is limited to 8mb/s\) then let's see how we can solve this.
+So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)
 
-Note : Everything here is designed for a Windows user. Mac users have already the best OS when it comes to program installation and doesn't have any problems. Linux users shouldn't face too many problems either.
+## So doctor? what's the solution?
 
-## 1 - Make sure you don't have CMA installed
+First of all, what I always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It removes the need to connect with a PC and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.
 
-If you already installed it then it will conflict with QCMA, so you won't be able to successfully connect to the PC. Delete the drivers installed with the PSVita too.
+Try to do the battery reset combo \(which will reset the syscon. Can save some cases like it did for me.\)
 
-## 2 - Delete the drivers manually and reinstall it.
+press PWR+PS+SELECT+START+L for 15-20 secs then try to power on the PSVita
 
-For that we will do it in 2 step. The first one is to delete the driver of the PSVita using the device manager in Windows, then try to find the PSVita device. It should look like that :
+In order to reinstall the firmware, we shall update the system. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.
 
-![Get ride of this bad boy](../.gitbook/assets/adda.PNG)
+* 3.60 [https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP)
+* 3.65 [https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP)
+* 3.68 [https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP)
+* UP TO DATE FW : go download it from sony and don't forget to rename it into PSP2UPDAT.PUP
 
-Right click on it, go to propreties, then uninstall the device \(make sure you tick the delete the driver box\)
+Once you have downloaded the pup, make sure you have qcma installed, and put the pup file in the update directory. \(look in qcma settings where is the update foledr. Usually called PSV updates.\)
 
-Second step is to download the software zadig \(no virus guarantee\) You can get it [there](https://zadig.akeo.ie/).
+And change QCMA settings on the firmware to avoid the "you already have the latest version" message
 
-Once you have installed the app and run it, list all the devices and select the PSVita \(make sure the PSVita is connected ofc\).
+![Check ignore local file psp2updatlist and change the FW version](../.gitbook/assets/klk.PNG)
 
-![First enable the list All devices option](../.gitbook/assets/addaa.PNG)
+You need to change the "FW : up to date" in use this version for updates into : custom.  
+Then in the custom PS Vita version field write the corresponding version to the target firmware
 
-As for the driver, we had better luck with libusbk so install it with zadig.
+* 3.60 : 03.600.000
+* 3.65 : 03.650.000
+* 3.73 : 03.730.000
 
-![Sorry WinUsb, you won&apos;t be missed](../.gitbook/assets/li.PNG)
+And if you understood the logic you can adapt it for future updates.
 
-Press the install button and it should be good. Reboot your PC and connect the Vita and QCMA should connect fine to the Vita.
+That's it on the PC side. Now connect your Vita through USB mode and select the option 5 : Update this system and chose update from PC and you should be reinstalling the firmware now.
 
-Note : On very rare occasions even after doing these steps. QCMA won't connect to the Vita. You can try to use the official CMA from Sony \(For cases like if you want to reinstall the firmware. It does the job\) Or take a virgin PC and install QCMA on it
+Note : If after reinstalling or during the installation the Vita turn off by itself \(not talking about the case where it run out of power, it just turn off without any reason\) and doesn't want to boot after you tried to reinstall the firmware for the 5th time, then it means you Vita sustained some damage \(water damage usually\) so it's hopeless in that case. Try do open the vita and clean every part of it then reassemble it.
+
+If you have troubles making QCMA recognize your Vita, head to the QCMA section to know how to fix the errors.
+
+Once you have reinstalled the firmware, redo the hack and it should be good now.
 
