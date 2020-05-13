@@ -1,37 +1,36 @@
-# Table of contents
+---
+description: The worst ennemy of the PSVita
+---
 
-* [Welcome to the vita troubleshooting guide !](README.md)
+# QCMA
 
-## Hack problems related
+You struggle with QCMA? Can't manage to connect to your PC? You're most likely facing a driver issue. We usually need prefer connecting the Vita through Wi-Fi with QCMA to avoid problems since it's used mostly for transfering H-encore to the PSVita. But if you need to connect your PSVita through USB \(for FW reinstallation or to make a backup that would take ages to complete through Wi-Fi because the PSVita Wi-Fi chip is limited to 8mb/s\) then let's see how we can solve this.
 
-* [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
-* [Firmware version : 3.61-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
+Note : Everything here is designed for a Windows user. Mac users have already the best OS when it comes to program installation and doesn't have any problems. Linux users shouldn't face too many problems either.
 
-## Plugins related problem
+## 1 - Make sure you don't have CMA installed
 
-* [Error when using autoplugin/How to correctly install plugins](plugins-related-problem/error-when-using-autoplugin.md)
-* [Plugins not loading](plugins-related-problem/plugins-not-loading.md)
+If you already installed it then it will conflict with QCMA, so you won't be able to successfully connect to the PC. Delete the drivers installed with the PSVita too.
 
-## SD2VITA and memory corruption
+## 2 - Delete the drivers manually and reinstall it.
 
-* [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
-* [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
+For that we will do it in 2 step. The first one is to delete the driver of the PSVita using the device manager in Windows, then try to find the PSVita device. It should look like that :
 
-## Content manager connection issue <a id="you-worst-nightmare"></a>
+![Get ride of this bad boy](../.gitbook/assets/adda.PNG)
 
-* [QCMA](you-worst-nightmare/untitled.md)
+Right click on it, go to propreties, then uninstall the device \(make sure you tick the delete the driver box\)
 
-## Adrenaline problems
+Second step is to download the software zadig \(no virus guarantee\) You can get it [there](https://zadig.akeo.ie/).
 
-* [Adrenaline](adrenaline-problems/untitled.md)
+Once you have installed the app and run it, list all the devices and select the PSVita \(make sure the PSVita is connected ofc\).
 
-## PSN <a id="psn-1"></a>
+![First enable the list All devices option](../.gitbook/assets/addaa.PNG)
 
-* [PSN](psn-1/psn.md)
+As for the driver, we had better luck with libusbk so install it with zadig.
 
-## Serious problems
+![Sorry WinUsb, you won&apos;t be missed](../.gitbook/assets/li.PNG)
 
-* [Bootloop/Brick. Let's reinstall the firmware](serious-problems/bootloop.md)
-* [GPU crash error](serious-problems/gpu-crash-error.md)
-* [Enso EX](serious-problems/enso-ex.md)
+Press the install button and it should be good. Reboot your PC and connect the Vita and QCMA should connect fine to the Vita.
+
+Note : On very rare occasions even after doing these steps. QCMA won't connect to the Vita. You can try to use the official CMA from Sony \(For cases like if you want to reinstall the firmware. It does the job\) Or take a virgin PC and install QCMA on it
 
