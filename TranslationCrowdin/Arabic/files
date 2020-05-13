@@ -1,31 +1,39 @@
 ---
-description: 'Drugs are bad, but this one is good'
+description: 3.60 masterace
 ---
 
-# Adrenaline
+# Firmware version : 3.60
 
-Finally, you got everything working, a hacked vita, a working SD2VITA and you feel nostalgic. Want to play an epic, action game like Pursuit Force? Or play an F1 game? Emulate Metal Gear Solid PSone? Then Adrenaline is for you. But after installing it decide to go against you and doesn't want to work? Let's see how to make it work.
+## The browser keeps on crashing
 
-## Adrenaline gives me an error about a 661.PBP
+This can happen, even though the success rate of the exploit is high there can be times when the PSVita just doesn't want to load HENkaku.  
+The best way to get it working is to :
 
-When you first launch adrenaline, it will try to install the PSP firmware, because the PSVita has the PSP hardware in it \(thanks Sony\) and therefore it will need the 661.PBP firmware. You can download it from the Sony website. Rename the `EBOOT.PBP` to `661.PBP` and put it in `ux0:app/PSPEMUCFW/` then start Adrenaline.It should now install the firmware and boot into PSP mode.
+* Clear cookies and history.
+* Reboot
+* Open the exploit
+* If it fails, wait 5 seconds in the live area and try again.
+* Optional: Instead of hitting OK on the error, hit report this problem, this can sometimes work.
 
-## I Don't see the memory card in Adrenaline under game section.
+With that it should work fine.
 
-If you don't see the memory card icon in Adrenaline where you access it to have the list of PSP game you have, then the problem lies in the plugins. To be precise, the PSP plugins you have installed. Usually categorylite is the main culprit. But if it's not that, then first deactivate all the PSP plugins in the `seplugins` folder, then see if you can see the memorycard icon. If yes, then activate the plugins one by one to search for the culprit. And get rid of it
+## I have just downgraded from 3.60+ and HENcore doesn't work
 
-## Adrenaline doesn't want to boot: I have an error code at boot.
+Yeah it's normal, HENcore is meant to work on 3.63+. The exploit will crash on 3.60 so use the HENkaku exploit.  
+If you really want to have an app-based exploit then you can install memecore \(by CelesteBlue which is a port of hencore to 3.60\) through final-hencore.
 
-Try to delete Adrenaline and reinstall it. If that doesn't solve the problem, then it's most likely a corruption problem. If you are an SD2VITA user, then switch the positions : mount the memorycard as `ux0` and the SD2VITA as `uma0`. Then try to install Adreanline on it and see if it works. If yes, then head to the Memory Corruption part to fix the problem on your microSD.
+## MolecularShell doesn't appear
 
-## I don't see my games
+First, make sure you have a MemoryCard inserted \(unless you're on a Slim or a PSTV then you can use the internal storage\) and is recognized by the system.  
+If you have just downgraded, it's normal since HENkaku will detect an existing installation of HENkaku \(installed by hencore, ur0:tai/ux0:tai\) and will just launch HENkaku and won't install the files.
 
-Make sure you have placed the PSP games in the right folder.  
-PSP ISO and CSO in `ux0:pspemu/iso/`
+If you want MolecularShell back all you need to do is to reset HENkaku.
 
-PSONE games and PSP homebrew in `ux0:pspemu/PSP/GAME/`
+### This will reset your plugins, you will need to configure them again in the config.txt
 
-## I try to boot a PSone game but Adrenaline crashes.
+To reset HENkaku all you need to do is to open the WebKit exploit again \(henkaku.xyz\) and when you see the Molecular installer appear, press the R button before the installation begins. You will see "taihen will be reset" message confirming the reset process. If not, try again.
 
-I guess you used the PSX2PSP conversion tool. Well not every PSone game can be played. If they have a digital release in the PlayStation Store, then they are assured to be playable on the vita \(we usually prefer using the PSN digital version in that case\). If not then it's a bit of a hit and miss. If it doesn't work then try converting the PSone game differently or using another dump of your PSone game. If it still doesn't work then we can't do much about it. If you are on 3.60 and don't mind the lack of sound you can try running the PSone game in Ark. \(How that you're wondering what it is? It's a PSP "emulator" like adrenaline. You can use a tool like Ark Fast to install it on you PSVita\)
+## I really can't use the WebKit exploit. Is there an alternative?
+
+Yes, you can use final-hencore to install memecore \(hencore ported to 3.60 thanks to celeste blue\) and install HENkaku from there. It's a last resort solution.
 
