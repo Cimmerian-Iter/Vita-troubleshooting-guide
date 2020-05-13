@@ -1,28 +1,91 @@
-# Welcome to the vita troubleshooting guide !
+---
+description: robot does break
+---
 
-People Hack their vita for various reason, it can be to enjoy the great world of emulations, like doing some rampage in GTA, race with Gran turismo or have some action packed game like Pursuit Force. Going nostalgic and play the original Sonic games, Mario games and play Metal Slug and arcades game.
+# Error when using autoplugin/How to correctly install plugins
 
-They can also hack it so they can hack their games, use mods to improve the experience. Like fant translation, Season update like FIFA 20, or asset swap.
+#### Sometimes, autoplugin will fail, we know that autoplugin 1 tends to corrupt the config.txt \(and recently autoplugin 2 also corrupting the config.txt although the issue has been solved in 1.05 as of today\) It is importantly to know how to deal with plugins. Autoplugin is a great homebrew, but it shouldn't replace totally the knowledge of plugins and you can't expect it to be fail-proof. So we will see how can we recover from autoplugin misbehavior by learning about how tweaks works.
 
-More generally, they try to uncover the full potential of the PSVita by modding it, using plugins to enhance the PSVita performance with overclocking, avoid getting their eyes burned with vitabright. Download files from the web browser or using microsd in order to save tousands of bucks for a large storage.  
-Playing PC port on PSVita or stream PC games with moonlight.
+## What is a plugin?
 
-There is so much stuff to do with the PSVita and thanks to the constant effort of the community it's getting better every day.
+you may have already encountered it through the PSP area, plugins are micro programm that runs in background and enhance your experience. It's purpose can be various like dealing witht the overclock, modification of the live area or native function \(like the screenshot or music player\). They are essentials nowadays. They are loaded by the framework Taihen thanks to the effort of the Molecule Team.  
+There is two types of plugins.
 
-But to enjoy the great world of the PSVita Hack, we need to overcome whatever problem that might arise. Else it's frustrating to not know what to do when google doesn't give you a straight answer.
+SKPRX : those are kernel plugins, most commons nowadays, it modify the overall functions of the vita. Like nonpdrm fake the drm system, storagemgr load the sd2vita as a memorycard, and more. They need a reboot between the installation to run. \(Or use xerpi plugin loader\)
 
-I will guide you through the most commons problems you can have with your vita. In the menu select the topic where you face an issue and read throughfully the guide associated with the problem. If you don't understand something, or are unsure about a step. You can join the Henkaku server and ping the helper team to help you. Or contact me directly through Twitter with the following account : @Cimmerian\_Iter
-
-
-Credit : I want to thanks this awesome community for the good memories i was able to make. Watching it grow from the start in 2016 to what it is today.   
-To have met different kind of people, whenever it's a simple end user asking for my help, or good buddies i was able to make like some CBPS members \(Dots TB, coderx, silica, caghandemir\) or SKGleba with who i really enjoyed testing his stuff and beating him in PUBG or Killzone ;\)   
-Thanks to those people i was able to learn a lot about the PSVita and it's software mecanism. How the hacks works. I was able to make myself a good knowledge about it that i can share with the end users and help them on whatever problems they have.   
-It also gave me the opportunity to speak to high figures of the hacks like Dave, Yfanlu, xyz, TheFlow something i had never imagined to do during the PSP era when i was merely a end user.   
-This is why i devote myself to help users, because i want them to enjoy the PSVita as much as i love it \(and they also donated to me 80$ so i can buy a new vita after i bricked mine while doing some test. As a thanks for what i have done for them\).   
-Because it is usually hard to get some help when people doesn't respect you or make fun of you because you're a noob, or when you don't find anywhere the answer for your question, i wanted to change all of this. And thanks to the help of friends like me who enjoy helping people \(God Ginrai, Tyke, Kasha, Phil, Megugao, and Xcorra when he was still there\). They also supported me while doing this guide and gave me some hints.   
-And thanks to PipeWarp, a user who i helped to unbrick his vita and became my friend. He gave me the screenshot, set up the github page as an alternative to this Gitbook and proof read the guide to avoid the eyes of native english speaker to burn because of the existence of some grammar errors. We have offered the best kind of help service i was dreaming of providing to the community in the henkaku server. And this is the reason i created this troubleshooting Guide. Which i aim to update it to make it more complete, like including a game mode section, or a vitacheat section. And some other stuff if you want me to add.
+SUPRX : those are users plugins, we can split this group into two : those which modify the live area \(\*main\) system behavior, and those which modify the in-game/app \(\*ALL\) behavior. To know which category the plugin you have belongs, you either need to know what it does, or just read the github description \(they often tell you if you need to install it under \*main or \*ALL\)  
+They don't need a reboot to be loaded, reloading taihen config in henkaku settings should do the job.
 
 
-If you ever want to thank me for the guide, drop a message to the discord or in Twitter im always happy to see that what i do is useful for people.Also please suscribe to my patreon.  
-\(Joking i don't have a patreon and i don't do that for money. But if you ever want to buy me a cup of oange juice, you can donate to my Paypal if you feel generous enough : samilops2@gmail.com\)
+
+## How do i install a plugin?
+
+This part isn't really difficult. It is quite easy in fact. All you need to do is to write some lines.
+
+To install plugins you need to do 2 things :
+
+### Place the plugin file in ur0:tai folder \(or ux0:tai if you want to use ux0\)
+
+Plugins belongs to the tai folder where the config.txt is. There may be some exeption like vitacheat.suprx which need to be in it's vitacheat folder in ux0
+
+### Write the path to the plugin in the config.txt
+
+The path is the location of the file. If the plugin is located in ur0:tai, then the path is : ur0:tai/name.skprx  
+You need to write the path in the config.txt under the category of the plugin.  
+KERNEL : skprx  
+MAIN : live area tweak  
+ALL : apps tweak
+
+Here an exemple. Let's imagine i have a tai folder in ur0 that contain  
+KERNEL : storagemgr.skprx, lolicon.skprx, nonpdrm.skprx  
+MAIN : shellbat, download enabler  
+ALL : vitacheat \(skprx is in ur0:tai/, suprx is in ux0:vitacheat/\)
+
+```bash
+*KERNEL
+ur0:tai/storagemgr.skprx
+ur0:tai/lolicon.skprx
+ur0:tai/nonpdrm.skprx
+ur0:tai/vitacheat.skprx
+
+*main #main needs to be in lowercase
+ur0:tai/shellbat.suprx
+ur0:tai/download_enabler.suprx
+
+*ALL
+ux0:vitacheat/vitacheat.suprx
+
+```
+
+
+You can also specify which app will load the plugin, for exemple if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app \(often easy to guess with the names\), or you google the code name of the game you want. For testkit users, you can easly know the code name of an app by showing the information of the app in the live area.  
+Additionally, you can specify which app will not load the plugin. It can be useful for exemple when your overclock tweak crash adrenaline. To do that, you need to add a ! before the code name.
+
+Here's an exemple, i want to enable vitacheat in killzone only, and i don't want to load lolicon in adrenaline.
+
+
+```text
+*PCSF00243
+ux0:vitacheat/vitacheat.suprx
+
+*!PSPEMUCFW
+ur0:tai/lolicon.skprx
+```
+
+### Note :
+
+1 If you use a sd2vita, ux0:tai MUST NOT exist. Delete it and put every plugins in ur0:tai.  
+The sd2vita plugin you use always need to be at the top of \*KERNEL, else the other plugins won't work correctly.
+
+2 Be aware that plugins have an impact, if you load too much plugins, you can expect some lags or in the worst case, a bootloop. That is especially true if you tend to have more than 10 plugin, or load xerpi usb screenshare plugin \(which is heavy\) with a lot of plugins.
+
+Try to load only the necessary plugins. If your vita bootloop, you can for enso users hold L button when booting to avoid loading plugins, or for 3.67+ open hencore and do a reset taihen.
+
+3.65 enso users might have to format their memorycard if id.dat is still in the memorycard \(the file that indicate the firmware and the psn account of the user\) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 \(at this time\). 3.60 users can always reset henkaku through the webkit exploit without formating the memorycard \(you will boot in a blank livearea\) and unlink the memorycard through henkaku settings, but for 3.65 users since you don't have access to the memorycard you won't be able to reset taihen \(Another reason why i recommend everyone to go to 3.60\).
+
+
+You can always come in the henkaku server discord if you want more information about plugins or contact me directly. 
+
+  
+
 
