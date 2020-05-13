@@ -1,25 +1,26 @@
 ---
-description: real life? who cares
+description: no love for ya
 ---
 
-# PSN
+# Firmware version : 3.61-3.73
 
-Although Sony abondoned us, the PSN is still alive and there's still lot of multiplayer games which servers are still running fine. Like call of duty or killzone. Need for speed. And others. While using the PSN with a hacked psvita can sound dangerous. It is not. We have no record of a ban other than people playing a game before it was released. \(Even trophy hackers weren't banned from PSN although unofficial PSN leaderboard websites banned them. It's wonder if Sony erased our existence of their mind\). So you can play online and use your main account on your PSVita. But you may face some problems \(again yey\).
+Fixing problems on non 3.60 firmware can be annoying and difficult considering the fact that hencore rely on the memorycard and qcma connection. Qcma tends to be unreliable and when you don't have access to the memory card for any reasons it makes things harder. \(like you forgot to delete id.dat and now that the spoof isn't working it force you to update or format the memorycard.\)  
+It's for that reason i recommend everyone to downgrade to 3.60 directly as it has a full support for plugins and the webkit exploit make it easier to recover from problems.
 
+If your problem is that you can't connect to final hencore or qcma head to the QCMA page.
 
-## PSN ask me to update even though i have set the spoof
+## Hencore doesn't open. I have a white screen only.
 
-This particularly affect 3.60 users, i don't know for what reason, but there's a fix for that. Just reset henkaku like i said it in the 3.60 problem page, set the spoof back to the latest Firmware version and reinstall your plugins.
+hencore2 needs you to press the R button when you open the app to access the bootstrap menu
 
-## PSN works fine, but when i enter the PSN settings i have an error code
+If you use h-encore² then keep trying. The success rate is pretty low \(around 25%\) and trimming the app decrease the success rate.
 
-It appears that sony changed something in their servers. If you're getting this error it means that you have itls enso. Disable it and renable it when you have done your business with the settings.
+## Final hencore gives me a sha256 Error.
 
-## Can't connect to the PSN, i have a NP error code
-
-The culprit is usually your network. Delete any custom DNS you can have in the wifi settings, and try switching to another network \(like a mobile hotspot for exemple\)
-
-
+This happen if the internet connection had failed midway and corrupted the download. Thus having a sha256 mismatch. You need to delete the bittersmile.pkg from the data folder in the desktop \(need to kill FinalHencore first\) and retry. Alternatively if you still face the issue, you can manually download the pkg and place it in the data folder. \(You can find the link of the pkg in the hencore github\)
 
 
+## Final hencore is stuck to whatever step it's trying to do.
+
+Might be your pc, all you can do is to close and retry the process and hope that it will works. 
 
