@@ -8,10 +8,9 @@ Dealing with plugins is kind of annoying and hard to debug in some cases. If it 
 
 ## Plugins are programs.
 
-It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your phone/computer runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)  
-  
-We will use an example on a common case i found during my time helping people :  
+It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your phone/computer runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)
 
+We will use an example on a common case i found during my time helping people :
 
 ```text
 # This file is used as an alternative if ux0:tai/config.txt is not found.
@@ -56,18 +55,15 @@ ur0:tai/remaPSV.suprx
 ur0:tai/ps4linkcontrols.suprx
 ```
 
+That's a pretty big list there. It's no wonder why his vita doesn't load anymore. Unfortunately, in most cases of bootloop the config looks like this. So let's take this exemple and see how we solve it.
 
-That's a pretty big list there. It's no wonder why his vita doesn't load anymore. Unfortunately, in most cases of bootloop the config looks like this. So let's take this exemple and see how we solve it.  
-  
-\*not talking about the fact that he put some plugins inside a plugins folder which is not recommended\*  
-
+\*not talking about the fact that he put some plugins inside a plugins folder which is not recommended\*
 
 ## Installing multiple plugins that do the same thing
 
 Yep that's his first mistake. Let's take a closer look.  
-This guy want to use his DS4 (PS4 controller enabler) plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
-He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which uses DS3 as a dependency\)  
-
+This guy want to use his DS4 \(PS4 controller enabler\) plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
+He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which uses DS3 as a dependency\)
 
 ## SD2VITA and ioplus plugin not being at the top.
 
@@ -76,12 +72,12 @@ As for ioplus it is a dependency used by other plugins to have access to more IO
 
 ## Loading heavy plugins when we don't always use them
 
-UCDCD's uvc plugin for streaming the psvita screen through the usb is one of the most heavy plugins and need a lot of resources. If you want to use it,  make some room for it. Let's see :
+UCDCD's uvc plugin for streaming the psvita screen through the usb is one of the most heavy plugins and need a lot of resources. If you want to use it, make some room for it. Let's see :
 
 * I don't think you need to activate the music related plugins, that already removes 3 plugins from the list. 
 * PS4 link controls? Not useful in that case. 
 * Nopowerlimit, unless you really want to leave the wifi open while playing a game that disables it you can also remove this one
-*  Adrenaline plugin is one of the most useless plugins there. Just to avoid launching the app twice \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
+* Adrenaline plugin is one of the most useless plugins there. Just to avoid launching the app twice \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
 * Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the vita control.  We did some cleanup so lets see what the config looks like 
 
 ```text
@@ -116,16 +112,12 @@ ur0:tai/shellbat.suprx
 ur0:tai/vitagrafix.suprx
 ```
 
-
 It looks way more clean heh. As you have seen, people always tend to load more plugins than they really need. Using only the plugins you need for the game session you will do allows you to enjoy your system without being blocked by a bootloop. You can create multiple config.txt's for each case if you want as long as the config isn't heavy \(more than 10 plugins at the same time is not recommended\).  
 By following the same logic you can clear your config.txt easly without scratching your head over why it won't boot.
-  
-Note : If vitabright doesn't work for you even though you did what i told you to do, then look at this : [https://github.com/devnoname120/vitabright/issues/13](https://github.com/devnoname120/vitabright/issues/13)  
+
+Note : If vitabright doesn't work for you even though you did what i told you to do, then look at this : [https://github.com/devnoname120/vitabright/issues/13](https://github.com/devnoname120/vitabright/issues/13)
 
 ## Using Easy Switch Vita
+
 A app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)
-  
-
-
-
 

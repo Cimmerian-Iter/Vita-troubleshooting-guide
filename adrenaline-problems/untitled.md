@@ -14,13 +14,9 @@ When you first launch adrenaline, it will try to install the PSP firmware, becau
 
 If you don't see the memorycard icon in adrenaline where you access it to have the list of PSP game you have, then the problem lies in the plugins. To be precise, the PSP plugins you have installed. Usually categorylite is the main culprit. But if it's not him then first desactivate all the PSP plugins in seplugins folder, then see if you can see the memorycard icon. If yes, then activate the plugins one by one to search for the culprit. And get ride of it
 
-
-
 ## Adrenaline doesn't want to boot i have an error code at boot.
 
 Try to delete adrenaline and reinstall it. If it doesn't solve the problem. Then it's most likely a corruption problem. If you are a SD2VITA user, then switch the positions : mount the memorycard as ux0 and the SD2VITA as uma0. Then try to install adreanline in it and see if it works. If yes then head to the Memory Corruption part to fix the problem on your microsd.
-
-
 
 ## I don't see my games
 
