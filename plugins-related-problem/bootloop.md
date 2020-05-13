@@ -12,7 +12,7 @@ So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, 
 
 First of all, what I always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It removes the need to connect with a PC and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.  
   
-In order to reinstall the firmware, we will update yep. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.  
+In order to reinstall the firmware, we shall update the system. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.  
 
 
 * 3.60 [https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP)
