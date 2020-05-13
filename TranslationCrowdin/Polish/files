@@ -1,26 +1,44 @@
 ---
-description: no love for ya
+description: 3.60 masterace yeyyy
 ---
 
-# Firmware version : 3.61-3.73
+# Firmware version : 3.60
 
-Fixing problems on non 3.60 firmware can be annoying and difficult considering the fact that hencore rely on the memorycard and qcma connection. Qcma tends to be unreliable and when you don't have access to the memory card for any reasons it makes things harder. \(like you forgot to delete id.dat and now that the spoof isn't working it force you to update or format the memorycard.\)  
-It's for that reason i recommend everyone to downgrade to 3.60 directly as it has a full support for plugins and the webkit exploit make it easier to recover from problems.
+## The browser keep crashing.
 
-If your problem is that you can't connect to final hencore or qcma head to the QCMA page.
+This can happen, even though the success rate is high there can be some times where the psvita just doesn't want to load henkaku.  
+The best way to get it working is to :
 
-## Hencore doesn't open. I have a white screen only.
+* Clear cookies and history.
+* reboot
+* open the exploit
+* if failed, wait 5 second in the live area and try again.
 
-hencore2 needs you to press the R button when you open the app to access the bootstrap menu
-
-If you use h-encore² then keep trying. The success rate is pretty low \(around 25%\) and trimming the app decrease the success rate.
-
-## Final hencore gives me a sha256 Error.
-
-This happen if the internet connection had failed midway and corrupted the download. Thus having a sha256 mismatch. You need to delete the bittersmile.pkg from the data folder in the desktop \(need to kill FinalHencore first\) and retry. Alternatively if you still face the issue, you can manually download the pkg and place it in the data folder. \(You can find the link of the pkg in the hencore github\)
+With that it should work fine.
 
 
-## Final hencore is stuck to whatever step it's trying to do.
+## I have just downgraded from 3.60+ and hencore doesn't work
 
-Might be your pc, all you can do is to close and retry the process and hope that it will works. 
+Yeah it's normal, hencore is meant to work on 3.63+ the exploit will crash on 3.60 so use henkaku.  
+If you really want to have an app based exploit then you can install memecore \(by CelesteBlue which is a port of hencore to 3.60\) through final-hencore.
+
+
+
+## MolecularShell doesn't appear
+
+First, make sure you have a memorycard inserted and is recognized by the system.   
+If you just have downgraded, it's normal since henkaku will detect an existing installation of henkaku \(installed by hencore, ur0:tai/ux0:tai\) and will just launch henkaku and won't install the files.
+
+If you want molecularshell back all you need to do is to reset henkaku.
+
+### This will reset your plugins, you will need to configure them again in the config.txt
+
+To reset henkaku all you need to do is to open the webkit exploit again and when you see the molecule installer appear, press the R button before the installation begins. You will see "taihen will be reset" message confirming the reset process. If not, try again.
+
+
+
+
+## I really can't use the webkit exploit. Isn't there an alternative?
+
+Yeah sure, you can use finalhencore to install memecore \(hencore ported to 3.60 thanks to celeste blue\) and install henkaku from there. It's a last resort solution.
 
