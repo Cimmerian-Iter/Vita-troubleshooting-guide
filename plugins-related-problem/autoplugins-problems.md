@@ -22,7 +22,7 @@ To install plugins you need to do 2 things :
 
 ### Place the plugin file in ur0:tai folder \(or ux0:tai if you want to use ux0\)
 
-Plugins belongs to the tai folder where the config.txt is. There may be an exeption like vitacheat.suprx where it needs to be in it's own vitacheat folder in ux0
+Plugins belongs to the tai folder where the config.txt is. There may be an exception like vitacheat.suprx where it needs to be in it's own vitacheat folder in ux0
 
 ### Write the path to the plugin in the config.txt
 
