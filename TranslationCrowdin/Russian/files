@@ -1,40 +1,18 @@
-### To begin, choose a link above on the menu, or look at the table of contents below
+---
+description: 1 minute of silence for all the bricked vita
+---
 
-# Welcome to the vita troubleshooting guide!
-Have a problem with your PSVita?   
-Don't know what you did wrong and didn't get any clear answer?  
-Don't worry, this guide help you to resolve whatever issue you're facing.
+# Enso EX
 
-For starters \[insert credit lines and useless stuff here to add more lines\]
+Note : This is only for the V3 of enso ex that people still manage to find and install nowadays.
 
-By Cimmerian-Iter and PipeWarp
+Thanks to the hard work of SKGleba we had a powerful tool called Enso EX. So powerful that it could cause serious issues for the user if: 1) they didn't read about what they installed \(which is common\) or 2) had some bad luck \(which usually happens\)  
+This enso bring a new SD2VITA plugin that is not loaded through the config.txt but by enso itself so it would provide a faster boot time \(now we have YAMT-Lite for that\) and the support of custom boot animation. It also featured a update blocker \(so powerful that it even prevent you to even reinstall the firmware\)  
+The SD2VITA option didn't work well with most of microSD and since it doesn't mount the MemoryCard and there was no option to disable it like a normal plugin, people had no storage mounted and couldn't do anything. And the only hope was to reinstall the firmware and if they applied the update blocker option they were cornered. I found the solution and made an FAQ but the rampage already started which leads to a big hatred from the community toward the software TDLR : Do not use Enso Ex V3.
 
-## Table of contents
+If you're an experienced user who want to use Enso Ex, pick the V4 which is a better version, safer and provide multiple option that are useful if you want to mess with the vita.
 
-* [Welcome to the vita troubleshooting guide !](README.md)
+If you're blocked with Enso Ex then do this : follow the firmware reinstall guide and during the process, after you have succesfully sent the pup to the vita and have the EULA agreement screen, disconnect you Vita from the pc and plug it into a power source. It will bypass the update blocker patch and reinstall the firmware.
 
-# Hacks related issues
-
-* [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
-* [Firmware version : 3.63-3.68 3.72-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
-* [Firmware version : 3.70](hack-problems-related/firmware-version-3.70.md)
-
-# Plugins related problem
-
-* [Error when using autoplugin](plugins-related-problem/autoplugins-is-bad.md)
-* [Plugins not loading](plugins-related-problem/autoplugin-2-is-good.md)
-* [bootloop](plugins-related-problem/bootloop.md)
-
-# SD2VITA and memory corruption related issues
-
-* [Page 1](sd2vita-and-memory-corruption/untitled.md)
-* [Page 2](sd2vita-and-memory-corruption/untitled-1.md)
-
-# Retroarch related issues
-
-* [RetroArch Issues](retroarch/untitled.md)
-
-# Adrenaline related issues
-
-* [Adrenaline Issues](adrenaline-problems/untitled.md)
+After it's done, reinstall your hack and install regular enso if you just want to enjoy your vita.
 
