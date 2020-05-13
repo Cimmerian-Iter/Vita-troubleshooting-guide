@@ -1,31 +1,31 @@
----
-description: 'Drugs are bad, but this one is good'
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+  </head>
 
-# Adrenaline
+  <body>
 
-Enfin, tout a fonctionné, une PSVita hackée, une SD2VITA fonctionnelle et vous vous sentez nostalgique. Vous voulez jouer à un jeu d'action épique comme Pursuit Force ? Ou jouer à des jeux F1 ? Émuler Metal Gear Solid de la PSone? Alors Adrénaline est pour vous. Mais après installation, il décide de faire sa tête et ne veut pas fonctionner normalement ? Voyons comment faire en sorte que cela fonctionne.
+    <header>
+      <div class="container">
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
-## Adrénaline me donne une erreur à propos du fichier 661.PBP
+        <section id="downloads">
+          {% for link in site.links %}
+          <a href="{{ link.url }}" class="btn">{{ link.name }}</a>
+          {% endfor %}
+          <a href="{{ site.github.owner_url }}" class="btn btn-github"><span class="icon"></span>GitHub</a>
+        </section>
+      </div>
+    </header>
 
-Lorsque vous lancez Adrénaline pour la première fois, il tentera d'installer un firmware de la PSP. Eh oui, la PSVita possède du matériel PSP \\(merci Sony\\) et donc il aura besoin du fichier 661.PBP du firmware de la PSP. Vous pouvez le télécharger à partir du site Web de SONY. Renommez le fichier `EBOOT.PBP` en `661.PBP` et mettez-le dans `ux0:app/PSPEMUCFW/` puis lancer Adrenaline.Il devrait maintenant installer le firmware et démarrer en mode PSP.
-
-## Je ne vois pas la carte mémoire dans Adrénaline sous la section du Jeu.
-
-Si vous ne voyez pas l'icône de la carte mémoire dans Adrénaline où vous y accédez pour voir la liste de vos jeux PSP que vous avez, donc le problème réside dans vos plugins. Pour être plus précis, cella vient des plugins PSP que vous avez installés. Habituellement, le plugin Game Categories Lite est le principal coupable. Mais si ce n'est pas le cas, alors désactivez tout d'abord tous les plugins PSP dans contenu le dossier `seplugins` et voir si vous pouvez voir à présent l'icône de carte mémoire. Si oui, alors activez les plugins un à un pour rechercher l'erreur. Et débarrassez-vous en ou mettez-le à jour si besoin.
-
-## Adrenaline ne se lance pas : j'ai un code d'erreur au démarrage.
-
-Try to delete Adrenaline and reinstall it. If that doesn't solve the problem, then it's most likely a corruption problem. If you are an SD2VITA user, then switch the positions : mount the memorycard as `ux0` and the SD2VITA as `uma0`. Then try to install Adreanline on it and see if it works. If yes, then head to the Memory Corruption part to fix the problem on your microSD.
-
-## I don't see my games
-
-Make sure you have placed the PSP games in the right folder.  
-PSP ISO and CSO in `ux0:pspemu/iso/`
-
-PSONE games and PSP homebrew in `ux0:pspemu/PSP/GAME/`
-
-## I try to boot a PSone game but Adrenaline crashes.
-
-I guess you used the PSX2PSP conversion tool. Well not every PSone game can be played. If they have a digital release in the PlayStation Store, then they are assured to be playable on the vita \(we usually prefer using the PSN digital version in that case\). If not then it's a bit of a hit and miss. If it doesn't work then try converting the PSone game differently or using another dump of your PSone game. If it still doesn't work then we can't do much about it. If you are on 3.60 and don't mind the lack of sound you can try running the PSone game in Ark. \(How that you're wondering what it is? It's a PSP "emulator" like adrenaline. You can use a tool like Ark Fast to install it on you PSVita\)
-
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+</html>
