@@ -1,47 +1,41 @@
 ---
-description: 'welcome to the dark side, we have cookies'
+description: where is my data reeeeeeeee
 ---
 
-# Bootloop/Brick. Let's reinstall the firmware
+# Memory corruption
 
-So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)
+Memory corruption is also a frequent problem while dealing with the PSVita because of how it handle FAT function. Guess that's why we also have a Content Manager and a database for the PSVita because sony knew that there was a problem and that the PSVita can corrupt the storage \(also explain why some memorycard doesn't have a good lifetime\) If you use a SD2Vita, and you experience some weird problems like your PSVita freezing or when you try to launch a game/app and it says the app is corrupted you can easly solve the problem.
 
-## So doctor? what's the solution?
+## All my apps say they are corrupted. And i don't have Enso.
 
-First of all, what i always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It avoid the need to connect with a pc and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.
+If you use a sd2vita without Enso and you experience this problem it's normal. When you will mount the SD2VITA while launching the hack, the system will change the storage in ux0 but won't refresh the live area so the bubbles of the app installed in the memorycard will remain even if you hadn't installed it in the SD2VITA. So naturally as you don't have the files \(or didn't put them correctly in the SD2VITA\) the app will give you a corruption error message. Do yourself a favor and downgrade to 3.60 and install Enso for the optimal SD2VITA experience.
 
-Try to do the battery reset combo \(which will reset the syscon. Can save some cases like it did for me.\)
+## I have imported my music with Media Importer and when i try to play a music it says it's corrupted.
 
-press PWR+PS+SELECT+START+L for 15-20 secs then try to power on the PSVita
+That's one of the problem of not using the Content manager to import the music. When you import the music from Media Importer and then close and reopen the music app after playing some music it will give you this error. We can't do anything besides rebooting to solve this issue. Everytime you will close the music app it will give you that error if you try to open it again.
 
-In order to reinstall the firmware, we will update yep. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.
+## I have a 256G SD2VITA and everytime i try to open an app it gives me an error.
 
+On that case it's usually a cluster size problem. You most likely didn't use 64kb in the format settings. Try again.
 
-* 3.60 [https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP)
-* 3.65 [https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP)
-* 3.68 [https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP)
-* UP TO DATE FW : go download it from sony and don't forget to rename it into PSP2UPDAT.PUP
+## I have a corruption on a specific app/music, my vita tend to freeze
 
-Once you have downloaded the pup, make sure you have qcma installed, and put the pup file in the update directory. \(look in qcma settings where is the update foledr. Usually called PSV updates.\)
+Well that's what i depicted in the introduction. So grab your pc we will run some commands to fix it.
 
-And change qcma settings about the firmware to avoid the "you already have the latest version" message
+Windows users : Open Powershell or CMD as admin and input this command
 
-![Check ignore local file psp2updatlist and change the FW version](../.gitbook/assets/klk.PNG)
+```bash
+chkdsk /F f: #assuming f is the letter associated to your microsd (Not the first F ofc)
+```
 
-You need to change the "FW : up to date" in use this version for updates into : custom.  
-Then in the custom PS Vita version field write the corresponding version to the target firmware
+Linux users : Open a terminal and write this command
 
-* 3.60 : 03.600.000
-* 3.65 : 03.650.000
-* 3.73 : 03.730.000
+```bash
+sck.fat -a /dev/(device) #replace device with the correct name of your microsd mountpoint
+```
 
-And if you understood the logic you can adapt it for futur updates.
+> Most common ones are `Directory has non-zero size` after you save a game, and `Start does not point to ..` after you install a game, DLC or update by official means. If you delete something, you will get free cluster mismatch.  
+> Credit : u/pthfdr on r/vitahacks
 
-That's it on pc side. Now connect your vita through USB mode and do the option 5 : Update this system and chose update from PC and you should be reinstalling the firmware now.
-
-Note : If after reinstalling or during the installation the vita turn off by itself \(not talking about the case where it run out of power, it just turn off without any reason\) and doesn't want to boot after you tried to reinstall the firmware for the 5th time, then it means you vita got some damage \(water damage usually\) so it's hopeless in that case. Try do open the vita and clean every part of it then re assemble it.
-
-If you have troubles making QCMA recognize your vita, head to the qcma section to know how to fix the errors.
-
-Once you have reinstalled the firmware, redo the hack and it should be good now.
+After doing this, insert the microsd in your vita and reboot. The problems should fade away.
 
