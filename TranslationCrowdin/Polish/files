@@ -1,37 +1,21 @@
-# Table of contents
+MIT License
 
-* [Welcome to the vita troubleshooting guide !](README.md)
+Copyright (c) 2020 Samilop Iter
 
-## Hack problems related
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
-* [Firmware version : 3.61-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Plugins related problem
-
-* [Error when using autoplugin/How to correctly install plugins](plugins-related-problem/error-when-using-autoplugin.md)
-* [Plugins not loading](plugins-related-problem/plugins-not-loading.md)
-
-## SD2VITA and memory corruption
-
-* [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
-* [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
-
-## Content manager connection issue <a id="you-worst-nightmare"></a>
-
-* [QCMA](you-worst-nightmare/untitled.md)
-
-## Adrenaline problems
-
-* [Adrenaline](adrenaline-problems/untitled.md)
-
-## PSN <a id="psn-1"></a>
-
-* [PSN](psn-1/psn.md)
-
-## Serious problems
-
-* [Bootloop/Brick. Let's reinstall the firmware](serious-problems/bootloop.md)
-* [GPU crash error](serious-problems/gpu-crash-error.md)
-* [Enso EX](serious-problems/enso-ex.md)
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
