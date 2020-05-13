@@ -1,28 +1,40 @@
----
-description: real life? who cares
----
+### To begin, choose a link above on the menu, or look at the table of contents below
 
-# PSN
+# Welcome to the vita troubleshooting guide!
+Have a problem with your PSVita?   
+Don't know what you did wrong and didn't get any clear answer?  
+Don't worry, this guide help you to resolve whatever issue you're facing.
 
-Although Sony abondoned us, the PSN service is still alive and there are **_still_** loads of multiplayer games which are **_still_** running fine, like Call Of Duty, Killzone, Need for speed and more. While using PSN with a hacked PSVita can sound dangerous, it's not. We have no record of bans other than people playing a game before it was released. \(Even trophy hackers weren't banned from PSN although unofficial PSN leaderboard websites banned them. It's a wonder if Sony erased our existence of their minds\). So you can play online and use your main account on your PSVita. But you may face some problems.
+For starters \[insert credit lines and useless stuff here to add more lines\]
 
+By Cimmerian-Iter and PipeWarp
 
-## PSN asks me to update even though I have set the spoof
+## Table of contents
 
-This particularly affect 3.60 users. I don't know for what reason, but there's a fix for that. Just reset HENkaku like I said on the 3.60 problem page, set the spoof back to the latest firmware version and reinstall your plugins.
+* [Welcome to the vita troubleshooting guide !](README.md)
 
-## PSN works fine, but when I enter the PSN settings i have an error code
+# Hacks related issues
 
-It appears that Sony recently changed something in their servers. If you're getting this error it means that you have ITLS enso. Disable and renable it when you have done your business with the settings.
+* [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
+* [Firmware version : 3.63-3.68 3.72-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
+* [Firmware version : 3.70](hack-problems-related/firmware-version-3.70.md)
 
-## Can't connect to the PSN, I have a NP error code
+# Plugins related problem
 
-The culprit is usually your network. Delete any custom DNS servers you have set in the WiFi settings, and try switching to another network \(like a mobile hotspot for example\)
+* [Error when using autoplugin](plugins-related-problem/autoplugins-is-bad.md)
+* [Plugins not loading](plugins-related-problem/autoplugin-2-is-good.md)
+* [bootloop](plugins-related-problem/bootloop.md)
 
-## I want to disable trophy sync (for some reason) but it's blocked by Playstation Plus!
-[Follow This Guide](https://www.reddit.com/r/vitahacks/comments/g7d55j/how_to_disable_trophy_sync_without_psplus/)
+# SD2VITA and memory corruption related issues
 
+* [Page 1](sd2vita-and-memory-corruption/untitled.md)
+* [Page 2](sd2vita-and-memory-corruption/untitled-1.md)
 
+# Retroarch related issues
 
+* [RetroArch Issues](retroarch/untitled.md)
 
+# Adrenaline related issues
+
+* [Adrenaline Issues](adrenaline-problems/untitled.md)
 
