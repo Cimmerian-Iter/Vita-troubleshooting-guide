@@ -1,35 +1,44 @@
 ---
-description: 'Drugs are bad, but this one is good'
+description: 3.60 masterace yeyyy
 ---
 
-# Adrenaline
+# Firmware version : 3.60
 
-Finally, you got everything working, a hacked vita, a working SD2VITA and you feel nostalgic? Want to play some epic actions game like Pursuit Force? Or play some F1 games? Emulate MGS psone? Then adrenaline is for you. But after installing it decide to go against you and doesn't want to work? Let's see how to make it work.
+## The browser keep crashing.
 
-## Adrenaline gives me an error about a 661.PBP
+This can happen, even though the success rate is high there can be some times where the psvita just doesn't want to load henkaku.  
+The best way to get it working is to :
 
-When you first launch adrenaline, it will try to install the PSP firmware, because yeah the PSVita has the PSP hardware in it \(Thanks Sony\) and thus it will need the 661.PBP firmware. You can download it from the sony website. Rename the EBOOT.PBP to 661.PBP and put it in ux0:app/PSPEMUCFW/ then start adrenaline. Should now install the firmware and boot into the PSP mode.
+* Clear cookies and history.
+* reboot
+* open the exploit
+* if failed, wait 5 second in the live area and try again.
 
-## I Don't see the memorycard in adrenaline under game section.
-
-If you don't see the memorycard icon in adrenaline where you access it to have the list of PSP game you have, then the problem lies in the plugins. To be precise, the PSP plugins you have installed. Usually categorylite is the main culprit. But if it's not him then first desactivate all the PSP plugins in seplugins folder, then see if you can see the memorycard icon. If yes, then activate the plugins one by one to search for the culprit. And get ride of it
-
-
-
-## Adrenaline doesn't want to boot i have an error code at boot.
-
-Try to delete adrenaline and reinstall it. If it doesn't solve the problem. Then it's most likely a corruption problem. If you are a SD2VITA user, then switch the positions : mount the memorycard as ux0 and the SD2VITA as uma0. Then try to install adreanline in it and see if it works. If yes then head to the Memory Corruption part to fix the problem on your microsd.
+With that it should work fine.
 
 
+## I have just downgraded from 3.60+ and hencore doesn't work
 
-## I don't see my games
+Yeah it's normal, hencore is meant to work on 3.63+ the exploit will crash on 3.60 so use henkaku.  
+If you really want to have an app based exploit then you can install memecore \(by CelesteBlue which is a port of hencore to 3.60\) through final-hencore.
 
-Make sure you have placed the PSP games in the right folder.  
-PSP ISO and CSO in ux0:pspemu/iso/
 
-PSONE games and PSP homebrew in ux0:pspemu/PSP/GAME/
 
-## I try to boot a PSONE game but adrenaline crash.
+## MolecularShell doesn't appear
 
-I guess you used the PSX2PSP conversion tool. Well not every PSONE game can be played. If they have a digital release in PSTORE, then they are assured to be playable in the vita \(we usually prefer using the PSN digital version in that case\). If not then it's a hit and miss. If it doesn't work then try converting the PSONE game differently or using another dump of your PSONE game. If it still doesn't work then we can't do much about it. If you are on 3.60 and don't mind the lack of sound you can try running the PSONE game in ark. \(How that you're wondering what it is? It's a PSP "emulator" like adrenaline. You can use a tool like Ark Fast to install it on you PSVita\)
+First, make sure you have a memorycard inserted and is recognized by the system.   
+If you just have downgraded, it's normal since henkaku will detect an existing installation of henkaku \(installed by hencore, ur0:tai/ux0:tai\) and will just launch henkaku and won't install the files.
+
+If you want molecularshell back all you need to do is to reset henkaku.
+
+### This will reset your plugins, you will need to configure them again in the config.txt
+
+To reset henkaku all you need to do is to open the webkit exploit again and when you see the molecule installer appear, press the R button before the installation begins. You will see "taihen will be reset" message confirming the reset process. If not, try again.
+
+
+
+
+## I really can't use the webkit exploit. Isn't there an alternative?
+
+Yeah sure, you can use finalhencore to install memecore \(hencore ported to 3.60 thanks to celeste blue\) and install henkaku from there. It's a last resort solution.
 
