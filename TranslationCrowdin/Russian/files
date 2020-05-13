@@ -1,44 +1,40 @@
----
-description: 'welcome to the dark side, we have cookies'
----
+### To begin, choose a link above on the menu, or look at the table of contents below
 
-# Bootloop/Brick. Let's reinstall the firmware
+# Welcome to the vita troubleshooting guide!
+Have a problem with your PSVita?   
+Don't know what you did wrong and didn't get any clear answer?  
+Don't worry, this guide help you to resolve whatever issue you're facing.
 
-So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)
+For starters \[insert credit lines and useless stuff here to add more lines\]
 
+By Cimmerian-Iter and PipeWarp
 
+## Table of contents
 
-## So doctor? what's the solution?
+* [Welcome to the vita troubleshooting guide !](README.md)
 
-First of all, what I always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It removes the need to connect with a PC and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.
+# Hacks related issues
 
-In order to reinstall the firmware, we shall update the system. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.
+* [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
+* [Firmware version : 3.63-3.68 3.72-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
+* [Firmware version : 3.70](hack-problems-related/firmware-version-3.70.md)
 
+# Plugins related problem
 
-* 3.60 [https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP)
-* 3.65 [https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP)
-* 3.68 [https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP)
-* UP TO DATE FW : go download it from Sony and don't forget to rename it into PSP2UPDAT.PUP
+* [Error when using autoplugin](plugins-related-problem/autoplugins-is-bad.md)
+* [Plugins not loading](plugins-related-problem/autoplugin-2-is-good.md)
+* [bootloop](plugins-related-problem/bootloop.md)
 
-Once you have downloaded the pup, make sure you have QCMA installed, and put the pup file in the update directory. \(look in QCMA settings where is the update foledr. Usually called PSV updates.\)
+# SD2VITA and memory corruption related issues
 
-And change QCMA settings about the firmware to avoid the "you already have the latest version" message
+* [Page 1](sd2vita-and-memory-corruption/untitled.md)
+* [Page 2](sd2vita-and-memory-corruption/untitled-1.md)
 
+# Retroarch related issues
 
-![3.60 masterace](../.gitbook/assets/capture-de-cran-2020-05-12-a-18.46.04.png)
+* [RetroArch Issues](retroarch/untitled.md)
 
-You need to change the "FW : up to date" in use this version for updates into : custom.  
-Then in the custom PS Vita version field write the corresponding version to the target firmware
+# Adrenaline related issues
 
-* 3.60 : 03.600.000
-* 3.65 : 03.650.000
-* 3.73 : 03.730.000
-
-And if you understood the logic you can adapt it for futur updates.
-
-That's it on the PC side. Now connect your Vita through USB mode and select option 5 : Update this system and chose update from PC and you should be reinstalling the firmware now.
-
-If you have troubles making QCMA recognize your Vita, head to the QCMA section to know how to fix the errors.
-
-Once you have reinstalled the firmware, redo the hack and it should be good now.
+* [Adrenaline Issues](adrenaline-problems/untitled.md)
 
