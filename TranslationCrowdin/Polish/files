@@ -1,28 +1,129 @@
-# Welcome to the vita troubleshooting guide !
+---
+description: halp they ate all my ram
+---
 
-People Hack their vita for various reason, it can be to enjoy the great world of emulations, like doing some rampage in GTA, race with Gran turismo or have some action packed game like Pursuit Force. Going nostalgic and play the original Sonic games, Mario games and play Metal Slug and arcades game.
+# Plugins not loading
 
-They can also hack it so they can hack their games, use mods to improve the experience. Like fant translation, Season update like FIFA 20, or asset swap.
+Dealing with plugins is kind of annoying and hard to debug in some cases. IIf it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issues. Fortunately with the community experience we can narrow down the issues.
 
-More generally, they try to uncover the full potential of the PSVita by modding it, using plugins to enhance the PSVita performance with overclocking, avoid getting their eyes burned with vitabright. Download files from the web browser or using microsd in order to save tousands of bucks for a large storage.  
-Playing PC port on PSVita or stream PC games with moonlight.
+## Plugins are programs.
 
-There is so much stuff to do with the PSVita and thanks to the constant effort of the community it's getting better every day.
+It may sound unrealistic but yeah. Plugins are micro programs that does affect the system. You wonder why your system runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)
 
-But to enjoy the great world of the PSVita Hack, we need to overcome whatever problem that might arise. Else it's frustrating to not know what to do when google doesn't give you a straight answer.
-
-I will guide you through the most commons problems you can have with your vita. In the menu select the topic where you face an issue and read throughfully the guide associated with the problem. If you don't understand something, or are unsure about a step. You can join the Henkaku server and ping the helper team to help you. Or contact me directly through Twitter with the following account : @Cimmerian\_Iter
-
-
-Credit : I want to thanks this awesome community for the good memories i was able to make. Watching it grow from the start in 2016 to what it is today.   
-To have met different kind of people, whenever it's a simple end user asking for my help, or good buddies i was able to make like some CBPS members \(Dots TB, coderx, silica, caghandemir\) or SKGleba with who i really enjoyed testing his stuff and beating him in PUBG or Killzone ;\)   
-Thanks to those people i was able to learn a lot about the PSVita and it's software mecanism. How the hacks works. I was able to make myself a good knowledge about it that i can share with the end users and help them on whatever problems they have.   
-It also gave me the opportunity to speak to high figures of the hacks like Dave, Yfanlu, xyz, TheFlow something i had never imagined to do during the PSP era when i was merely a end user.   
-This is why i devote myself to help users, because i want them to enjoy the PSVita as much as i love it \(and they also donated to me 80$ so i can buy a new vita after i bricked mine while doing some test. As a thanks for what i have done for them\).   
-Because it is usually hard to get some help when people doesn't respect you or make fun of you because you're a noob, or when you don't find anywhere the answer for your question, i wanted to change all of this. And thanks to the help of friends like me who enjoy helping people \(God Ginrai, Tyke, Kasha, Phil, Megugao, and Xcorra when he was still there\). They also supported me while doing this guide and gave me some hints.   
-And thanks to PipeWarp, a user who i helped to unbrick his vita and became my friend. He gave me the screenshot, set up the github page as an alternative to this Gitbook and proof read the guide to avoid the eyes of native english speaker to burn because of the existence of some grammar errors. We have offered the best kind of help service i was dreaming of providing to the community in the henkaku server. And this is the reason i created this troubleshooting Guide. Which i aim to update it to make it more complete, like including a game mode section, or a vitacheat section. And some other stuff if you want me to add.
+We will use an example on a common case i found during my time helping people :
 
 
-If you ever want to thank me for the guide, drop a message to the discord or in Twitter im always happy to see that what i do is useful for people.Also please suscribe to my patreon.  
-\(Joking i don't have a patreon and i don't do that for money. But if you ever want to buy me a cup of oange juice, you can donate to my Paypal if you feel generous enough : samilops2@gmail.com\)
+```text
+# This file is used as an alternative if ux0:tai/config.txt is not found.
+# For users plugins, you must refresh taiHEN from HENkaku Settings for
+# changes to take place.
+# For kernel plugins, you must reboot for changes to take place.
+*KERNEL
+ur0:tai/minivitatv.skprx
+ur0:tai/ds3.skprx
+ur0:tai/music_premium.skprx
+ur0:tai/PSVshell.skprx
+ur0:tai/storagemgr.skprx
+ur0:tai/plugins/vitabright.skprx
+ux0:app/PSPEMUCFW/sce_module/adrenaline_kernel.skprx
+ur0:tai/plugins/nonpdrm.skprx
+ur0:tai/ioplus.skprx
+ur0:tai/AnalogsEnhancer.skprx
+ur0:tai/NoPowerLimits.skprx
+ur0:tai/0syscall6.skprx
+ur0:tai/ds4vita.skprx
+ur0:tai/udcd_uvc.skprx
+# henkaku.skprx is hard-coded to load and is not listed here
+# main is a special titleid for SceShell
+ur0:tai/henkaku.suprx
+*NPXS10015
+# this is for modifying the version string
+ur0:tai/henkaku.suprx
+*NPXS10016
+# this is for modifying the version string in settings widget
+ur0:tai/henkaku.suprx
+*main
+ur0:tai/LowMemMode.suprx
+ur0:tai/plugins/download_enabler.suprx
+ur0:tai/plugins/shellbat.suprx
+ur0:tai/volume_profile.suprx
+ur0:tai/quick_volume.suprx
+*ALL
+ur0:tai/BackTouch2L2R2.suprx
+ur0:tai/vitagrafix.suprx
+ur0:tai/remaPSV.suprx
+*NPXS10013
+ur0:tai/ps4linkcontrols.suprx
+```
+
+OwO  
+pretty big list there. It's no wonder why his vita doesn't load anymore. unfortunately, in most cases of bootloop the config looks like this. So let's take this exemple and see how we solve it.
+
+\*not talking about the fact that he put some plugins inside a plugins folder which is not recommended\*
+
+
+## Installing multiple plugins that do the same thing
+
+Yep that's his first mistake. Let's take a closer look.  
+This guy want to use his DS4 plugins, but he loaded all the plugins for it : minitv, ds3 and ds4.  
+He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which uses DS3 as a dependency\)
+
+
+## SD2VITA and ioplus plugin not being at the top.
+
+Another common mistake is to not put the sd2vita at the begining of \*KERNEL. This is very important as normally every plugin need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.  
+As for ioplus it is a dependency used by other plugins to have access to more IO operation in userland. It needs to be loaded before them.
+
+## Loading heavy plugins when we don't always use them
+
+Ucdcd uvc plugin for streaming the psvita screen through the usb is one of the most heavy plugins and need a lot of resources. If you want to use it,  make some room for it. Let's see :
+
+* i don't think you need to activate the music related plugins, that already removes 3 plugins from the list.
+* PS4 link controls? Not useful in that case.
+* Nopowerlimit, unless you really want to leave the wifi open while playing a game that disables it you can also remove this one
+*  Adrenaline plugin is one of the most useless plugins there. Just to avoid launching the app twice \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
+* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the vita control.  We did some cleanup so lets see what the config looks like
+
+```text
+# This file is used as an alternative if ux0:tai/config.txt is not found.
+# For users plugins, you must refresh taiHEN from HENkaku Settings for
+# changes to take place.
+# For kernel plugins, you must reboot for changes to take place.
+*KERNEL
+ur0:tai/storagemgr.skprx
+ur0:tai/minivitatv.skprx
+ur0:tai/ds3.skprx
+ur0:tai/ioplus.skprx
+ur0:tai/PSVshell.skprx
+ur0:tai/vitabright.skprx
+ur0:tai/nonpdrm.skprx
+ur0:tai/0syscall6.skprx
+ur0:tai/udcd_uvc.skprx
+# henkaku.skprx is hard-coded to load and is not listed here
+# main is a special titleid for SceShell
+ur0:tai/henkaku.suprx
+*NPXS10015
+# this is for modifying the version string
+ur0:tai/henkaku.suprx
+*NPXS10016
+# this is for modifying the version string in settings widget
+ur0:tai/henkaku.suprx
+*main
+ur0:tai/LowMemMode.suprx
+ur0:tai/download_enabler.suprx
+ur0:tai/shellbat.suprx
+*ALL
+ur0:tai/vitagrafix.suprx
+```
+
+
+
+It looks way more clean heh. As you have seen, people always tend to load more plugins than they really need. Using only the plugins you need for the game session you will do allows you to enjoy your system without being blocked by bootloop. You can create multiple config.txt for each case if you want as long as the config isn't heavy \(more than 10 plugins at the same time is not recommended\).  
+By following the same logic you can clear your config.txt easly without scratching your head over why it won't boot.
+
+Note : If vitabright doesn't work for you even though you did what i told you to do, then look at this : [https://github.com/devnoname120/vitabright/issues/13](https://github.com/devnoname120/vitabright/issues/13)  
+  
+
+
+
 
