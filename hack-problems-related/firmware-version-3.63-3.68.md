@@ -27,7 +27,9 @@ Might be your pc, all you can do is to close and retry the process and hope that
 ## Final hencore simply doesn't want to work
 
 Manually install hencore, it's not difficult and the instructions are in the readme!
-[hencore1] (https://github.com/TheOfficialFloW/h-encore)
-[hencore²] (https://github.com/TheOfficialFloW/h-encore-2)
+
+[hencore1](https://github.com/TheOfficialFloW/h-encore)
+
+[hencore²](https://github.com/TheOfficialFloW/h-encore-2)
 
 
