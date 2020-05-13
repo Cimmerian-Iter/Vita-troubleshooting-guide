@@ -1,46 +1,41 @@
 ---
-description: 'welcome to the dark side, we have cookies'
+description: i don't want to buy 100$ for 64G pls help
 ---
 
-# Bootloop/Brick. Let's reinstall the firmware
+# SD2VITA doesn't work
 
-So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)
+You finally got ride of your little Sony expensive MemoryCard and want to use that fresh SD2VITA you just bought for 3 bucks on Ali Express. But when you insert it into the Vita it just doesn't works? Don't worry I'll cover the usual solutions to solve this.
 
-## So doctor? what's the solution?
+## 1 - Did I install the plugin the right way?
 
-First of all, what I always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It removes the need to connect with a PC and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.
+This is the most common case. Usually people buy a SD2VITA as soon as they begin to hack their Vita and they don't set the plugin correctly. And we can check that. If you're using storage manager, there's a way to know if it is running or no. Check ur0:tai/storagemgrlog.txt if it exist. If it doesn't then you didn't install the plugin correctly so head back to the plugin section and try to redo it.  
+If it exist then go to the next step.
 
-Try to do the battery reset combo \(which will reset the syscon. Can save some cases like it did for me.\)
+Note for YAMT-Lite users :
 
-press PWR+PS+SELECT+START+L for 15-20 secs then try to power on the PSVita
+* Only run the app once \(each time you will run it it will install/uninstallà\)
+* Do not let it active when you want to insert a Gamecard instead of a SD2VITA
 
-In order to reinstall the firmware, we shall update the system. "Update to 3.60" is the same thing as reinstall 3.60 as it will install the 3.60 pup. So let's begin, download the pup of your choice. Here's a little list.
+## 2 - Did I format the microsd according to the guide?
 
-* 3.60 [https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP)
-* 3.65 [https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP)
-* 3.68 [https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP)
-* UP TO DATE FW : go download it from sony and don't forget to rename it into PSP2UPDAT.PUP
+Another common issue, is that storagemgr can't read the SD2VITA, open the log.txt file and look for the GCD detection part.  
+If you see "GCD NOT DETECTED" in the log, then that means it couldn't read the SD2VITA.  
+There is 2 reason, you are the culprit or the SD2VITA is the culprit \(there's always a small chance of you getting a bad build but it happened a lot in the community, the only solution is to buy another. We can't tell you a reliable source and we can't know in advance if the SD2VITA is well made or no. Although V6 exist for that purpose\).
 
-Once you have downloaded the pup, make sure you have qcma installed, and put the pup file in the update directory. \(look in qcma settings where is the update foledr. Usually called PSV updates.\)
+To see if you are the culprit, then let's try formating the microSD again.  
+Redo the formating step in vita hacks guide : [https://vita.hacks.guide/storage-format-\(windows\)](https://vita.hacks.guide/storage-format-%28windows%29)  
+If you're a Mac or Linux user, then don't follow that part and flash zzblank.img, it is only needed because Windows doesn't format the microSD card in the correct way for the vita. There's a Linux section and Mac section in the guide.
 
-And change QCMA settings on the firmware to avoid the "you already have the latest version" message
+If Mac user wants my own instruction for formating their microSD card here's some commands you will need to input in a terminal to format it correctly.
 
-![Check ignore local file psp2updatlist and change the FW version](../.gitbook/assets/klk.PNG)
+```bash
+diskutil list #find your sdcard (should be something like /dev/disk2)
+diskutil unmount /dev/disk2   sudo dd if=/dev/zero of=/dev/disk2 #don't forget to change disk2 to your disk number
+# remove and reinsert storage device 
+sudo newfs_exfat -R /dev/disk2 #for microsd up to 128GB (may need to remove and reinsert to see it in finder)
+sudo newfs_exfat -R  -c 128 /dev/disk2  #for microsd starting from 256GB
+#Copy contents over to memory card
+```
 
-You need to change the "FW : up to date" in use this version for updates into : custom.  
-Then in the custom PS Vita version field write the corresponding version to the target firmware
-
-* 3.60 : 03.600.000
-* 3.65 : 03.650.000
-* 3.73 : 03.730.000
-
-And if you understood the logic you can adapt it for future updates.
-
-That's it on the PC side. Now connect your Vita through USB mode and select the option 5 : Update this system and chose update from PC and you should be reinstalling the firmware now.
-
-Note : If after reinstalling or during the installation the Vita turn off by itself \(not talking about the case where it run out of power, it just turn off without any reason\) and doesn't want to boot after you tried to reinstall the firmware for the 5th time, then it means you Vita sustained some damage \(water damage usually\) so it's hopeless in that case. Try do open the vita and clean every part of it then reassemble it.
-
-If you have troubles making QCMA recognize your Vita, head to the QCMA section to know how to fix the errors.
-
-Once you have reinstalled the firmware, redo the hack and it should be good now.
+If you followed the steps correctly and it still doesn't work, then try again with another microSD card. If it still doesn't work, then it's fair to assume that you got a bad SD2VITA. And the only option left is to buy another one.
 
