@@ -1,31 +1,39 @@
 ---
-description: 'Les drogues sont mauvaises, mais elle peuvent être bonne'
+description: 3.60 masterace
 ---
 
-# Adrenaline
+# Version du firmware : 3.60
 
-Enfin, tout a fonctionné, une PSVita hackée, une SD2VITA fonctionnelle et vous vous sentez nostalgique. Vous voulez jouer à un jeu d'action épique comme Pursuit Force ? Ou jouer à des jeux F1 ? Émuler Metal Gear Solid de la PSone? Alors Adrénaline est pour vous. Mais après installation, il décide de faire sa tête et ne veut pas fonctionner normalement ? Voyons comment faire en sorte que cela fonctionne.
+## Le navigateur ne cesse de se planter :
 
-## Adrénaline me donne une erreur à propos du fichier 661.PBP :
+Cela peut arriver même si le taux de succès de l'exploit est élevé, il peut y avoir des moments où la PSVita ne veut tout simplement pas charger HENkaku.  
+La meilleure manière de le faire fonctionner est de :
 
-Lorsque vous lancez Adrénaline pour la première fois, il tentera d'installer un firmware de la PSP. Eh oui, la PSVita possède du matériel PSP \\(merci Sony\\) et donc il aura besoin du fichier 661.PBP du firmware de la PSP. Vous pouvez le télécharger à partir du site Web de SONY. Renommez le fichier `EBOOT.PBP` en `661.PBP` et mettez-le dans `ux0:app/PSPEMUCFW/` puis lancer Adrenaline.Il devrait maintenant installer le firmware et démarrer en mode PSP.
+* Effacer les cookies et l'historique de navigation.
+* Redémarrer la console.
+* Ouvrir la page de l'exploit.
+* Si cela échoue, patienter 5 secondes sur le livearea (menu de la PSVita) puis réessayez.
+* Facultatif : Au lieu de cliquer sur OK sur l'erreur, cliquez sur Signaler ce problème, cela peut parfois faire fonctionner l'exploit.
 
-## Je ne vois pas la carte mémoire dans Adrénaline sous la section du Jeu :
+Après cela, il devrait fonctionner correctement.
 
-Si vous ne voyez pas l'icône de la carte mémoire dans Adrénaline où vous y accédez pour voir la liste de vos jeux PSP que vous avez, donc le problème réside dans vos plugins. Pour être plus précis, cella vient des plugins PSP que vous avez installés. Habituellement, le plugin Game Categories Lite est le principal coupable. Mais si ce n'est pas le cas, alors désactivez tout d'abord tous les plugins PSP dans contenu le dossier `seplugins` et voir si vous pouvez voir à présent l'icône de carte mémoire. Si oui, alors activez les plugins un à un pour rechercher l'erreur. Et débarrassez-vous en ou mettez-le à jour si besoin.
+## Je viens de downgrader depuis la version 3.60+ et HENcore ne fonctionne pas :
 
-## Adrenaline ne se lance pas : j'ai un code d'erreur au démarrage :
+Oui c'est normal, HENcore est censé fonctionner sur 3.63 et plus. L'exploit plantera sur la version 3.60, donc utilisez l'exploit HENkaku.  
+Si vous voulez vraiment avoir un exploit basé sur une application, alors vous pouvez installer memecore \(par CelesteBlue qui est un port de HENcore sur 3.60\) à travers Final h-encore.
 
-Essayez de supprimer Adrenaline et le réinstaller. Si cela ne résout pas le problème, c'est probablement un problème de corruption. Si vous utilisez une SD2VITA, alors basculer les partitions : monter la Carte Mémoire comme `ux0` et la SD2VITA comme `uma0`. Puis essayez d'installer Adrenaline dessus et vérifiez si cela fonctionne. Si oui, régler le problème depuis votre microSD.
+## MolecularShell n'apparaît pas :
 
-## Je ne vois pas mes jeux :
+Tout d'abord, assurez-vous que vous avez une Carte Mémoire insérée \(sauf si vous êtes sur une PSVita Slim ou une PSTV alors vous pouvez utiliser le stockage interne\) qui est reconnue par le système.  
+Si vous venez de downgrader, c'est normal car HENkaku détectera une installation existante de HENkaku \(installée par hencore, ur0:tai/ux0:tai\) et lancera juste l'exploit présent et n'installera pas les nouveaux fichiers.
 
-Assurez-vous d'avoir placé vos jeux PSP dans le bon dossier.  
-Format ISO et CSO dans `ux0:pspemu/iso/`
+Si vous voulez récupérer MolecularShell, il vous suffit de réinstaller HENkaku.
 
-Jeux PSOne et homebrews PSP dans `ux0:pspemu/PSP/GAME/`
+### Cela va réinitialiser vos plugins, vous devrez les configurer à nouveau dans le fichier config.txt
 
-## J'essaie de lancer un jeu PSone mais Adrenaline se plante :
+Pour réinitialiser HENkaku, il vous suffit d'ouvrir à nouveau la page de l'exploit \(henkaku.xyz\) et maintenir sur la touche R avant que l'installation ne commence et relâchez quand il va commencer à installer les nouveaux fichiers. Vous verrez le message "taihen will be reset" confirmant le processus de réinitialisation. Si ce n'est pas le cas, essayez à nouveau.
 
-Je suppose que vous avez utilisé l'outil de conversion PSX2PSP. Eh bien, pas tous les jeux PSOne peuvent être joués. S'ils ont une version numérique dans le PlayStation Store, alors ils sont assurés d'être jouables sur la PSVita \\(nous préférons généralement utiliser la version numérique PSN dans ce cas\\). Si ce n'est pas le cas, ce sera un peu du hasard. Si cela ne fonctionne pas, essayez de convertir le jeu PSOne différemment ou d'utiliser un autre dump de votre jeu PSOne. Si cella ne fonctionne toujours pas, alors nous ne pouvons pas faire grand chose à ce sujet. Si vous êtes sur la version 3.60 et que le manque de son ne vous dérange pas, vous pouvez essayer de lancer le jeu PSOne dans Ark. \(Comment ça vous vous demandez ce que c'est ? C'est un "émulateur" PSP comme Adrénaline. Vous pouvez utiliser un outil comme Ark Fast pour l'installer sur votre PSVita\)
+## Je ne peux pas utiliser l'exploit WebKit. Y a-t-il une alternative?
+
+Oui, vous pouvez utiliser Final h-encore pour installer memecore \\(hencore porté vers 3.60 grâce à CelesteBlue \\) et installer HENkaku à partir de là. C'est une solution de dernier recours.
 
