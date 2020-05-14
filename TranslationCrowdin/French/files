@@ -1,33 +1,31 @@
 ---
-description: 'no love for ya, downgrade already'
+description: 'Les drogues sont mauvaises, mais elle peuvent être bonne'
 ---
 
-# Version du firmware : 3.61/3.73
+# Adrenaline
 
-La résolution des problèmes sur des firmware >3.60 peuvent être ennuyeuse et difficile compte tenu du fait que Hencore repose principalement sur la connexion de la Carte Mémoire et QCMA. QCMA a tendance à être peu fiable et lorsque vous n'avez pas accès à la carte mémoire, pour quelque raison que ce soit, cela rend les choses plus difficiles. \(comme vous aviez oublié de supprimer le fichier id.dat et que maintenant que le spoof ne fonctionne pas, elle vous oblige à mettre à jour votre console ou à formater votre carte mémoire.\)  
-C'est pour cette raison que je recommande à tous de passer directement à la version 3.60, car elle a un support complet des plugins et l'exploit WebKit pour faciliter la récupération des problèmes.
+Enfin, tout a fonctionné, une PSVita hackée, une SD2VITA fonctionnelle et vous vous sentez nostalgique. Vous voulez jouer à un jeu d'action épique comme Pursuit Force ? Ou jouer à des jeux F1 ? Émuler Metal Gear Solid de la PSone? Alors Adrénaline est pour vous. Mais après installation, il décide de faire sa tête et ne veut pas fonctionner normalement ? Voyons comment faire en sorte que cela fonctionne.
 
-Si votre problème est que vous ne pouvez pas vous connecter à final h-encore ou QCMA, dirigez-vous vers la page QCMA.
+## Adrénaline me donne une erreur à propos du fichier 661.PBP :
 
-## Hencore ne s'ouvre pas. Je n'ai qu'un écran blanc :
+Lorsque vous lancez Adrénaline pour la première fois, il tentera d'installer un firmware de la PSP. Eh oui, la PSVita possède du matériel PSP \\(merci Sony\\) et donc il aura besoin du fichier 661.PBP du firmware de la PSP. Vous pouvez le télécharger à partir du site Web de SONY. Renommez le fichier `EBOOT.PBP` en `661.PBP` et mettez-le dans `ux0:app/PSPEMUCFW/` puis lancer Adrenaline.Il devrait maintenant installer le firmware et démarrer en mode PSP.
 
-hencore² a besoin que vous appuyez sur la touche R lorsque vous ouvrez l'application pour accéder au menu de démarrage.
+## Je ne vois pas la carte mémoire dans Adrénaline sous la section du Jeu :
 
-Si vous utilisez h-encore², continuez à essayer. Le taux de réussite est assez faible \(environ 25%\) et le fait de réduire l'application diminue le taux de réussite.
+Si vous ne voyez pas l'icône de la carte mémoire dans Adrénaline où vous y accédez pour voir la liste de vos jeux PSP que vous avez, donc le problème réside dans vos plugins. Pour être plus précis, cella vient des plugins PSP que vous avez installés. Habituellement, le plugin Game Categories Lite est le principal coupable. Mais si ce n'est pas le cas, alors désactivez tout d'abord tous les plugins PSP dans contenu le dossier `seplugins` et voir si vous pouvez voir à présent l'icône de carte mémoire. Si oui, alors activez les plugins un à un pour rechercher l'erreur. Et débarrassez-vous en ou mettez-le à jour si besoin.
 
-## Final h-encore me donne une erreur sha256 :
+## Adrenaline ne se lance pas : j'ai un code d'erreur au démarrage :
 
-Cela se produit si la connexion Internet a échoué à mi-chemin et a corrompu le téléchargement, entraînant ainsi une incompatibilité avec le sha256. Vous devez supprimer le fichier bittersmile.pkg du dossier data dans le dossier du Final h-encore \(vous devez d'abord fermer Final h-encore) puis réessayer. Sinon, si vous rencontrez toujours le problème, vous pouvez télécharger manuellement le pkg et le placer dans le dossier data de Final h-encore. \(Vous pouvez trouver le lien du pkg sur le github de hencore\)
+Essayez de supprimer Adrenaline et le réinstaller. Si cela ne résout pas le problème, c'est probablement un problème de corruption. Si vous utilisez une SD2VITA, alors basculer les partitions : monter la Carte Mémoire comme `ux0` et la SD2VITA comme `uma0`. Puis essayez d'installer Adrenaline dessus et vérifiez si cela fonctionne. Si oui, régler le problème depuis votre microSD.
 
-## Final h-encore reste bloqué à toute étape qu'il tente de faire :
+## Je ne vois pas mes jeux :
 
-Peut être votre pc, tout ce que vous pouvez faire est de fermer et de recommencer le processus et d'espérer qu'il fonctionnera.
+Assurez-vous d'avoir placé vos jeux PSP dans le bon dossier.  
+Format ISO et CSO dans `ux0:pspemu/iso/`
 
-## Final h-encore ne veut tout simplement pas fonctionner :
+Jeux PSOne et homebrews PSP dans `ux0:pspemu/PSP/GAME/`
 
-Installez manuellement h-encore n'est pas difficile et les instructions sont dans les readme !
+## J'essaie de lancer un jeu PSone mais Adrenaline se plante :
 
-[hencore1](https://github.com/TheOfficialFloW/h-encore)
-
-[hencore²](https://github.com/TheOfficialFloW/h-encore-2)
+Je suppose que vous avez utilisé l'outil de conversion PSX2PSP. Eh bien, pas tous les jeux PSOne peuvent être joués. S'ils ont une version numérique dans le PlayStation Store, alors ils sont assurés d'être jouables sur la PSVita \\(nous préférons généralement utiliser la version numérique PSN dans ce cas\\). Si ce n'est pas le cas, ce sera un peu du hasard. Si cela ne fonctionne pas, essayez de convertir le jeu PSOne différemment ou d'utiliser un autre dump de votre jeu PSOne. Si cella ne fonctionne toujours pas, alors nous ne pouvons pas faire grand chose à ce sujet. Si vous êtes sur la version 3.60 et que le manque de son ne vous dérange pas, vous pouvez essayer de lancer le jeu PSOne dans Ark. \(Comment ça vous vous demandez ce que c'est ? C'est un "émulateur" PSP comme Adrénaline. Vous pouvez utiliser un outil comme Ark Fast pour l'installer sur votre PSVita\)
 
