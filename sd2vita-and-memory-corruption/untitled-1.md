@@ -38,3 +38,4 @@ sck.fat -a /dev/(device) #replace device with the correct name of your microsd m
 > Credit : u/pthfdr on r/vitahacks
 
 After doing this, insert the microsd in your vita and reboot. The problems should fade away.
+

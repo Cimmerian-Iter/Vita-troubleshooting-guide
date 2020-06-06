@@ -1,11 +1,10 @@
-# Welcome to the Vita troubleshooting guide!
+# Welcome to the Vita troubleshooting guide !
 
-People hack their Vita for various reasons: it can be to enjoy the great world of emulators; going on a rampage in GTA; race with Gran turismo or to play an action-packed game like Pursuit Force. Feed your nostalgia and play the original Sonic, Mario, Metal Slug and even arcade games. 
+People hack their Vita for various reasons: it can be to enjoy the great world of emulators; going on a rampage in GTA; race with Gran turismo or to play an action-packed game like Pursuit Force. Feed your nostalgia and play the original Sonic, Mario, Metal Slug and even arcade games.
 
 They can also hack their Vita so they can hack their games or to use mods to improve the experience. Things like fan translations, Season updates to FIFA 20 or swapping game assets
 
-Usually when one hacks their Vita system, they try to unlock the full potential of the PSVita by modding it.Examples include : using plugins to enhance the PSVita performance with overclocking; avoid getting their eyes burned with vitabright; download files from the web browser or use a microsd in place of the propietary PSVita memory cards to save thousands of bucks for a high storage capacity
-You can also play ports of games on the PSVita or stream PC games with moonlight.
+Usually when one hacks their Vita system, they try to unlock the full potential of the PSVita by modding it.Examples include : using plugins to enhance the PSVita performance with overclocking; avoid getting their eyes burned with vitabright; download files from the web browser or use a microsd in place of the propietary PSVita memory cards to save thousands of bucks for a high storage capacity You can also play ports of games on the PSVita or stream PC games with moonlight.
 
 There is so much stuff to do with the PSVita and thanks to the constant effort of the community it's getting better every day.
 
@@ -22,5 +21,5 @@ Because it is usually hard to get some help when people doesn't respect you or m
 And thanks to PipeWarp, a user who I helped to unbrick his vita and became my friend. He gave me the screenshot, set up the github page as an alternative to this Gitbook and proof read the guide to avoid the eyes of native english speaker to burn because of the existence of some grammar errors. We have offered the best kind of help service I was dreaming of providing to the community in the HENkaku server. And this is the reason I created this troubleshooting guide. I aim to update it to make it more complete, like including a game mode section, or a vitacheat section. And some other stuff if you want me to add.
 
 If you ever want to thank me for the guide, drop a message to the discord or on Twitter i'm always happy to see that what I do is useful for people. Also please suscribe to my patreon.  
-\(Joking, I don't have a patreon and I don't do that for money. But if you ever want to buy me a cup of orange juice, you can donate to my Paypal, if you feel generous enough : [samilops2@gmail.com](paypal.com)   )\
+\(Joking, I don't have a patreon and I don't do that for money. But if you ever want to buy me a cup of orange juice, you can donate to my Paypal, if you feel generous enough : [samilops2@gmail.com](https://github.com/Cimmerian-Iter/Vita-troubleshooting-guide/tree/a9deb0165e1e6a8bc67264efad86e473b71be5d1/paypal.com) \)\
 

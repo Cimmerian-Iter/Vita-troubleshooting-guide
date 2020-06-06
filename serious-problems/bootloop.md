@@ -4,11 +4,11 @@ description: 'welcome to the dark side, we have cookies'
 
 # Bootloop/Brick. Let's reinstall the firmware
 
-So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)  
+So you wanted to enjoy your vita and tried to do anything risky? \(testkit mod, downgrade, messing with system files\) and the only option available in safe mode is update the firmware? Or pressing L at boot doesn't help? No worry you can still save the PSVita, most of the bricks are actually recoverable. As long as it is software and you didn't wipe os0 \(unless you have enso ex\)
 
 ## So doctor? what's the solution?
 
-First of all, what I always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It removes the need to connect with a PC and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier. 
+First of all, what I always recommend is to put a pup file in ux0:data/PSP2/UPDATE/PSP2UPDAT.pup It removes the need to connect with a PC and QCMA can be unreliable. You can then use it with option 5 update the system, and update from gamecard \(yeah yeah that option works with memorycard\). After you solve the problem, do that so next time it'll be easier.
 
 Try to do the battery reset combo \(which will reset the syscon. Can save some cases like it did for me.\)
 

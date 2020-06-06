@@ -4,8 +4,7 @@ description: 'Drugs are bad, but this one is good'
 
 # Adrenaline
 
-Finally, you got everything working, a hacked vita, a working SD2VITA and you feel nostalgic. Want to play an epic, action game like Pursuit Force? Or play an F1 game? Emulate Metal Gear Solid PSone? Then Adrenaline is for you. 
-But after installing it decide to go against you and doesn't want to work? Let's see how to make it work.
+Finally, you got everything working, a hacked vita, a working SD2VITA and you feel nostalgic. Want to play an epic, action game like Pursuit Force? Or play an F1 game? Emulate Metal Gear Solid PSone? Then Adrenaline is for you. But after installing it decide to go against you and doesn't want to work? Let's see how to make it work.
 
 ## Adrenaline gives me an error about a 661.PBP
 

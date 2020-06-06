@@ -1,5 +1,5 @@
 ---
-description: 3.60 masterace 
+description: 3.60 masterace
 ---
 
 # Firmware version : 3.60

@@ -4,11 +4,13 @@ description: halp they ate all my ram and now i can't breathe
 
 # Plugins not loading
 
-Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issue.
+Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issue.  
+  
+Note : thanks to teakhanirons \(from the cbps team\) you can use a tool for the futur to ease the process. I'll describe it at the end of the tutorial.
 
 ## Plugins are programs.
 
-It may sound unrealistic but yeah. Plugins are microprograms that  affect the system. You wonder why your phone/computer runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks for too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)
+It may sound unrealistic but yeah. Plugins are microprograms that affect the system. You wonder why your phone/computer runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks for too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his vita after installing ALL the plugins he found in autoplugin 2\)
 
 We will use an example on a common case i found during my time helping people :
 
@@ -119,5 +121,36 @@ Note : If vitabright doesn't work for you even though you did what i told you to
 
 ## Using Easy Switch Vita
 
-A app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)
+A app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)  
+  
+
+
+## Emergency Mount
+
+This plugins will save you a lot of trouble in case you run in a situation like this. And there's many thing you want to avoid :
+
+* Loosing all your icon organisation you spent hours to finally complete it to your taste because it will trigger a database refresh \(Or for sd2vita user, you will simply boot in a blank live area without access to any app\). Also making the boot time much longer than what it is originally
+* Especially for 3.65 users, being stuck with either formating the memorycard or update since pressing L will remove the version spoof.
+
+It will mount one of those partitions : sonymc, internal storage, usb or ur0 \(what we really care\) through usb and you will have access to it with your computer \(just like what vitashell does\). Then you can open the config.txt with notepad and edit it.
+
+#### How do I use it?
+
+That's simple. Remember when i said that for storagemgr to work correctly we need to put it first? Well change of plan. We need to put emergency mount right below \*Kernel \(yeah since bootloop means some pugins cause it, and plugins that are loaded before emergency mount can crash before even letting emergency mount run.\)  
+  
+So like before, you edit the config.txt like that
+
+```text
+*KERNEL
+ur0:tai/EmergencyMount.skprx
+```
+
+and then you add your favorite plugins after that line \(add storagemgr in second place ofc, the only case you want to still let it in first place would be to allow Emergency Mount to mount sd2vita, but let's be honest, we don't need that option.\)  
+  
+You can also customise the background if you want.  
+  
+I recommend this plugin because it make it easier to edit config.txt, instead of doing the taihen reset option in henkaku/hencore that would reset the whole config so you need to rewrite every lines again \(time consuming\), you can just remove the faulty plugin line and reboot.  
+  
+For more information about the plugin, you can see the release post in the [CBPS forum](https://forum.devchroma.nl/index.php/topic,183.msg421.html#msg421) and talk with the dev.   
+
 
