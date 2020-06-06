@@ -147,6 +147,8 @@ ur0:tai/EmergencyMount.skprx
 
 and then you add your favorite plugins after that line \(add storagemgr in second place ofc, the only case you want to still let it in first place would be to allow Emergency Mount to mount sd2vita, but let's be honest, we don't need that option.\)  
   
+When you're stuck in a bootloop, simply press the triangle button at boot and it will bring the menu of the plugin. Then you can mount the partition you want.  
+  
 You can also customise the background if you want.  
   
 I recommend this plugin because it make it easier to edit config.txt, instead of doing the taihen reset option in henkaku/hencore that would reset the whole config so you need to rewrite every lines again \(time consuming\), you can just remove the faulty plugin line and reboot.  
