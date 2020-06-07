@@ -1,44 +1,38 @@
 ---
-description: 3.60 masterace yeyyy
+description: 3.60 masterace
 ---
 
-# Firmware version : 3.60
+# Version du firmware : 3.60
 
-## The browser keep crashing.
+## Le navigateur ne cesse de se planter :
 
-This can happen, even though the success rate is high there can be some times where the psvita just doesn't want to load henkaku.  
-The best way to get it working is to :
+Cela peut arriver même si le taux de succès de l'exploit est élevé, il peut y avoir des moments où la PSVita ne veut tout simplement pas charger HENkaku.  
+La meilleure manière de le faire fonctionner est de :
 
-* Clear cookies and history.
-* reboot
-* open the exploit
-* if failed, wait 5 second in the live area and try again.
+* Effacer les cookies et l'historique de navigation.
+* Redémarrer la console.
+* Ouvrir la page de l'exploit.
+* Si cela échoue, patienter 5 secondes sur le livearea (menu de la PSVita) puis réessayez.
+* Facultatif : Au lieu de cliquer sur OK sur l'erreur, cliquez sur Signaler ce problème, cela peut parfois faire fonctionner l'exploit.
 
-With that it should work fine.  
+Après cela, il devrait fonctionner correctement.
 
+## Je viens de downgrader depuis la version 3.60+ et HENcore ne fonctionne pas :
 
-## I have just downgraded from 3.60+ and hencore doesn't work
+Oui c'est normal, HENcore est censé fonctionner sur 3.63 et plus. L'exploit plantera sur la version 3.60, donc utilisez l'exploit HENkaku.  
+Si vous voulez vraiment avoir un exploit basé sur une application, alors vous pouvez installer memecore \(par CelesteBlue qui est un port de HENcore sur 3.60\) à travers Final h-encore.
 
-Yeah it's normal, hencore is meant to work on 3.63+ the exploit will crash on 3.60 so use henkaku.  
-If you really want to have an app based exploit then you can install memecore \(by CelesteBlue which is a port of hencore to 3.60\) through final-hencore.
+## MolecularShell n'apparaît pas :
 
+Tout d'abord, assurez-vous que vous avez une Carte Mémoire insérée \(sauf si vous êtes sur une PSVita Slim ou une PSTV alors vous pouvez utiliser le stockage interne\) qui est reconnue par le système.  
+Si vous venez de downgrader, c'est normal car HENkaku détectera une installation existante de HENkaku \(installée par hencore, ur0:tai/ux0:tai\) et lancera juste l'exploit présent et n'installera pas les nouveaux fichiers.
 
+Si vous voulez récupérer MolecularShell, il vous suffit de réinstaller HENkaku.
 
-## MolecularShell doesn't appear
+### Cela va réinitialiser vos plugins, vous devrez les configurer à nouveau dans le fichier config.txt
 
-First, make sure you have a memorycard inserted and is recognized by the system.   
-If you just have downgraded, it's normal since henkaku will detect an existing installation of henkaku \(installed by hencore, ur0:tai/ux0:tai\) and will just launch henkaku and won't install the files.  
-  
-If you want molecularshell back all you need to do is to reset henkaku. 
+Pour réinitialiser HENkaku, il vous suffit d'ouvrir à nouveau la page de l'exploit \(henkaku.xyz\) et maintenir sur la touche R avant que l'installation ne commence et relâchez quand il va commencer à installer les nouveaux fichiers. Vous verrez le message "taihen will be reset" confirmant le processus de réinitialisation. Si ce n'est pas le cas, essayez à nouveau.
 
-### This will reset your plugins, you will need to configure them again in the config.txt
+## Je ne peux pas utiliser l'exploit WebKit. Y a-t-il une alternative?
 
-To reset henkaku all you need to do is to open the webkit exploit again and when you see the molecule installer appear, press the R button before the installation begins. You will see "taihen will be reset" message confirming the reset process. If not, try again.
-
-  
-
-
-## I really can't use the webkit exploit. Isn't there an alternative?
-
-Yeah sure, you can use finalhencore to install memecore \(hencore ported to 3.60 thanks to celeste blue\) and install henkaku from there. It's a last resort solution.
-
+Oui, vous pouvez utiliser Final h-encore pour installer memecore \\(hencore porté vers 3.60 grâce à CelesteBlue \\) et installer HENkaku à partir de là. C'est une solution de dernier recours.
