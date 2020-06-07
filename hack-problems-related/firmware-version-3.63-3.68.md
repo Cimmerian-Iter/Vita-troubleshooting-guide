@@ -1,26 +1,32 @@
 ---
-description: no love for ya
+description: 'no love for ya, downgrade already'
 ---
 
-# Firmware version : 3.61-3.73
+# Version du firmware : 3.61/3.73
 
-Fixing problems on non 3.60 firmware can be annoying and difficult considering the fact that hencore rely on the memorycard and qcma connection. Qcma tends to be unreliable and when you don't have access to the memory card for any reasons it makes things harder. \(like you forgot to delete id.dat and now that the spoof isn't working it force you to update or format the memorycard.\)  
-It's for that reason i recommend everyone to downgrade to 3.60 directly as it has a full support for plugins and the webkit exploit make it easier to recover from problems.  
-  
-If your problem is that you can't connect to final hencore or qcma head to the QCMA page.
+La résolution des problèmes sur des firmware >3.60 peuvent être ennuyeuse et difficile compte tenu du fait que Hencore repose principalement sur la connexion de la Carte Mémoire et QCMA. QCMA a tendance à être peu fiable et lorsque vous n'avez pas accès à la carte mémoire, pour quelque raison que ce soit, cela rend les choses plus difficiles. \(comme vous aviez oublié de supprimer le fichier id.dat et que maintenant que le spoof ne fonctionne pas, elle vous oblige à mettre à jour votre console ou à formater votre carte mémoire.\)  
+C'est pour cette raison que je recommande à tous de passer directement à la version 3.60, car elle a un support complet des plugins et l'exploit WebKit pour faciliter la récupération des problèmes.
 
-## Hencore doesn't open. I have a white screen only.
+Si votre problème est que vous ne pouvez pas vous connecter à final h-encore ou QCMA, dirigez-vous vers la page QCMA.
 
-hencore2 needs you to press the R button when you open the app to access the bootstrap menu
+## Hencore ne s'ouvre pas. Je n'ai qu'un écran blanc :
 
-If you use h-encore² then keep trying. The success rate is pretty low \(around 25%\) and trimming the app decrease the success rate.
+hencore² a besoin que vous appuyez sur la touche R lorsque vous ouvrez l'application pour accéder au menu de démarrage.
 
-## Final hencore gives me a sha256 Error.
+Si vous utilisez h-encore², continuez à essayer. Le taux de réussite est assez faible \(environ 25%\) et le fait de réduire l'application diminue le taux de réussite.
 
-This happen if the internet connection had failed midway and corrupted the download. Thus having a sha256 mismatch. You need to delete the bittersmile.pkg from the data folder in the desktop \(need to kill FinalHencore first\) and retry. Alternatively if you still face the issue, you can manually download the pkg and place it in the data folder. \(You can find the link of the pkg in the hencore github\)  
+## Final h-encore me donne une erreur sha256 :
 
+Cela se produit si la connexion Internet a échoué à mi-chemin et a corrompu le téléchargement, entraînant ainsi une incompatibilité avec le sha256. Vous devez supprimer le fichier bittersmile.pkg du dossier data dans le dossier du Final h-encore \(vous devez d'abord fermer Final h-encore) puis réessayer. Sinon, si vous rencontrez toujours le problème, vous pouvez télécharger manuellement le pkg et le placer dans le dossier data de Final h-encore. \(Vous pouvez trouver le lien du pkg sur le github de hencore\)
 
-## Final hencore is stuck to whatever step it's trying to do.
+## Final h-encore reste bloqué à toute étape qu'il tente de faire :
 
-Might be your pc, all you can do is to close and retry the process and hope that it will works. 
+Peut être votre pc, tout ce que vous pouvez faire est de fermer et de recommencer le processus et d'espérer qu'il fonctionnera.
 
+## Final h-encore ne veut tout simplement pas fonctionner :
+
+Installez manuellement h-encore n'est pas difficile et les instructions sont dans les readme !
+
+[hencore1](https://github.com/TheOfficialFloW/h-encore)
+
+[hencore²](https://github.com/TheOfficialFloW/h-encore-2)
