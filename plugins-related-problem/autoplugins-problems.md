@@ -1,42 +1,42 @@
-# Error when using autoplugin
+# Erreur lors de l'utilisation de Autoplugin :
 
-#### Sometimes, autoplugin will fail and we know that autoplugin 1 tends to corrupt the config.txt \(and recently autoplugin 2 also corrupting the config.txt, although the issue has been solved in 1.05 as of today\) It is importantly to know how to deal with plugins. Autoplugin is a great homebrew, but it shouldn't replace totally the knowledge of plugins and you can't expect it to be fail-proof. So we will see how can we recover from autoplugin misbehavior by learning about how tweaks works.
+#### Parfois, l'Autoplugin échoue et nous savons que l'Autoplugin 1 a tendance à corrompre le config.txt \(et récemment l'Autoplugin 2 avait le même soucie, bien que le problème ait été résolu dans la v1.05 à ce jour\) Il est important de savoir comment gérer les plugins. Autoplugin est un excellent homebrew, mais il ne devrait pas remplacer totalement la connaissance des plugins et vous ne pouvez pas vous attendre à ce qu'il soit à toute épreuve. Nous verrons donc comment récupérer d'un mauvais comportement les beugs d'Autoplugin en apprenant comment fonctionnent les réglages.
 
-## What is a plugin?
+## Qu'est-ce qu'un plugin ?
 
-You may have already encountered it through the PSP area, plugins are micro programs that runs in background and enhance your experience. It's purpose can be various like dealing with overclocking, modification of the livearea or a native function \(like the screenshot or music player\). They are essentials nowadays. They are loaded by the framework TaiHEN thanks to the effort of the Molecule Team.  
+Vous l'avez peut-être déjà rencontré dans la scène PSP, les plugins sont des microprogrammes qui s'exécutent en arrière-plan et améliorent votre expérience. Son but peut être divers comme gérer l'overclocking, la modification du livearea ou une fonction native \\(comme la capture d'écran ou le lecteur de musique\\). Ils sont essentiels de nos jours. Ils sont chargés par le framework de TaiHEN grâce à l'effort de la Team Molecule.
 
-There are two types of plugins.  
-  
-SKPRX : these are kernel plugins, most common nowadays, it modifies the overall functions of your PSVita. Like nonpdrm to fake the drm system, yamt-lite load the SD2VITA as a MemoryCard, and more. They need a reboot between the installation to run. \(Or use xerpi's plugin loader\)  
-  
-SUPRX : these are users plugins, we can split this into two groups : those which modify the live area \(\*main\) system behavior, and those which modify the in-game/app \(\*ALL\) behavior. To know which category the plugin you have belongs, you either need to know what it does, or just read the github description \(they often tell you if you need to install it under \*main or \*ALL\)  
-They don't need a reboot to be loaded, reloading taihen config in henkaku settings should do the job.  
-  
+Il y a deux types de plugins :
+
+SKPRX : il s'agit de plugins du noyau (kernel), le plus courant de nos jours, il modifie les fonctions générales de votre PSVita. Comme Nonpdrm pour simuler le système de DRM, Yamt-lite pour charge la SD2VITA comme une carte mémoire internet de la PSVita et bien plus encore. Ils ont besoin d'un redémarrage entre l'installation pour fonctionner. \(Ou utiliser le chargeur de plugin de xerpi's "vita_plugin_loader"\)
+
+SUPRX : ce sont des plugins utilisateurs, nous pouvons diviser en deux groupes : ceux qui modifient le livearea (menu de la PSVita) \\(\\*main\\), et ceux qui modifient les jeux/applications \\(\\*TOUT\\). Pour savoir quelle catégorie le plugin appartient, vous devez soit savoir ce qu'il fait, ou lisez simplement la description depuis son github \(ils vous disent souvent si vous avez besoin de l'installer sous \*main ou \*ALL\)  
+Ils n'ont pas besoin d'un redémarrage pour être chargés, le rechargement du fichier config.tx de taiHEN dans les Paramètres de HENkaku devrait faire l'affaire.
 
 
-## How do I install a plugin?
 
-This part isn't really difficult. It is quite easy in fact. All you need to do is to write some lines.  
-  
-To install plugins you need to do 2 things :
+## Comment installer un plugin ?
 
-### Place the plugin file in ur0:tai folder \(or ux0:tai if you want to use ux0\)
+Cette partie n'est pas vraiment difficile. C'est assez facile en fait. Il vous suffit d'écrire juste quelques lignes.
 
-Plugins belongs to the tai folder where the config.txt is. There may be an exception like vitacheat.suprx where it needs to be in it's own vitacheat folder in ux0
+Pour installer des plugins, vous devez faire 2 choses :
 
-### Write the path to the plugin in the config.txt
+### Placez les plugins dans le dossier ur0:tai \(ou ux0:tai si vous voulez utiliser ux0\)
 
-The path is the location of the file. If the plugin is located in ur0:tai, then the path is : ur0:tai/name.skprx  
-You need to write the path in the config.txt under the category of the plugin.  
+Les plugins se placent dans le dossier tai où se trouve le fichier config.txt. Il peut y avoir une exception telle que vitacheat.suprx où il doit être dans son propre dossier vitacheat dans ux0
+
+### Écrivez le chemin d'accès au plugin dans le fichier config.txt
+
+Le chemin d'accès est l'emplacement du fichier. Si le plugin est situé dans ur0:tai, alors le chemin est : ur0:tai/name.skprx  
+Vous devez écrire le chemin dans le config.txt sous la catégorie du plugin.  
 KERNEL : skprx  
-MAIN : livearea tweak  
-ALL : app tweaks  
-  
-Here an example. Let's imagine I have a tai directory in ur0 that contains:  
+MAIN : modification du livearea  
+TOUS : modifications des applications
+
+Voici un exemple. Imaginons que j'ai un répertoire tai en ur0 qui contient:  
 KERNEL : storagemgr.skprx, lolicon.skprx, nonpdrm.skprx  
 MAIN : shellbat, download enabler  
-ALL : vitacheat \(skprx is in ur0:tai/, suprx is in ux0:vitacheat/\)
+TOUS : vitacheat \(skprx est en ur0:tai/, suprx en ux0:vitacheat/\)
 
 ```bash
 *KERNEL
@@ -54,11 +54,11 @@ ux0:vitacheat/vitacheat.suprx
 
 ```
 
-  
-You can also specify which app will load the plugin, for example if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app \(often easy to guess with the names\), or you Google the code name of the game you want. For testkit users, you can easly know the code name of an app by showing the information of the app in the live area.  
-Additionally, you can specify which app will not load the plugin. It can be useful for example when an overclock tweak crashes Adrenaline. To do that, you need to add a ! before the code name which stops the plugin running when opening the specified app.  
-  
-Here's an example, I want to enable vitacheat in Killzone only, and I don't want to load lolicon in adrenaline.  
+
+Vous pouvez également spécifier quelle application chargera le plugin, par exemple si vous voulez activer vitacheat uniquement dans certains jeux, vous devez écrire le chemin du fichier sous le nom de code de l'application. Pour connaître le nom de code de l'application, soit vous cherchez avec Vitashell le nom de code de l'application dans ux0:app \(souvent facile à deviner avec les noms), soit vous cherchez sur Google le nom de code du jeu que vous voulez. Pour les utilisateurs expérimentés, vous pouvez facilement connaître le nom de code d'une application en affichant les informations de l'application sur le livearea.  
+De plus, vous pouvez spécifier quelle application ne chargera pas le plugin. Il peut être utile, par exemple, lorsqu'un réglage de l'overclock fait planté Adrénaline. Pour cela, vous devez ajouter un "!" avant le nom de code qui arrête l'exécution du plugin lors de l'ouverture de l'application spécifiée.
+
+Voici un exemple, je veux activer Vitacheat dans le jeu Killzone seulement, et je ne veux pas charger le plugin lolicon dans Adrénaline.
 
 
 ```text
@@ -69,14 +69,12 @@ ux0:vitacheat/vitacheat.suprx
 ur0:tai/lolicon.skprx
 ```
 
-###  Note : 
+### N.B :
 
-1. If you use a SD2VITA, ux0:tai MUST NOT exist. Delete it and put every plugins in ur0:tai.  
-The SD2VITA plugin you use always need to be at the top of \*KERNEL, else the other plugins won't work correctly. The reason you'll have to do this is that when you load the SD2VITA plugin from ux0, it will swap the ux0 directory for your SD2VITA's. The problem is that it tries to acess the plugin again but since ux0 has been swapped it can't find the plugin.
+1. Si vous utilisez une SD2VITA, ux0:tai NE DOIT PAS exister. Supprimez-le et mettez tous les plugins dans ur0:tai. 0/> Le plugin SD2VITA que vous utilisez doit toujours être en haut de \*KERNEL, sinon les autres plugins ne fonctionneront pas correctement. La raison pour laquelle vous devrez le faire est que lorsque vous chargez le plugin SD2VITA à partir de ux0, il échange le répertoire ux0 contre celui de votre SD2VITA. Le problème est qu'il essaie d'accéder à nouveau au plugin, mais comme ux0 a été échangé, il ne peut pas trouver le plugin.
 
-2. Be aware that plugins have an impact, if you load too many plugins, you can expect some lags or in the worst case, a bootloop. That is especially true if you tend to have more than 10 plugins, or load xerpi usb screenshare plugin \(which is heavy\) with a lot of plugins.  
-  
-Try to load only the necessary plugins. If your vita bootloop, you can for enso users hold L button when booting to avoid loading plugins, or for 3.61+ open hencore and do a reset taihen.  
-  
-3.65 enso users might have to format their memory card if id.dat is still in the MemoryCard \(the file that indicate the firmware and the PSN account of the user\) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 \(at this time\). 3.60 users can always reset HENkaku through the WebKit exploit without formating the MemoryCard \(you will boot in a blank livearea\) and unlink the MemoryCard through HENkaku settings, but for 3.65 users since you don't have access to the MemoryCard you won't be able to reset taiHEN. \(Another reason why I recommend everyone to go to 3.60\)
+2. Sachez que les plugins ont un impact, si vous chargez trop de plugins, vous pouvez vous attendre à quelques ralentissements ou, dans le pire des cas, à un bootloop. C'est particulièrement vrai si vous avez tendance à avoir plus de 10 plugins, ou si vous chargez le plugin xerpi usb screenshare \(qui est lourd) avec beaucoup de plugins.
 
+Essayez de charger uniquement les plugins nécessaires. Si votre PSVita boucle au démarrage, vous pouvez, pour les utilisateurs d'enso, tenir la touche L lors du démarrage pour éviter de charger des plugins, ou pour les 3.61+, ouvrir h-encore et faire un reset taiHEN.
+
+Les utilisateurs d'Enso (3.65) peuvent avoir à formater leur carte mémoire si le fichier id.dat est toujours dans la carte mémoire (le fichier qui indique le firmware et le compte PSN de l'utilisateur) et comme nous déchargeons les plugins, nous désactivons également le spoof du firmware, donc quand la PSVita lira ce fichier, elle vous demandera de mettre à jour la console afin de l'utiliser ou de le formater. Vous n'aurez d'autre choix que de formater ou de mettre à jour vers 3.73 \(à ce moment\). Les utilisateurs des versions 3.60 peuvent toujours réinitialiser HENkaku via l'exploit WebKit sans formater la carte mémoire \(vous démarrerez sur un livearea vierge\) et déconnecter la carte mémoire via les Paramètres de HENkaku, mais pour les utilisateurs des versions 3.65, puisque vous n'avez pas accès à la carte mémoire, vous ne pourrez pas réinitialiser taiHEN. \(Une autre raison pour laquelle je recommande à tout le monde de dowwgrader jusqu'en 3.60\)
