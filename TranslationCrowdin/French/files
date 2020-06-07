@@ -1,37 +1,82 @@
----
-description: The worst ennemy of the PSVita
----
+# Erreur lors de l'utilisation de Autoplugin :
 
-# QCMA
+#### Parfois, l'Autoplugin échoue et nous savons que l'Autoplugin 1 a tendance à corrompre le config.txt \(et récemment l'Autoplugin 2 avait le même soucie, bien que le problème ait été résolu dans la v1.05 à ce jour\) Il est important de savoir comment gérer les plugins. Autoplugin is a great homebrew, but it shouldn't replace totally the knowledge of plugins and you can't expect it to be fail-proof. So we will see how can we recover from autoplugin misbehavior by learning about how tweaks works.
 
-You struggle with QCMA? Can't manage to connect to your PC? You're most likely facing a driver issue. We usually need prefer connecting the Vita through wifi with QCMA to avoid problems since it's used mostly for transfering H-encore to the PSVita. But if you need to connect your PSVita through usb \(for FW reinstallation or to make a backup that would take ages to complete through wifi because PSVita wifi chip is limited to 8mb/s\) then let's see how we can solve this.
+## What is a plugin?
 
-Note : Everything here is destined for Windows users. Mac user have already the best OS when it comes to program installation and doesn't have any problems. Linux users shouldn't face too much problems neither.
+You may have already encountered it through the PSP area, plugins are micro programs that runs in background and enhance your experience. It's purpose can be various like dealing with overclocking, modification of the livearea or a native function \(like the screenshot or music player\). They are essentials nowadays. They are loaded by the framework TaiHEN thanks to the effort of the Molecule Team.
 
-## 1 Make sure you don't have CMA installed
+There are two types of plugins.
 
-If you already installed it then it will conflict with QCMA, so you won't be able to successfully connect to the PC. Delete the drivers installed with the PSVita too.
+SKPRX : these are kernel plugins, most common nowadays, it modifies the overall functions of your PSVita. Like nonpdrm to fake the drm system, yamt-lite load the SD2VITA as a MemoryCard, and more. They need a reboot between the installation to run. \(Or use xerpi's plugin loader\)
+
+SUPRX : these are users plugins, we can split this into two groups : those which modify the live area \(\*main\) system behavior, and those which modify the in-game/app \(\*ALL\) behavior. To know which category the plugin you have belongs, you either need to know what it does, or just read the github description \(they often tell you if you need to install it under \*main or \*ALL\)  
+They don't need a reboot to be loaded, reloading taihen config in henkaku settings should do the job.
 
 
-## 2 Delete the drivers manually and reinstall it.
 
-For that we will do in 2 step. The first one is to delete the driver of the PSVita using the device manager in windows, then try to find the PSVita device. It should look like that :
+## How do I install a plugin?
 
-![Get ride of this bad boy](../.gitbook/assets/adda.PNG)
+This part isn't really difficult. It is quite easy in fact. All you need to do is to write some lines.
 
-Right click on it, go to propreties, then uninstall the device \(make sure you tick the delete the driver box\)
+To install plugins you need to do 2 things :
 
-Second step is to download the software zadig \(no virus garantee\) You can get it [there](https://zadig.akeo.ie/).
+### Place the plugin file in ur0:tai folder \(or ux0:tai if you want to use ux0\)
 
-Once you have installed the app and run it, list all the devices and select the PSVita \(make sure the PSVita is connected ofc\).
+Plugins belongs to the tai folder where the config.txt is. There may be an exception like vitacheat.suprx where it needs to be in it's own vitacheat folder in ux0
 
-![First enable the list All devices option](../.gitbook/assets/addaa.PNG)
+### Write the path to the plugin in the config.txt
 
-As for the driver, we had better luck with libusbk so install it with zadig.
+The path is the location of the file. If the plugin is located in ur0:tai, then the path is : ur0:tai/name.skprx  
+You need to write the path in the config.txt under the category of the plugin.  
+KERNEL : skprx  
+MAIN : livearea tweak  
+ALL : app tweaks
 
-![Sorry WinUsb, you won&apos;t be missed](../.gitbook/assets/li.PNG)
+Here an example. Let's imagine I have a tai directory in ur0 that contains:  
+KERNEL : storagemgr.skprx, lolicon.skprx, nonpdrm.skprx  
+MAIN : shellbat, download enabler  
+ALL : vitacheat \(skprx is in ur0:tai/, suprx is in ux0:vitacheat/\)
 
-Press the install button and it should be good. Reboot your pc and connect the vita and QCMA should connect fine to the Vita.
+```bash
+*KERNEL
+ur0:tai/storagemgr.skprx
+ur0:tai/lolicon.skprx
+ur0:tai/nonpdrm.skprx
+ur0:tai/vitacheat.skprx
 
-Note : On a very rare occasion even after doing these steps. QCMA won't connect to the vita. You can try to use the official CMA from sony \(For cases like if you want to reinstall the firmware. It does the job\) Or take a virgin PC and install QCMA on it
+*main #main needs to be in lowercase
+ur0:tai/shellbat.suprx
+ur0:tai/download_enabler.suprx
+
+*ALL
+ux0:vitacheat/vitacheat.suprx
+
+```
+
+
+You can also specify which app will load the plugin, for example if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app \(often easy to guess with the names\), or you Google the code name of the game you want. For testkit users, you can easly know the code name of an app by showing the information of the app in the live area.  
+Additionally, you can specify which app will not load the plugin. It can be useful for example when an overclock tweak crashes Adrenaline. To do that, you need to add a ! before the code name which stops the plugin running when opening the specified app.
+
+Here's an example, I want to enable vitacheat in Killzone only, and I don't want to load lolicon in adrenaline.
+
+
+```text
+*PCSF00243
+ux0:vitacheat/vitacheat.suprx
+
+*!PSPEMUCFW
+ur0:tai/lolicon.skprx
+```
+
+### Note :
+
+1. If you use a SD2VITA, ux0:tai MUST NOT exist. Delete it and put every plugins in ur0:tai.  
+   The SD2VITA plugin you use always need to be at the top of \*KERNEL, else the other plugins won't work correctly. The reason you'll have to do this is that when you load the SD2VITA plugin from ux0, it will swap the ux0 directory for your SD2VITA's. The problem is that it tries to acess the plugin again but since ux0 has been swapped it can't find the plugin.
+
+2. Be aware that plugins have an impact, if you load too many plugins, you can expect some lags or in the worst case, a bootloop. That is especially true if you tend to have more than 10 plugins, or load xerpi usb screenshare plugin \(which is heavy\) with a lot of plugins.
+
+Try to load only the necessary plugins. If your vita bootloop, you can for enso users hold L button when booting to avoid loading plugins, or for 3.61+ open hencore and do a reset taihen.
+
+3.65 enso users might have to format their memory card if id.dat is still in the MemoryCard \(the file that indicate the firmware and the PSN account of the user\) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 \(at this time\). 3.60 users can always reset HENkaku through the WebKit exploit without formating the MemoryCard \(you will boot in a blank livearea\) and unlink the MemoryCard through HENkaku settings, but for 3.65 users since you don't have access to the MemoryCard you won't be able to reset taiHEN. \(Another reason why I recommend everyone to go to 3.60\)
 

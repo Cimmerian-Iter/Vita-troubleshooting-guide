@@ -1,37 +1,39 @@
-# Table of contents
+---
+description: 3.60 masterace
+---
 
-* [Welcome to the vita troubleshooting guide !](README.md)
+# Firmware version : 3.60
 
-## Hack problems related
+## The browser keeps on crashing
 
-* [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
-* [Firmware version : 3.61-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
+This can happen, even though the success rate of the exploit is high there can be times when the PSVita just doesn't want to load HENkaku.  
+The best way to get it working is to :
 
-## Plugins related problem
+* Clear cookies and history.
+* Reboot
+* Open the exploit
+* If it fails, wait 5 seconds in the live area and try again.
+* Optional: Instead of hitting OK on the error, hit report this problem, this can sometimes work.
 
-* [Error when using autoplugin/How to correctly install plugins](plugins-related-problem/error-when-using-autoplugin.md)
-* [Plugins not loading](plugins-related-problem/plugins-not-loading.md)
+With that it should work fine.
 
-## SD2VITA and memory corruption
+## I have just downgraded from 3.60+ and HENcore doesn't work
 
-* [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
-* [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
+Yeah it's normal, HENcore is meant to work on 3.63+. The exploit will crash on 3.60 so use the HENkaku exploit.  
+If you really want to have an app-based exploit then you can install memecore \(by CelesteBlue which is a port of hencore to 3.60\) through final-hencore.
 
-## Content manager connection issue <a id="you-worst-nightmare"></a>
+## MolecularShell doesn't appear
 
-* [QCMA](you-worst-nightmare/untitled.md)
+First, make sure you have a MemoryCard inserted \(unless you're on a Slim or a PSTV then you can use the internal storage\) and is recognized by the system.  
+If you have just downgraded, it's normal since HENkaku will detect an existing installation of HENkaku \(installed by hencore, ur0:tai/ux0:tai\) and will just launch HENkaku and won't install the files.
 
-## Adrenaline problems
+If you want MolecularShell back all you need to do is to reset HENkaku.
 
-* [Adrenaline](adrenaline-problems/untitled.md)
+### This will reset your plugins, you will need to configure them again in the config.txt
 
-## PSN <a id="psn-1"></a>
+To reset HENkaku all you need to do is to open the WebKit exploit again \(henkaku.xyz\) and when you see the Molecular installer appear, press the R button before the installation begins. You will see "taihen will be reset" message confirming the reset process. If not, try again.
 
-* [PSN](psn-1/psn.md)
+## I really can't use the WebKit exploit. Is there an alternative?
 
-## Serious problems
-
-* [Bootloop/Brick. Let's reinstall the firmware](serious-problems/bootloop.md)
-* [GPU crash error](serious-problems/gpu-crash-error.md)
-* [Enso EX](serious-problems/enso-ex.md)
+Yes, you can use final-hencore to install memecore \(hencore ported to 3.60 thanks to celeste blue\) and install HENkaku from there. It's a last resort solution.
 
