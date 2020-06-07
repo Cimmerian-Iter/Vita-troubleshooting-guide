@@ -1,35 +1,30 @@
 ---
-description: 'Drugs are bad, but this one is good'
+description: 'Les drogues sont mauvaises, mais elle peuvent être bonne'
 ---
 
 # Adrenaline
 
-Finally, you got everything working, a hacked vita, a working SD2VITA and you feel nostalgic? Want to play some epic actions game like Pursuit Force? Or play some F1 games? Emulate MGS psone? Then adrenaline is for you. But after installing it decide to go against you and doesn't want to work? Let's see how to make it work.
+Enfin, tout a fonctionné, une PSVita hackée, une SD2VITA fonctionnelle et vous vous sentez nostalgique. Vous voulez jouer à un jeu d'action épique comme Pursuit Force ? Ou jouer à des jeux F1 ? Émuler Metal Gear Solid de la PSone? Alors Adrénaline est pour vous. Mais après installation, il décide de faire sa tête et ne veut pas fonctionner normalement ? Voyons comment faire en sorte que cela fonctionne.
 
-## Adrenaline gives me an error about a 661.PBP
+## Adrénaline me donne une erreur à propos du fichier 661.PBP :
 
-When you first launch adrenaline, it will try to install the PSP firmware, because yeah the PSVita has the PSP hardware in it \(Thanks Sony\) and thus it will need the 661.PBP firmware. You can download it from the sony website. Rename the EBOOT.PBP to 661.PBP and put it in ux0:app/PSPEMUCFW/ then start adrenaline. Should now install the firmware and boot into the PSP mode.
+Lorsque vous lancez Adrénaline pour la première fois, il tentera d'installer un firmware de la PSP. Eh oui, la PSVita possède du matériel PSP \\(merci Sony\\) et donc il aura besoin du fichier 661.PBP du firmware de la PSP. Vous pouvez le télécharger à partir du site Web de SONY. Renommez le fichier `EBOOT.PBP` en `661.PBP` et mettez-le dans `ux0:app/PSPEMUCFW/` puis lancer Adrenaline.Il devrait maintenant installer le firmware et démarrer en mode PSP.
 
-## I Don't see the memorycard in adrenaline under game section.
+## Je ne vois pas la carte mémoire dans Adrénaline sous la section du Jeu :
 
-If you don't see the memorycard icon in adrenaline where you access it to have the list of PSP game you have, then the problem lies in the plugins. To be precise, the PSP plugins you have installed. Usually categorylite is the main culprit. But if it's not him then first desactivate all the PSP plugins in seplugins folder, then see if you can see the memorycard icon. If yes, then activate the plugins one by one to search for the culprit. And get ride of it
+Si vous ne voyez pas l'icône de la carte mémoire dans Adrénaline où vous y accédez pour voir la liste de vos jeux PSP que vous avez, donc le problème réside dans vos plugins. Pour être plus précis, cella vient des plugins PSP que vous avez installés. Habituellement, le plugin Game Categories Lite est le principal coupable. Mais si ce n'est pas le cas, alors désactivez tout d'abord tous les plugins PSP dans contenu le dossier `seplugins` et voir si vous pouvez voir à présent l'icône de carte mémoire. Si oui, alors activez les plugins un à un pour rechercher l'erreur. Et débarrassez-vous en ou mettez-le à jour si besoin.
 
+## Adrenaline ne se lance pas : j'ai un code d'erreur au démarrage :
 
+Essayez de supprimer Adrenaline et le réinstaller. Si cela ne résout pas le problème, c'est probablement un problème de corruption. Si vous utilisez une SD2VITA, alors basculer les partitions : monter la Carte Mémoire comme `ux0` et la SD2VITA comme `uma0`. Puis essayez d'installer Adrenaline dessus et vérifiez si cela fonctionne. Si oui, régler le problème depuis votre microSD.
 
-## Adrenaline doesn't want to boot i have an error code at boot.
+## Je ne vois pas mes jeux :
 
-Try to delete adrenaline and reinstall it. If it doesn't solve the problem. Then it's most likely a corruption problem. If you are a SD2VITA user, then switch the positions : mount the memorycard as ux0 and the SD2VITA as uma0. Then try to install adreanline in it and see if it works. If yes then head to the Memory Corruption part to fix the problem on your microsd.
+Assurez-vous d'avoir placé vos jeux PSP dans le bon dossier.  
+Format ISO et CSO dans `ux0:pspemu/iso/`
 
+Jeux PSOne et homebrews PSP dans `ux0:pspemu/PSP/GAME/`
 
+## J'essaie de lancer un jeu PSone mais Adrenaline se plante :
 
-## I don't see my games
-
-Make sure you have placed the PSP games in the right folder.  
-PSP ISO and CSO in ux0:pspemu/iso/
-
-PSONE games and PSP homebrew in ux0:pspemu/PSP/GAME/
-
-## I try to boot a PSONE game but adrenaline crash.
-
-I guess you used the PSX2PSP conversion tool. Well not every PSONE game can be played. If they have a digital release in PSTORE, then they are assured to be playable in the vita \(we usually prefer using the PSN digital version in that case\). If not then it's a hit and miss. If it doesn't work then try converting the PSONE game differently or using another dump of your PSONE game. If it still doesn't work then we can't do much about it. If you are on 3.60 and don't mind the lack of sound you can try running the PSONE game in ark. \(How that you're wondering what it is? It's a PSP "emulator" like adrenaline. You can use a tool like Ark Fast to install it on you PSVita\)
-
+Je suppose que vous avez utilisé l'outil de conversion PSX2PSP. Eh bien, pas tous les jeux PSOne peuvent être joués. S'ils ont une version numérique dans le PlayStation Store, alors ils sont assurés d'être jouables sur la PSVita \\(nous préférons généralement utiliser la version numérique PSN dans ce cas\\). Si ce n'est pas le cas, ce sera un peu du hasard. Si cela ne fonctionne pas, essayez de convertir le jeu PSOne différemment ou d'utiliser un autre dump de votre jeu PSOne. Si cella ne fonctionne toujours pas, alors nous ne pouvons pas faire grand chose à ce sujet. Si vous êtes sur la version 3.60 et que le manque de son ne vous dérange pas, vous pouvez essayer de lancer le jeu PSOne dans Ark. \(Comment ça vous vous demandez ce que c'est ? C'est un "émulateur" PSP comme Adrénaline. Vous pouvez utiliser un outil comme Ark Fast pour l'installer sur votre PSVita\)
