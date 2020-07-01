@@ -37,5 +37,5 @@
 
 ## Daedalus-x64
 
-* [Making Custom Bubbles.](daedalus-x64/making-custom-bubbles..md)
+* [Making Custom Bubbles](daedalus-x64/making-custom-bubbles.md)
 

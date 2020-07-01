@@ -2,7 +2,7 @@
 description: Because we need bubbles in our lives.
 ---
 
-# Making Custom Bubbles.
+# Making Custom Bubbles
 
 Playing super mario 64 on our vita is no longer a meme \(well we could always use the daedalusX64 in adrenaline\) and you want to celebrate it by making a nice and shiny bubble you will pin in first page? But you're kind of lost in how to do that? Then you're in the right place !
 
