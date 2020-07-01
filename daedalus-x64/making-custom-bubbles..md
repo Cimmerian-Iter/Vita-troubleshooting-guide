@@ -28,7 +28,7 @@ You will have a nice cmd window asking you 3 things \(don't worry, it's not some
 Once it's done it will generate a vpk that you can install on your vita and that's all you have to do to have a custom bubble !  
 
 
-## That's nice and all, but i don't want another daedalus bubble, I want a super mario themed bubble
+## That's nice and all, but I don't want another daedalus bubble, I want a super mario themed bubble
 
 Yeah ok it's all grey it's not fun we got it. Well you can customize the background and the icon app If you want. You must respect the following rules :
 
