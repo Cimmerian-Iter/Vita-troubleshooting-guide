@@ -35,3 +35,7 @@
 * [GPU crash error](serious-problems/gpu-crash-error.md)
 * [Enso EX](serious-problems/enso-ex.md)
 
+## Daedalus-x64
+
+* [Making Custom Bubbles.](daedalus-x64/making-custom-bubbles..md)
+
