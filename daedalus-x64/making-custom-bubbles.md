@@ -4,12 +4,12 @@ description: Because we need bubbles in our lives.
 
 # Making Custom Bubbles
 
-Playing Super Mario 64 on our Vita is no longer a meme \(well we could always use DaedalusX64 in Adrenaline\) and you want to celebrate it by making a nice and shiny bubble you will pin in the first page? But you're kind of lost on how to do that? Then you're in the right place! 
+Playing Super Mario 64 on the Vita is no longer a meme \(well we could always use DaedalusX64 in Adrenaline\) and you want to celebrate it by making a nice and shiny bubble you will pin on the first page? But you're kind of lost on how to do that? Then you're in the right place! 
 
 ## What do I need?
 
 * A Vita \(ofc\)
-* A Windows PC \(well, Linux and MacOS users can always try to use wine, catalina users will have to use bootcamp\)
+* A Windows PC \(well, Linux and MacOS users can always try to use wine, Catalina users will have to use bootcamp\)
 * A rom of your game
 * DaedalusX64 already working \(with the data files\)
 * [The builder files ](https://github.com/Rinnegatamante/DaedalusX64-vitaGL/releases/download/Nightly/builder.zip)
@@ -28,7 +28,7 @@ You will have a nice cmd window asking you 3 things \(don't worry, it's not some
 Once it's done it will generate a vpk that you can install on your vita and that's all you have to do to have a custom bubble !  
 
 
-## That's nice and all, but I don't want another daedalus bubble, I want a super mario themed bubble
+## That's nice and all, but I don't want another Daedalus bubble, I want a Super Mario themed bubble
 
 Yeah ok it's all grey it's not fun we got it. Well you can customize the background and the icon app If you want. You must respect the following rules :
 
@@ -37,10 +37,10 @@ Yeah ok it's all grey it's not fun we got it. Well you can customize the backgro
 * Startup button icon is a png file and its dimension is 280x158. Name of the file : startup.png
 
 Nearly there, we still need to do a last conversion. The PSVita only allows 8bpp png so in order to respect this limitation we will use pngquant for the conversion. You can grab pngquant from [here](https://pngquant.org/) \(Download the Windows binary\)  
-Once you have it, follow those instructions : 
+Once you have it, follow these instructions : 
 
 1. Put the png files in a folder, and extract pngquant in the same folder
-2. Open a cmd windows and cd to the directory which contain the png and pngquant. If you don't know how to use the cd command, search on google
+2. Open a cmd window and cd to the directory which contain the png and pngquant. If you don't know how to use the cd command, search on Google
 3. Do the following command for each png : pngquant nameofthepng.png
 4. After the conversion is done, you will have a nameofthepng-fs8.png file, rename them to their correct name and that's all !
 
@@ -50,9 +50,9 @@ Once it's done, you can put all of these png file in the asset folder and run ag
 
 
 
-![No vita? No problem, vita3K exist](../.gitbook/assets/image%20%283%29.png)
+![No vita? No problem, vita3K exists](../.gitbook/assets/image%20%283%29.png)
 
-And that's it, you have a nice Super Mario themed bubble. I chosed super mario 64 as an exemple but you can do the same with any games you want.  
+And that's it, you have a nice Super Mario themed bubble. I chose super mario 64 as an exemple but you can do the same thing with any games you want.  
   
 
 
