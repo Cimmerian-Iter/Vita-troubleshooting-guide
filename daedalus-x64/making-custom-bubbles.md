@@ -12,7 +12,7 @@ Playing Super Mario 64 on our Vita is no longer a meme \(well we could always us
 * A Windows PC \(well, Linux and MacOS users can always try to use wine, catalina users will have to use bootcamp\)
 * A rom of your game
 * DaedalusX64 already working \(with the data files\)
-* The builder files \(In release tab, you will have to download the builder.zip and extract it somewhere\)
+* [The builder files ](https://github.com/Rinnegatamante/DaedalusX64-vitaGL/releases/download/Nightly/builder.zip)
 
 ## Ok got it, which exe should I launch?
 
