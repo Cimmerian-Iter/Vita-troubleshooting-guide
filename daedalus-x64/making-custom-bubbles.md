@@ -22,7 +22,7 @@ You will have a nice cmd window asking you 3 things \(don't worry, it's not some
 
 
 * Name of the vpk : Either simple like supermario64 or something fancy like peachgotcapturedagainpart4 if you like.
-* The name of the rom : if the rom name is sm64.n64 then write sm64.n64
+* The name of the rom : if the rom name is `sm64.n64` then write `sm64.n64`
 * The title ID : Up to you, it must be 9 letters and numbers in uppercase DAEDALUS3 is correct, SuPeRmArIo isn't because it's not 9 characters and not full uppercase.
 
 Once it's done it will generate a vpk that you can install on your vita and that's all you have to do to have a custom bubble !  
