@@ -8,7 +8,7 @@ Finally, you got everything working, a hacked vita, a working SD2VITA and you fe
 
 ## Adrenaline gives me an error about a 661.PBP
 
-When you first launch adrenaline, it will try to install the PSP firmware, because the PSVita has the PSP hardware in it \(thanks Sony\) and therefore it will need the 661.PBP firmware. You can download it from the Sony website. Rename the `EBOOT.PBP` to `661.PBP` and put it in `ux0:app/PSPEMUCFW/` then start Adrenaline.It should now install the firmware and boot into PSP mode.
+When you first launch adrenaline, it will try to install the PSP firmware, because the PSVita has the PSP hardware in it \(thanks Sony\) and therefore it will need the 661.PBP firmware. You can download it from the Sony website or, if your PSVita is connected to internet, it can do it himself. if your prefere to do it manually, rename the `EBOOT.PBP` to `661.PBP` and put it in `ux0:app/PSPEMUCFW/` then start Adrenaline.It should now install the firmware and boot into PSP mode.
 
 ## I Don't see the memory card in Adrenaline under game section.
 
@@ -23,9 +23,9 @@ Try to delete Adrenaline and reinstall it. If that doesn't solve the problem, th
 Make sure you have placed the PSP games in the right folder.  
 PSP ISO and CSO in `ux0:pspemu/iso/`
 
-PSONE games and PSP homebrew in `ux0:pspemu/PSP/GAME/`
+PSOne games and PSP homebrew in `ux0:pspemu/PSP/GAME/`
 
 ## I try to boot a PSone game but Adrenaline crashes.
 
-I guess you used the PSX2PSP conversion tool. Well not every PSone game can be played. If they have a digital release in the PlayStation Store, then they are assured to be playable on the vita \(we usually prefer using the PSN digital version in that case\). If not then it's a bit of a hit and miss. If it doesn't work then try converting the PSone game differently or using another dump of your PSone game. If it still doesn't work then we can't do much about it. If you are on 3.60 and don't mind the lack of sound you can try running the PSone game in Ark. \(How that you're wondering what it is? It's a PSP "emulator" like adrenaline. You can use a tool like Ark Fast to install it on you PSVita\)
+I guess you used the PSX2PSP conversion tool. Well not every PSone game can be played. If they have a digital release in the PlayStation Store, then they are assured to be playable on the vita \(we usually prefer using the PSN digital version in that case\). If not then it's a bit of a hit and miss. If it doesn't work then try converting the PSone game differently or using another dump of your PSone game. If it still doesn't work then we can't do much about it. If you are on 3.60 and don't mind the lack of sound you can try running the PSone game in Ark. \(How that you're wondering what it is? It's a PSP "emulator" like Adrenaline. You can use a tool like Ark Fast to install it on you PSVita\)
 
