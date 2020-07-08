@@ -39,7 +39,7 @@
 
 * [Making Custom Bubbles](daedalus-x64/making-custom-bubbles.md)
 
-## Game modding
+## Game Modding
 
-* [Borderland 2](game-modding/borderland-2.md)
+* [Borderlands 2](game-modding/borderlands-2.md)
 
