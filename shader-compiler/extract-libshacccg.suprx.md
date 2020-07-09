@@ -9,9 +9,7 @@ After all those years, we finally have a legal shader compiler. And thanks again
 ## Installing the PSM runtime
 
 First of all we need to have the PSM runtime, for those who already have the 2.01 you can skip this part.  
-You will need 4 files.  
-  
-
+You will need 4 files.
 
 1. [PKGinstallerLauncher by SKGleba](https://vitadb.rinnegatamante.it/#/info/381)
 2. [The 3 files of the PSM runtime ](http://psm.cbps.xyz/devtools.php?type=psm-runtime)\(1.00, 2.00, 2.01\) 
