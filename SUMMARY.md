@@ -43,3 +43,7 @@
 
 * [Borderlands 2](game-modding/borderlands-2.md)
 
+## Shader Compiler
+
+* [Extract libshacccg.suprx](shader-compiler/extract-libshacccg.suprx.md)
+

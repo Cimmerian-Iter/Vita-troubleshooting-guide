@@ -4,8 +4,8 @@ description: halp they ate all my ram and now i can't breathe
 
 # Plugins not loading
 
-Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issue.
-
+Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issue.  
+  
 Note : thanks to teakhanirons \(from the cbps team\) you can use a tool for the futur to ease the process. I'll describe it at the end of the tutorial.
 
 ## Plugins are programs.
@@ -121,7 +121,9 @@ Note : If vitabright doesn't work for you even though you did what i told you to
 
 ## Using Easy Switch Vita
 
-A app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)
+A app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)  
+  
+
 
 ## Emergency Mount
 
@@ -132,10 +134,10 @@ This plugins will save you a lot of trouble in case you run in a situation like 
 
 It will mount one of those partitions : sonymc, internal storage, usb or ur0 \(what we really care\) through usb and you will have access to it with your computer \(just like what vitashell does\). Then you can open the config.txt with notepad and edit it.
 
-### How do I use it?
+#### How do I use it?
 
-That's simple. Remember when i said that for storagemgr to work correctly we need to put it first? Well change of plan. We need to put emergency mount right below \*Kernel \(yeah since bootloop means some pugins cause it, and plugins that are loaded before emergency mount can crash before even letting emergency mount run.\)
-
+That's simple. Remember when i said that for storagemgr to work correctly we need to put it first? Well change of plan. We need to put emergency mount right below \*Kernel \(yeah since bootloop means some pugins cause it, and plugins that are loaded before emergency mount can crash before even letting emergency mount run.\)  
+  
 So like before, you edit the config.txt like that
 
 ```text
@@ -143,13 +145,14 @@ So like before, you edit the config.txt like that
 ur0:tai/EmergencyMount.skprx
 ```
 
-and then you add your favorite plugins after that line \(add storagemgr in second place ofc, the only case you want to still let it in first place would be to allow Emergency Mount to mount sd2vita, but let's be honest, we don't need that option.\)
+and then you add your favorite plugins after that line \(add storagemgr in second place ofc, the only case you want to still let it in first place would be to allow Emergency Mount to mount sd2vita, but let's be honest, we don't need that option.\)  
+  
+When you're stuck in a bootloop, simply press the triangle button at boot and it will bring the menu of the plugin. Then you can mount the partition you want.  
+  
+You can also customise the background if you want.  
+  
+I recommend this plugin because it make it easier to edit config.txt, instead of doing the taihen reset option in henkaku/hencore that would reset the whole config so you need to rewrite every lines again \(time consuming\), you can just remove the faulty plugin line and reboot.  
+  
+For more information about the plugin, you can see the release post in the [CBPS forum](https://forum.devchroma.nl/index.php/topic,183.msg421.html#msg421) and talk with the dev.   
 
-When you're stuck in a bootloop, simply press the triangle button at boot and it will bring the menu of the plugin. Then you can mount the partition you want.
-
-You can also customise the background if you want.
-
-I recommend this plugin because it make it easier to edit config.txt, instead of doing the taihen reset option in henkaku/hencore that would reset the whole config so you need to rewrite every lines again \(time consuming\), you can just remove the faulty plugin line and reboot.
-
-For more information about the plugin, you can see the release post in the [CBPS forum](https://forum.devchroma.nl/index.php/topic,183.msg421.html#msg421) and talk with the dev.
 
