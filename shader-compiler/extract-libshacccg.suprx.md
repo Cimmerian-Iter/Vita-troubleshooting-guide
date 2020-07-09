@@ -43,7 +43,7 @@ Once you have it, it's simple. Open the app and it will do the job without any u
 
 Once it's finished you can check if you have the .suprx in ur0:data.
 
-![](../.gitbook/assets/2020-07-09-213049.png)
+![Too fast for the menu to catch me](../.gitbook/assets/2020-07-09-213049.png)
 
   
 And that's all, now you are ready to use upcoming project that will rely on the shader compiler like flycast !
