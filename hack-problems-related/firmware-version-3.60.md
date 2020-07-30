@@ -2,7 +2,7 @@
 description: 3.60 masterace
 ---
 
-# Version du firmware : 3.60
+# Firmware version : 3.60
 
 ## Le navigateur ne cesse de se planter :
 
@@ -12,7 +12,7 @@ La meilleure manière de le faire fonctionner est de :
 * Effacer les cookies et l'historique de navigation.
 * Redémarrer la console.
 * Ouvrir la page de l'exploit.
-* Si cela échoue, patienter 5 secondes sur le livearea (menu de la PSVita) puis réessayez.
+* Si cela échoue, patienter 5 secondes sur le livearea \(menu de la PSVita\) puis réessayez.
 * Facultatif : Au lieu de cliquer sur OK sur l'erreur, cliquez sur Signaler ce problème, cela peut parfois faire fonctionner l'exploit.
 
 Après cela, il devrait fonctionner correctement.
@@ -36,3 +36,4 @@ Pour réinitialiser HENkaku, il vous suffit d'ouvrir à nouveau la page de l'exp
 ## Je ne peux pas utiliser l'exploit WebKit. Y a-t-il une alternative?
 
 Oui, vous pouvez utiliser Final h-encore pour installer memecore \\(hencore porté vers 3.60 grâce à CelesteBlue \\) et installer HENkaku à partir de là. C'est une solution de dernier recours.
+

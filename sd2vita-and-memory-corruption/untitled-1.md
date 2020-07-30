@@ -20,15 +20,15 @@ On that case it's usually a cluster size problem. You most likely didn't use 64k
 
 ## I have a corruption on a specific app/music, my vita tend to freeze
 
-Well that's what i depicted in the introduction. So grab your pc we will run some commands to fix it.  
-  
+Well that's what i depicted in the introduction. So grab your pc we will run some commands to fix it.
+
 Windows users : Open Powershell or CMD as admin and input this command
 
 ```bash
 chkdsk /F f: #assuming f is the letter associated to your microsd (Not the first F ofc)
 ```
 
-Linux users : Open a terminal and write this command 
+Linux users : Open a terminal and write this command
 
 ```bash
 sck.fat -a /dev/(device) #replace device with the correct name of your microsd mountpoint

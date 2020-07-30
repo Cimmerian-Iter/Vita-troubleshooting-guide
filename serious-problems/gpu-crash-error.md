@@ -4,8 +4,7 @@ description: The blue screen of death of the Vita
 
 # GPU crash error
 
-You're playing a game and finally beat that boss after the 89 try, until a GPU crash error appear? It occure most of the time and now you want to see if a Vita can survive a 50m high free fall? Don't, we can still try to solve this error.  
-
+You're playing a game and finally beat that boss after the 89 try, until a GPU crash error appear? It occure most of the time and now you want to see if a Vita can survive a 50m high free fall? Don't, we can still try to solve this error.
 
 ## 1 Try to boot in a unhacked state to see if the problem come from the hack.
 
