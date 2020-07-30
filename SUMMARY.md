@@ -37,8 +37,8 @@
 
 ## Daedalus-x64
 
-* [Making Custom Bubbles](daedalus-x64/making-custom-bubbles/README.md)
-  * [Load Rom through a web server](daedalus-x64/making-custom-bubbles/load-rom-through-a-web-server.md)
+* [Load Rom through a web server](daedalus-x64/load-rom-through-a-web-server.md)
+* [Making Custom Bubbles](daedalus-x64/making-custom-bubbles.md)
 
 ## Game Modding
 
