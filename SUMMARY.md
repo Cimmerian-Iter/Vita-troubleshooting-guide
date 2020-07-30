@@ -37,13 +37,10 @@
 
 ## Daedalus-x64
 
+* [Load Rom through a web server](daedalus-x64/load-rom-through-a-web-server.md)
 * [Making Custom Bubbles](daedalus-x64/making-custom-bubbles.md)
 
-## Game Modding
+## Game modding
 
-* [Borderlands 2](game-modding/borderlands-2.md)
-
-## Shader Compiler
-
-* [Extract libshacccg.suprx](shader-compiler/extract-libshacccg.suprx.md)
+* [Borderland 2](game-modding/borderland-2.md)
 
