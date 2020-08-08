@@ -19,6 +19,8 @@ Put the 3 files of the PSM runtime in ux0:package \(create the folder\) then ope
 ![I suppose you know what option you shoud chose right?](../.gitbook/assets/2020-07-09-210117.png)
 
 Once you are in the Package Installer, install the 3 PSM runtime, 1.00, 2.00 and 2.01 \(The order is very important, else it will fail\)  
+  
+Note : If you have a black screen instead of the pkg installer, please disable all your plugins.  
 
 
 ![Ever wondered why is there a cinema film in the background? Me too ](../.gitbook/assets/2020-07-09-210600.png)
@@ -46,5 +48,7 @@ Once it's finished you can check if you have the .suprx in ur0:data.
 ![Too fast for the menu to catch me](../.gitbook/assets/2020-07-09-213049.png)
 
   
-And that's all, now you are ready to use upcoming project that will rely on the shader compiler like flycast !
+And that's all, now you are ready to use upcoming project that will rely on the shader compiler like flycast !  
+  
+Note 2 : If the app relying on libshacccg doesn't work, make sure like with retroarch that you can access ur0:data folder with its inbuilt file manager. If not, then rename ur0:data to something else, then create a data folder and move all the files here. That should make the folder visible.
 
