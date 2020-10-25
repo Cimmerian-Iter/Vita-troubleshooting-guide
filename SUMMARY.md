@@ -48,3 +48,7 @@
 
 * [Extract libshacccg.suprx](shader-compiler/extract-libshacccg.suprx.md)
 
+## Grand Theft Auto
+
+* [GTA III](grand-theft-auto/gta-iii.md)
+
