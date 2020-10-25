@@ -25,7 +25,7 @@ By default you have compressed audio files, using those wav files like that will
 3. Drop the two files from the zip you have downloaded. 
 4. Launch the bat file \(may need to open in with admin privilege.\)
 5. It will create a audio folder containing audio files, this is the folder that we will use. 
-6. Copy sfx and sfx.SDT to the audio folder created.
+6. Copy sfx and sfx.SDT and all the MP3 files to the audio folder created.
 7. Once it's done, just move the audio folder created somewhere, delete the original audio folder, and put back in the GTA III folder the audio folder created
 
 ## Installing GTA III on your PSVita
