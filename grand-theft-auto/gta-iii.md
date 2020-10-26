@@ -13,7 +13,6 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 * A copy of GTA III. You can find one [here](https://store.steampowered.com/agecheck/app/12100/) or [here](https://www.rockstargames.com/fr/games/grandtheftauto3)
 * The data file zip that you can find in vitadb
 * The [batch script](https://github.com/AGraber/re3-nx/releases/download/23092020/convert_gta3_audio.zip) for the sounds 
-* libshacccg.suprx \(First test if it works, like see if in Daedalus-X64, the modern render is greyed out\)
 
 ## The audio
 
