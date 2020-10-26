@@ -4,7 +4,7 @@ description: Wait you still have hope?
 
 # Borderlands 2
 
-Borderlands 2 is a legendary game on the PSVita, not because it's an awesome game or something, but because the port was horribly made. But since the franchise was so popular, people started trying to revive it with some tweak to make it playable. And that since 2016 until today. Reddit user \(u/MODman01\) claim to have found a correct setup \(a mix between best graphics and best performance\) for Borderlands 2 and share his setup :
+Borderlands 2 is a legendary game on the PSVita, not because it's an awesome game or something, but because the port was horribly made. But since the franchise was so popular, people started trying to revive it with some tweak to make it playable. And that since 2016 until today. Reddit user \(u/MODman01\) claim to have found a correct setup \(a mix between best graphics and best performance\) for Borderlands 2 and share his setup \(works with dlc :
 
 * Use the latest Borderland 2 \(1.09 as of now, and forever I suppose\) 
 * Use nonpdrm, not maidump or vpk \(Legit bought game should works too since they aren't different from nonpdrm format apart a legit license\)
