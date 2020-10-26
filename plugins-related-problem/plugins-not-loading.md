@@ -1,5 +1,5 @@
 ---
-description: halp they ate all my ram and now i can't breathe
+description: halp they ate all my ram and now i can't breath
 ---
 
 # Plugins not loading
