@@ -4,7 +4,7 @@ description: just a small reminder that women can destroy your life
 
 # GTA III
 
-PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and even the DS had CW. What a disapointment it was to see that the PSVita have no GTA in its library. Even though they released all the GTA \(exept VCS\) on mobile. Fortunately, thanks to a huge effort of the re3 modding group, they managed to decompile the game and thus making it possible to port it to multiple platform. And that include the PSVita too thanks to a co effort from Rinnegatamante and Thefl0w \(whenever there's GTA on vita you see him\).
+PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and even the DS had CW. What a disapointment it was to see that the PSVita have no GTA in its library. Even though they released all the GTA \(exept VCS\) on mobile. Fortunately, thanks to a huge effort of the re3 modding group, they managed to decompile the game and thus making it possible to port it to multiple platform. And that include the PSVita too thanks to a co effort from Rinnegatamante and TheFloW \(whenever there's GTA on vita you see him\).
 
 ## What do I need?
 
