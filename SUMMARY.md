@@ -52,3 +52,7 @@
 
 * [GTA III](grand-theft-auto/gta-iii.md)
 
+---
+
+* [Fix app crashing after putting the vita in sleep mode](fix-app-crashing-after-putting-the-vita-in-sleep-mode.md)
+

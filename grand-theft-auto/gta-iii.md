@@ -9,9 +9,8 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 ## What do I need?
 
 * A PSVita ofc
-* The GTA III [vpk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* The GTA III vpk and data files zip. Available [here](https://vitadb.rinnegatamante.it/get_hb_url.php?id=589)
 * A copy of GTA III. You can find one [here](https://store.steampowered.com/agecheck/app/12100/) or [here](https://www.rockstargames.com/fr/games/grandtheftauto3)
-* The data file zip that you can find in vitadb
 * The [batch script](https://github.com/AGraber/re3-nx/releases/download/23092020/convert_gta3_audio.zip) for the sounds 
 * 50MB free in the memorycard for Textures Generations. \(The game will create a txd.img after you start it and it's 46MB\)
 
@@ -32,5 +31,15 @@ By default you have compressed audio files, using those wav files like that will
 
 You're nearly there, Send the vpk to your vita, and create a gta3 folder inside your data folder \(ux0:data/gta3\)
 
-Put the game content inside the gta3 folder. Then open the data zip, and extract the content of the zip in the gta3 folder \(erase the files when asked\). And you are done. Install gta3.vpk and you can find a lovely bubble there.
+Put the game content inside the gta3 folder. Then open the data zip, and extract the content of the zip in the gta3 folder \(erase the files when asked\). 
+
+Before you launch the game, make sure you don't have txd.img and txd.dir inside the models folder. You may already have those files if you used re3 before \(like the linux build\)
+
+Install gta3.vpk and you can find a lovely bubble there. Start it, and let the fun begins !
+
+
+
+## Using HD models
+
+comming soon
 
