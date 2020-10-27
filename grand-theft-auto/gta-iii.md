@@ -4,7 +4,7 @@ description: just a small reminder that women can destroy your life
 
 # GTA III
 
-PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and even the DS had CW. What a disapointment it was to see that the PSVita have no GTA in its library. Even though they released all the GTA \(exept VCS\) on mobile. Fortunately, thanks to a huge effort of the re3 modding group, they managed to decompile the game and thus making it possible to port it to multiple platform. And that include the PSVita too thanks to a co effort from Rinnegatamante and TheFloW \(whenever there's GTA on vita you see him\).
+PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and even the DS had CW. What a disapointment it was to see that the PSVita have no GTA in its library. Even though they released all the GTA \(except VCS\) on mobile. Fortunately, thanks to a huge effort of the re3 modding group, they managed to decompile the game and thus making it possible to port it to multiple platform. And that include the PSVita too thanks to a co effort from Rinnegatamante and TheFloW \(whenever there's GTA on vita you see him\).
 
 ## What do I need?
 
@@ -13,6 +13,7 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 * A copy of GTA III. You can find one [here](https://store.steampowered.com/agecheck/app/12100/) or [here](https://www.rockstargames.com/fr/games/grandtheftauto3)
 * The data file zip that you can find in vitadb
 * The [batch script](https://github.com/AGraber/re3-nx/releases/download/23092020/convert_gta3_audio.zip) for the sounds 
+* 50MB free in the memorycard for Textures Generations. \(The game will create a txd.img after you start it and it's 46MB\)
 
 ## The audio
 
