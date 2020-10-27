@@ -25,7 +25,7 @@ By default you have compressed audio files, using those wav files like that will
 4. Launch the bat file \(may need to open in with admin privilege.\)
 5. It will create an audio folder containing audio files, this is the folder that we will use. 
 6. Copy sfx.raw and sfx.SDT and all the MP3 files to the audio folder created.
-7. Once it's done, we will swap the original audio folder with this one. Just move the audio folder created somewhere, delete the original audio folder, and put back in the GTA III folder the audio folder created \(Check that the folder contains 197 files to be sure\)
+7. Once it's done, we will swap the original audio folder with this one. Just move the audio folder created somewhere, delete the original audio folder, and put back in the GTA III folder the audio folder created \(Check that the folder contains 197 files to be sure, if you have only 195 files,
 
 ## Installing GTA III on your PSVita
 
@@ -48,6 +48,8 @@ Note : In case you haven't read the psx post
 * **Trails: Off** \(Trails effect is slightly off right now so produced quite undesiderable graphics effects\)
 * **PostFX: Off** \(This will disable the blueish color washing filter original game has. In my opinion, with Trails disabled, this filter looks pretty bad so better to disable it\)
 * **Screen Format: Auto** \(This will make the game be properly unstretched for Vita screen resolution\)
+
+Also in controls settings, set controls to classic
 
 
 
