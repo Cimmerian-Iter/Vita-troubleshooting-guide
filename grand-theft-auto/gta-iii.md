@@ -89,5 +89,7 @@ Once it's done, remember to delete the txd.dir and txd.img from the models folde
 
 And that's it, you should now have better looking models in game \(just like the screenshots from vitadb\). Profit!
 
+Note : With those, there is actually a little problem unsolved for now. When you will take the dodo and try to fly on the main runaway it will severly glitch and freeze. Just avoide that runaway and use the other one to take off
+
 
 
