@@ -34,6 +34,7 @@
 * [Bootloop/Brick. Let's reinstall the firmware](serious-problems/bootloop.md)
 * [GPU crash error](serious-problems/gpu-crash-error.md)
 * [Enso EX](serious-problems/enso-ex.md)
+* [Fix app crashing after putting the vita in sleep mode](serious-problems/fix-app-crashing-after-putting-the-vita-in-sleep-mode.md)
 
 ## Daedalus-x64
 
@@ -51,8 +52,4 @@
 ## Grand Theft Auto
 
 * [GTA III](grand-theft-auto/gta-iii.md)
-
----
-
-* [Fix app crashing after putting the vita in sleep mode](fix-app-crashing-after-putting-the-vita-in-sleep-mode.md)
 
