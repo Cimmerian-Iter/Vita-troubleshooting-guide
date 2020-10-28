@@ -98,7 +98,11 @@ Xbox cars model :
 CDIMAGE MODELS\VEHICLES_XBOX.IMG
 ```
 
-Once it's done, remember to delete the txd.dir and txd.img from the models folder \(DONT PUT BACK THE ONE FROM THE ZIP\)
+Once it's done, remember to delete the txd.dir and txd.img from the models folder \(DONT PUT BACK THE ONE FROM THE ZIP\)  
+  
+Last part, road textures. You can see more information about it [here](http://gta.rockstarvision.com/workshop/hires_txds/)
+
+Download the generic\_iii\_pc.txd, rename it to generic.txd and replace the original generic.txd with that one.
 
 And that's it, you should now have better looking models in game \(just like the screenshots from vitadb\). Profit!
 
