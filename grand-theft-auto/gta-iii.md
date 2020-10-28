@@ -34,7 +34,7 @@ First you need to install the FdFix plugin, it will solve the problems of apps c
 
 Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the plugin section of this guide.\)
 
-add this line to the config.txt
+add this line to the config.txt \(the one you use, either inside ux0:tai or ur0:tai\)
 
 ```text
 *KERNEL
