@@ -50,10 +50,7 @@ Install gta3.vpk and you can find a lovely bubble there. Start it, and let the f
   
 Note : In case you haven't read the psx post 
 
-
-
- We **strongly** suggest to set these specific settings to get the best experience in the Options menu:  
-
+We **strongly** suggest to set these specific settings to get the best experience in the Options menu:
 
 * **Frame Limiter: Off** \(Will allow the make to go over the 30 FPS original game lock\)
 * **Trails: Off** \(Trails effect is slightly off right now so produced quite undesiderable graphics effects\)
@@ -64,11 +61,11 @@ Note : In case you haven't read the psx post
 
 Also in controls settings, set controls to classic
 
-
+![If you ever want to set correctly the controls.](../.gitbook/assets/image%20%2811%29.png)
 
 ## Using HD models
 
-So you played enough? You want to have those shiny models from the xbox version? You want to see fingers instead of plasticine? Well it's possible. Keep in mind that using those models will have a little impact on performance. Like an average of 27 fps instead of 30 fps, and in heavy locations it can go down to 20 fps instead of 22-23fps. But hey, are you more a graphic fan or performance fan?
+So you've played enough? You want to have those shiny models from the xbox version? You want to see fingers instead of plasticine? Well it's possible. Keep in mind that using those models will have a little impact on performance. Like an average of 27 fps instead of 30 fps, and in heavy locations it can go down to 20 fps instead of 22-23fps. But hey, are you more a graphic fan or performance fan?
 
 Let's first use the xbox peds files : 
 
