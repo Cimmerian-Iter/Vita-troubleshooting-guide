@@ -13,6 +13,7 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 * A copy of GTA III. You can find one [here](https://store.steampowered.com/agecheck/app/12100/) or [here](https://www.rockstargames.com/fr/games/grandtheftauto3)
 * The [batch script](https://github.com/AGraber/re3-nx/releases/download/23092020/convert_gta3_audio.zip) for the sounds credit : AGraber
 * 50MB free in the memorycard for Textures Generations. \(The game will create a txd.img after you start it and it's 46MB\)
+* FdFix plugin by TheFloW
 
 ## The audio
 
@@ -29,7 +30,18 @@ By default you have compressed audio files, using those wav files like that will
 
 ## Installing GTA III on your PSVita
 
-You're nearly there, Send the vpk to your vita, and create a gta3 folder inside your data folder \(ux0:data/gta3\)
+First you need to install the FdFix plugin, it will solve the problems of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.
+
+Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the plugin section of this guide.\)
+
+add this line to the config.txt
+
+```text
+*KERNEL
+ux0:tai/fd_fix.skprx
+```
+
+Once the plugin is installed and you rebooted your vita, you are nearly there. Send the vpk to your vita, and create a gta3 folder inside your data folder \(ux0:data/gta3\)
 
 Put the game content inside the gta3 folder. Then open the data zip, and extract the content of the zip in the gta3 folder \(erase the files when asked\). 
 
