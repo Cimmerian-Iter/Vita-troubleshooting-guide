@@ -32,7 +32,7 @@ By default you have compressed audio files, using those wav files like that will
 
 First you need to install the FdFix plugin, it will solve the problems of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.
 
-Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the plugin section of this guide.\)
+Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the [plugin section ](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)of this guide.\)
 
 add this line to the config.txt \(the one you use, either inside ux0:tai or ur0:tai\)
 
