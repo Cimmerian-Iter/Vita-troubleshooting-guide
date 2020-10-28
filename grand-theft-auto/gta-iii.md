@@ -58,7 +58,7 @@ Note : In case you haven't read the psx post
 * **Frame Limiter: Off** \(Will allow the make to go over the 30 FPS original game lock\) 
 * **Trails: Off** \(Trails effect is slightly off right now so produced quite undesiderable graphics effects\)
 * **PostFX: Off** \(This will disable the blueish color washing filter original game has. In my opinion, with Trails disabled, this filter looks pretty bad so better to disable it\)
-* **Screen Format: Auto** \(This will make the game be properly unstretched for Vita screen resolution\)
+* **Wide Screen: Auto** \(This will make the game be properly unstretched for Vita screen resolution\)
 
 Also in controls settings, set controls to classic
 
