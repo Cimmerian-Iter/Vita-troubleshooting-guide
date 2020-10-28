@@ -30,7 +30,7 @@ By default you have compressed audio files, using those wav files like that will
 
 ## Installing GTA III on your PSVita
 
-First you need to install the FdFix plugin, it will solve the problems of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.
+First you need to install the FdFix plugin, it will solve the problem of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.
 
 Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the [plugin section ](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)of this guide.\)
 
