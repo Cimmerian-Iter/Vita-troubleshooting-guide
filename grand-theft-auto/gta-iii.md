@@ -13,7 +13,9 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 * A copy of GTA III. You can find one [here](https://store.steampowered.com/agecheck/app/12100/) or [here](https://www.rockstargames.com/fr/games/grandtheftauto3)
 * The [batch script](https://github.com/AGraber/re3-nx/releases/download/23092020/convert_gta3_audio.zip) for the sounds credit : AGraber
 * 2.3GB +50MB free in the memorycard for Textures Generations. \(The game will create a txd.img after you start it and it's 46MB\)
-* [FdFix](https://github.com/TheOfficialFloW/FdFix) plugin by TheFloW
+* [FdFix](https://github.com/TheOfficialFloW/FdFix) plugin by TheFloW \(Not needed if you have already repatch\)
+
+If you have a problem, check the common error section first before asking for help.
 
 ## The audio
 
@@ -29,7 +31,8 @@ By default you have compressed audio files, using those wav files like that will
 
 ## Installing GTA III on your PSVita
 
-First you need to install the FdFix plugin, it will solve the problem of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.
+First you need to install the FdFix plugin, it will solve the problem of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.  
+NOTE : If you already have the repatch plugin, there is no need for you to install this. Skip the plugin installation part
 
 Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the [plugin section ](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)of this guide.\)
 
@@ -62,6 +65,12 @@ We **strongly** suggest to set these specific settings to get the best experienc
 Also in controls settings, set controls to classic
 
 ![If you ever want to set correctly the controls.](../.gitbook/assets/image%20%2811%29.png)
+
+## Common Errors
+
+* Q : I launched GTA3 but it crash in the splash loading screen.  A : You missed the part where you should had copied back the MP3 and sfx files to the generated audio folder. If you have bought the rockstar games version, there are some report of it not working. Let me check what's wrong with that version and I'll update that
+* Q : The script won't launch A : If the game is located inside C:\programmes\(x86\) you need to move the gta3 folder elswhere like in Documents and then run the script
+* Q : In game works but radio doesn't play. My audio folder is 300MB not 2GB A : Some pirated version of the game create blank .wav for the radio so the overall weight of the gta3 game is lowered. Better buy a legit version
 
 ## Using HD models
 
