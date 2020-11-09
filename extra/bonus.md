@@ -14,7 +14,11 @@ Despite that great aspect of helping people, there is some moment where.........
 
 ## The average stuff :
 
-‌We all know that users don't read, post a message on every random channel they find. Misread the instructions like forgetting to flash zzblank.img when preparing the sd2vita. Trying to launch the henkaku web browser in 3.65 Not following the instructions and creating other problems that I had to fix. Like using the wrong modoru and brick. Acting in a very annoying way it makes it a mental test for helpers to keep their calm and help them. Being pinged at every message and when you ask them to stop the pings their reply is : "Hey you choose to be a helper you should be used to being pinged" Or even worse, blaming us because something doesn't work when they haven't read instructions or in the middle of recovering a PSTV they fucking smash their PSTV making it good to be thrown to the bin. \(Yeah I don't know why he decided to kill his PSTV I wasn't out of options\)
+‌We all know that users don't read, post a message on every random channel they find. Misread the instructions like forgetting to flash zzblank.img when preparing the sd2vita. Trying to launch the henkaku web browser in 3.65 Not following the instructions and creating other problems that I had to fix. Like using the wrong modoru and brick. 
+
+Acting in a very annoying way it makes it a mental test for helpers to keep their calm and help them. Being pinged at every message and when you ask them to stop the pings their reply is : "Hey you choose to be a helper you should be used to being pinged" 
+
+Or even worse, blaming us because something doesn't work when they haven't read instructions or in the middle of recovering a PSTV they fucking smash their PSTV making it good to be thrown to the bin. \(Yeah I don't know why he decided to kill his PSTV I wasn't out of options\)
 
 ‌
 
