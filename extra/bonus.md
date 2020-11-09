@@ -50,35 +50,25 @@ So close yet so far. Better luck next time
 
 ## TeamView : 
 
-‌
-
-At the time I didn't know that tool, some users asked me to use it to help him directly. And I have to say it makes the thing way easier. Not having to explain 5 times the steps because the user doesn't read is great. But that tool also made me experience some..... weird situations :
+‌At the time I didn't know that tool, some users asked me to use it to help him directly. And I have to say it makes the thing way easier. Not having to explain 5 times the steps because the user doesn't read is great. But that tool also made me experience some..... weird situations :
 
 ‌
 
 #### Doing a TeamView to move a file to the root of the PSVita
 
-‌
-
-Yeah you might be laughing right now but I have done that. You may ask why in the first place he is hacking his vita when doesn't know something that simple. Well, he just knew nothing of the technical vocabulary, root means nothing to him as well as most of the instructions I gave him. So I ended up doing everything through TeamView or else I would still be with him the next day. 
+‌Yeah you might be laughing right now but I have done that. You may ask why in the first place he is hacking his vita when doesn't know something that simple. Well, he just knew nothing of the technical vocabulary, root means nothing to him as well as most of the instructions I gave him. So I ended up doing everything through TeamView or else I would still be with him the next day. 
 
 ‌
 
 #### Force closing the remote connection and blocking me on Twitter.
 
-‌
-
-That's probably one of the moments that pissed me off the most during my time here. One of the subscribers of Jihel Jay \(french YouTuber\) had a hard time hacking his vita and Jihel Jay reached me out to help him. I accepted and did a TeamView after seeing that the guy was the kind of user I hate the most. Ask questions, don't understand so make his interpretations, and doesn't trust me. I thought TeamView would be able to end this quickly, well it did but not in the way I wanted. When I used the cmd to do the hencore patching process he closed the remote connection, blocked me on Twitter and that was it. He was surely scared that I would hack his PC but trying to help him from 11-18h because he was slow to answer and was not doing what I told him, and seeing all the time go to waste was highly frustrating. Not even apologizing for what he has done he just cut the ties completely. Fortunately those kinds of individuals I haven't met a lot. But damn..........
+‌That's probably one of the moments that pissed me off the most during my time here. One of the subscribers of Jihel Jay \(french YouTuber\) had a hard time hacking his vita and Jihel Jay reached me out to help him. I accepted and did a TeamView after seeing that the guy was the kind of user I hate the most. Ask questions, don't understand so make his interpretations, and doesn't trust me. I thought TeamView would be able to end this quickly, well it did but not in the way I wanted. When I used the cmd to do the hencore patching process he closed the remote connection, blocked me on Twitter and that was it. He was surely scared that I would hack his PC but trying to help him from 11-18h because he was slow to answer and was not doing what I told him, and seeing all the time go to waste was highly frustrating. Not even apologizing for what he has done he just cut the ties completely. Fortunately those kinds of individuals I haven't met a lot. But damn..........
 
 ‌
 
 ## Plugin mania :
 
-‌
-
- And of course, I have to mention autoplugin. It caused people a lot of trouble, by corrupting the config.txt they often end up in a bootloop and we had to solve all of these. It was like 80% of what I had to deal with. But well having such an easy tool to do a process that the users NEED to understand can leads to awkward situations. People installing random plugins and then be surprised it doesn't work. But well, sometimes there were some extreme cases I was helping someone to setup his vita and gave him a list of plugins to install that were essentials : 
-
-‌
+‌And of course, I have to mention autoplugin. It caused people a lot of trouble, by corrupting the config.txt they often end up in a bootloop and we had to solve all of these. It was like 80% of what I had to deal with. But well having such an easy tool to do a process that the users NEED to understand can leads to awkward situations. People installing random plugins and then be surprised it doesn't work. But well, sometimes there were some extreme cases I was helping someone to setup his vita and gave him a list of plugins to install that were essentials : 
 
 * Me : Here's a list for you, install all the plugins mentioned
 * Him : All of them?
