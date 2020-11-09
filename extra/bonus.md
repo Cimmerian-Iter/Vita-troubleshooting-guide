@@ -111,5 +111,5 @@ Surely the biggest thing I took part in it. Vita scene doesn't have a lot of dra
 
 
 
-Wew being a helper sometimes is hard but hey it's fun to help people and make them able to enjoy what the Vita scene can offer. After all, it would be a shame if 30% of the people drop their vita when no one helps them with their problems. The underground community is the only thing left to keep the vita alive. We need to treasure it.
+Wew being a helper sometimes is hard but hey it's fun to help people and make them able to enjoy what the Vita scene can offer. After all, it would be a shame if 30% of the people drop their vita when no one helps them with their problems. The underground community is the only thing left to keep the vita alive. We need to treasure it. \(Even if sometimes it means sleeping only 3 hours right before school begins. But im just an extrem case\)
 
