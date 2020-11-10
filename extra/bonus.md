@@ -4,7 +4,7 @@ description: 'One rule : user == dumb that will never change'
 
 # Bonus
 
-Being a helper for quite the time now \(4 years as of today\) allowed me to meet thousands of people, some were greats person with who helping was a big pleasure and we got to know each other while helping and everyone had a story to tell about himself. I have met some people randomly who are now my best friends like Assuredly r/vitapiracy owner and r/conspiracy mod who I first talked to about the matter of handling help in r/vitapiracy, to share our personal lives, have interesting debates and a strong friendship. Something that isn't quite highlighted by people when they say they're helping. They sure miss a lot because it's such an opportunity when talking to a lot of amount of people. Making it interesting for both you and the users because you give and receive from both sides, some people have talents like drawing, creating content, being knowledgeable about a matter. I have learned a lot from the people I have helped. 
+Being a helper for quite the time now \(4 years as of today\) allowed me to meet thousands of people, some I got to know were great and helping them was a pleasureg. Everyone had a story to tell about himself. I have met some people randomly who are now my best friends like Assuredly r/vitapiracy owner and r/conspiracy mod who I first talked to about the matter of handling help in r/vitapiracy, to share our personal lives, have interesting debates and a strong friendship. Something that isn't quite highlighted by people when they say they're helping. They sure miss a lot because it's such an opportunity when talking to a lot of amount of people. Making it interesting for both you and the users because you give and receive from both sides, some people have talents like drawing, creating content, being knowledgeable about a matter. I have learned a lot from the people I have helped. 
 
 
 
@@ -76,7 +76,7 @@ So close yet so far. Better luck next time
 * Him : Help my vita is in bootloop
 * Me : What have you done?
 * Him : I installed all the plugins
-* Me : The list I have you?
+* Me : The list I gave you?
 * Him : I installed all the plugins in autoplugins
 * Me : You mean you selected and Installed all the plugins you found in autoplugins?
 * Him : Yeah all of them
