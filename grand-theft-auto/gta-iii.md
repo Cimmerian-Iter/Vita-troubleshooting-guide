@@ -99,7 +99,7 @@ Xbox cars model :
 
 1. Download this[ archive](http://gta.rockstarvision.com/xbox_vehicles_iii.7z)
 2. Extract the files
-3. Put the [vehicules xbox .img](https://drive.google.com/file/d/14Lh5Lo_NQkoWWilXRpQOd_WQplMf3IdX/view?usp=sharing) and .dir inside models folder \(use this .img instead of the one from the zip, this is an updated version made to fix the polygon explosion. You can still use the vehiculesxbox.dir file from the zip.\)
+3. Put the [vehicles xbox .img](https://drive.google.com/file/d/14Lh5Lo_NQkoWWilXRpQOd_WQplMf3IdX/view?usp=sharing) and .dir inside models folder \(use this .img instead of the one from the zip, this is an updated version made to fix the polygon explosion. You can still use the vehiclesxbox.dir file from the zip.\)
 4. Put the wheels.dff inside models/Generic folder
 5. Erase the current misc.txd inside the models folder with the one provided by the zip
 6. open gta3.dat with a notepad and add the following line at the bottom
