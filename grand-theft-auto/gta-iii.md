@@ -116,7 +116,7 @@ Download the generic\_iii\_pc.txd, rename it to generic.txd and replace the orig
 
 And that's it, you should now have better looking models in game \(just like the screenshots from vitadb\). Profit!
 
-Note : With those, there is actually a little problem unsolved for now. When you will take the dodo and try to fly on the main runaway it will severley glitch and freeze. Just avoid that runaway and use the other one to take off
+
 
 
 
