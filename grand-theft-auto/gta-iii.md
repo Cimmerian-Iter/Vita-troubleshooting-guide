@@ -57,7 +57,7 @@ Note : In case you haven't read the psx post
 
 We **strongly** suggest to set these specific settings to get the best experience in the Options menu:
 
-* **Frame Limiter: Off** \(Will allow the make to go over the 30 FPS original game lock\)
+* **Frame Limiter: On** \(You don't want some broken physics\)
 * **Trails: Off** \(Trails effect is slightly off right now so produced quite undesirable graphics effects\)
 * **Colour Filter: Off** \(This will disable the blueish color washing filter original game has. In my opinion, with Trails disabled, this filter looks pretty bad so better to disable it\)
 * **Wide Screen: Auto** \(This will make the game be properly unstretched for Vita screen resolution\)
