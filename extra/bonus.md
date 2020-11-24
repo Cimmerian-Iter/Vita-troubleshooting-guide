@@ -4,39 +4,39 @@ description: 'One rule : user == dumb that will never change'
 
 # Bonus
 
-Being a helper for quite the time now \(4 years as of today\) allowed me to meet thousands of people, some I got to know were great and helping them was a pleasureg. Everyone had a story to tell about himself. I have met some people randomly who are now my best friends like Assuredly r/vitapiracy owner and r/conspiracy mod who I first talked to about the matter of handling help in r/vitapiracy, to share our personal lives, have interesting debates and a strong friendship. Something that isn't quite highlighted by people when they say they're helping. They sure miss a lot because it's such an opportunity when talking to a lot of amount of people. Making it interesting for both you and the users because you give and receive from both sides, some people have talents like drawing, creating content, being knowledgeable about a matter. I have learned a lot from the people I have helped. 
+Being a helper for quite the time now \(4 years as of today\) allowed me to meet thousands of people, some I got to know were great and helping them was a pleasure. Everyone had a story to tell about himself. I have met some people randomly who are now my best friends like Assuredly r/vitapiracy owner and r/conspiracy mod who I first talked to about the matter of handling help in r/vitapiracy. With those I shared my personal life, had interesting debates and a strong friendships. Something that isn't quite highlighted by people when they say they're helping. They sure miss a lot because it's such an opportunity when talking to a lot of people which makes it interesting for both you and the users because you give and receive from both sides, some people have talents like drawing, creating content or being knowledgeable about a matter. I was able to learn a lot from people I have helped over time
 
 
 
-Despite that great aspect of helping people, there is some moment where..............well you meet the finest branch of the famous END USERS population that some people fear. And there is matter to be afraid. They have a power that none of us can understand or control. We can't predict what they will do or damage. Grab your popcorns we're going to see some of the most bullshit situations I had with them.
+Despite that great aspect of helping people, there are some moment where..............well you meet the finest branch of the famous END USER population that some people fear. And there is matter to be afraid. They have a power that none of us can understand or control. We can't predict what ever they will do or damage. Grab your popcorns we're going to see some of the most bullshit situations I had with them.
 
 ‌
 
 ## The average stuff :
 
-‌We all know that users don't read, post a message on every random channel they find. Misread the instructions like forgetting to flash zzblank.img when preparing the sd2vita. Trying to launch the henkaku web browser in 3.65 Not following the instructions and creating other problems that I had to fix. Like using the wrong modoru and brick. 
+‌We all know that users don't read, post a message on every random channel they find. Misread the instructions like forgetting to flash zzblank.img when preparing the sd2vita. Trying to launch the henkaku web browser in 3.65 or not following the instructions and creating other problems that I had to fix. Like using the wrong modoru and brick their console. 
 
-Acting in a very annoying way it makes it a mental test for helpers to keep their calm and help them. Being pinged at every message and when you ask them to stop the pings their reply is : "Hey you choose to be a helper you should be used to being pinged" 
+They act in a very annoying way which makes it a mental test for helpers to keep their calm and help them. Being pinged at every message and when you ask them to stop the pings their reply is: "Hey you chose to be a helper you should be used to getting pinged" 
 
-Or even worse, blaming us because something doesn't work when they haven't read instructions or in the middle of recovering a PSTV they fucking smash their PSTV making it good to be thrown to the bin. \(Yeah I don't know why he decided to kill his PSTV I wasn't out of options\)
+Or even worse, blaming us because something doesn't work when they haven't read instructions or if they fucking smash their PSTV in the middle of recovering it, turning it into a paperweight. \(Yeah I don't know why he decided to kill his PSTV I wasn't out of options\)
 
 ‌
 
-But apart from that kind of stuff, some are worth being mentioned : 
+But apart from that kind of stuff, some things are worth being mentioning : 
 
 ‌
 
 #### Losing my time because the user had a brainfart
 
-‌Did you try to spend 40 min of your time trying to figure out why the henkaku browser exploit doesn't work? And that the user assures you that he is in 3.60? And at the end notice that the said user downgraded to 1.60 instead of 3.60? \(Like how the fuck he was intelligent enough to find a 1.60 pup in the first place\) Sometimes they amaze me by pushing the limits.
+‌Did you spend 40 min of your time trying to figure out why the henkaku browser exploit doesn't work? And that the user assure you that he is on 3.60? And at the end you notice tha said user downgraded to 1.60 instead of 3.60? \(Like how the fuck he was intelligent enough to find a 1.60 pup in the first place\) Sometimes they amaze me by pushing the limits.
 
 #### ‌Formating the PSVita memorycard using windows
 
-‌Yeah you heard it right, someone did try to format the PSVita memorycard by opening vitahshell, pressing select to mount the PSVita in the file explorer, and format it the usual way. 
+‌Yeah you heard it right, someone did try to format the PSVita memorycard by opening VitahShell, pressing select to mount the PSVita in the file explorer, and format it there. 
 
 #### Trying to be more intelligent than me
 
-‌I know I know it's impossible, but anyway he dared. And so he told me that he has done everything right despite not working and that I should know my job better. Feeling proud that the helpers were useless and found how to install plugins all by himself like a big boy. I would have been proud. 
+‌I know I know it's impossible, but anyway he did dare. And so he told me that he has done everything right despite of it not working and that I should know my job better. Feeling proud that the helpers were useless and found how to install plugins all by himself like a big boy. I would have been proud. 
 
 
 
@@ -50,7 +50,7 @@ So close yet so far. Better luck next time
 
 ## TeamView : 
 
-‌At the time I didn't know that tool, some users asked me to use it to help him directly. And I have to say it makes the thing way easier. Not having to explain 5 times the steps because the user doesn't read is great. But that tool also made me experience some..... weird situations :
+‌At the time I didn't know that tool, some users asked me to install it to help him directly. And I have to say it makes the thing way easier. Not having to explain 5 times the steps because the user doesn't read is great. But that tool also made me experience some..... weird situations :
 
 ‌
 

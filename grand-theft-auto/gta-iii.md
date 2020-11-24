@@ -4,7 +4,7 @@ description: just a small reminder that women can destroy your life
 
 # GTA III
 
-PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and even the DS had CW. What a disapointment it was to see that the PSVita has no GTA games in its library. Even though they released all the GTA \(except VCS\) on mobile. Fortunately, thanks to a huge effort of the re3 modding group, they managed to decompile the game and thus making it possible to port it to multiple platforms. And that also include the PSVita thanks to a co effort from Rinnegatamante and TheFloW \(whenever there's GTA on vita you see him\).
+PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and even the DS had CW. What a disappointment it was to see that the PSVita has no GTA games in its library. Even though they released all the GTA \(except VCS\) on mobile. Fortunately, thanks to a huge effort of the re3 modding group, they managed to decompile the game and thus making it possible to port it to multiple platforms. And that also includes the PSVita thanks to a co effort from Rinnegatamante and TheFloW \(whenever there's GTA on vita you see him\).
 
 ## What do I need?
 
@@ -16,6 +16,8 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 * [FdFix](https://github.com/TheOfficialFloW/FdFix) plugin by TheFloW \(Not needed if you have already repatch\)
 
 If you have a problem, check the common error section first before asking for help.
+
+**Note: If you want to update gta3 to 1.1 you will have to redownload the gamesfile.zip from vitadb and extract its content in the gta3 folder. Then remove txd.img and txd.dir again from the models folder.**
 
 ## The audio
 
@@ -31,7 +33,7 @@ By default you have compressed audio files, using those wav files like that will
 
 ## Installing GTA III on your PSVita
 
-First you need to install the FdFix plugin, it will solve the problem of apps crashing when you put your vita into sleep mode, and others errors that may arise from the sleeping mode.  
+First you need to install the FdFix plugin, it will solve the problem of apps crashing when you put your vita into sleep mode, and other errors that may arise from the sleeping mode.  
 NOTE : If you already have the repatch plugin, there is no need for you to install this. Skip the plugin installation part
 
 Once you have downloaded the plugin, just install it like any plugins \(If you don't know how to install a plugin, check the [plugin section ](https://samilops2.gitbook.io/vita-troubleshooting-guide/plugins-related-problem/error-when-using-autoplugin)of this guide.\)
@@ -56,8 +58,8 @@ Note : In case you haven't read the psx post
 We **strongly** suggest to set these specific settings to get the best experience in the Options menu:
 
 * **Frame Limiter: Off** \(Will allow the make to go over the 30 FPS original game lock\)
-* **Trails: Off** \(Trails effect is slightly off right now so produced quite undesiderable graphics effects\)
-* **PostFX: Off** \(This will disable the blueish color washing filter original game has. In my opinion, with Trails disabled, this filter looks pretty bad so better to disable it\)
+* **Trails: Off** \(Trails effect is slightly off right now so produced quite undesirable graphics effects\)
+* **Colour Filter: Off** \(This will disable the blueish color washing filter original game has. In my opinion, with Trails disabled, this filter looks pretty bad so better to disable it\)
 * **Wide Screen: Auto** \(This will make the game be properly unstretched for Vita screen resolution\)
 * **Frame Sync: Off** \(May cause some minor glitches in exchange of some slight framerate boost\)
 * **Draw Distance** \(Lowering this gives a consistent framerate boost, suggested to drop it to lowest\)
@@ -69,12 +71,12 @@ Also in controls settings, set controls to classic
 ## Common Errors
 
 * Q : I launched GTA3 but it crash in the splash loading screen.  A : You missed the part where you should had copied back the MP3 and sfx files to the generated audio folder. If you have bought the rockstar games version, there are some report of it not working. Let me check what's wrong with that version and I'll update that
-* Q : The script won't launch A : If the game is located inside C:\programmes\(x86\) you need to move the gta3 folder elswhere like in Documents and then run the script
+* Q : The script won't launch A : If the game is located inside C:\programmes\(x86\) you need to move the gta3 folder elsewhere like in Documents and then run the script
 * Q : In game works but radio doesn't play. My audio folder is 300MB not 2GB A : Some pirated version of the game create blank .wav for the radio so the overall weight of the gta3 game is lowered. Better buy a legit version
 
 ## Using HD models
 
-So you've played enough? You want to have those shiny models from the xbox version? You want to see fingers instead of plasticine? Well it's possible. Keep in mind that using those models will have a little impact on performance. Like an average of 27 fps instead of 30 fps, and in heavy locations it can go down to 20 fps instead of 22-23fps. But hey, are you more a graphic fan or performance fan?
+So you've played enough? You want to have those shiny models from the xbox version? You want to see fingers instead of plasticine? Well it's possible. Keep in mind that using those models will have little impact on performance. Like an average of 27 fps instead of 30 fps, and in heavy locations it can go down to 20 fps instead of 22-23fps. But hey, are you more a graphic fan or performance fan?
 
 Let's first use the xbox peds files : 
 
@@ -91,13 +93,13 @@ Onto the next part, the player model. If you don't want claude to look like that
 
 ![pain](../.gitbook/assets/image%20%2810%29.png)
 
-Download the skin [there](https://cdn.discordapp.com/attachments/768443721447768096/769278769449533450/playa5_xbox.bmp) and put it inside the skin folder. Then you will have to chose it in the skin menu in game.
+Download the skin [there](https://cdn.discordapp.com/attachments/768443721447768096/769278769449533450/playa5_xbox.bmp) and put it inside the skin folder. Then you will have to choose it in the skin menu in game.
 
 Xbox cars model : 
 
 1. Download this[ archive](http://gta.rockstarvision.com/xbox_vehicles_iii.7z)
 2. Extract the files
-3. Put the vehicules xbox .img and .dir inside models folder
+3. Put the [vehicules xbox .img](https://drive.google.com/file/d/14Lh5Lo_NQkoWWilXRpQOd_WQplMf3IdX/view?usp=sharing) and .dir inside models folder \(use this .img instead of the one from the zip, this is an updated version made to fix the polygon explosion. You can still use the vehiculesxbox.dir file from the zip.\)
 4. Put the wheels.dff inside models/Generic folder
 5. Erase the current misc.txd inside the models folder with the one provided by the zip
 6. open gta3.dat with a notepad and add the following line at the bottom
@@ -114,7 +116,7 @@ Download the generic\_iii\_pc.txd, rename it to generic.txd and replace the orig
 
 And that's it, you should now have better looking models in game \(just like the screenshots from vitadb\). Profit!
 
-Note : With those, there is actually a little problem unsolved for now. When you will take the dodo and try to fly on the main runaway it will severly glitch and freeze. Just avoide that runaway and use the other one to take off
+Note : With those, there is actually a little problem unsolved for now. When you will take the dodo and try to fly on the main runaway it will severly glitch and freeze. Just avoid that runaway and use the other one to take off
 
 
 
