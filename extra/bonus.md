@@ -83,6 +83,8 @@ So close yet so far. Better luck next time
 
 ‌Big bruh moment there. 
 
+Someone had trouble linking his ds4 to his PSTV. He edited the bootconfig and thought that was the problem and he messed with the system drivers. So he tried to install ds4vita.skprx ^^
+
 ‌
 
 But apart from those easily fixable problems, others were more....... Annoying to deal with. Also the main reason I hate 3.65 was because of this :
