@@ -87,7 +87,7 @@ So you've played enough? You want to have those shiny models from the xbox versi
 
 \*\*\*\*
 
-**Manual setup :** \(If you want to understand what we do\)
+**Manual setup :** \(If you want to understand what we do, and I recommend reading\)
 
 Let's first use the xbox peds files : 
 
@@ -109,8 +109,8 @@ Download the skin [there](https://cdn.discordapp.com/attachments/768443721447768
 Xbox cars model : 
 
 1. Download this[ archive](http://gta.rockstarvision.com/xbox_vehicles_iii.7z)
-2. Extract the files
-3. Put the [vehicles xbox .img](https://drive.google.com/file/d/14Lh5Lo_NQkoWWilXRpQOd_WQplMf3IdX/view?usp=sharing) and .dir inside models folder \(use this .img instead of the one from the zip, this is an updated version made to fix the polygon explosion. You can still use the vehiclesxbox.dir file from the zip.\)
+2. Extract the files somewhere
+3. Put the [vehicles xbox .img](https://drive.google.com/file/d/14Lh5Lo_NQkoWWilXRpQOd_WQplMf3IdX/view?usp=sharing) and .dir inside models folder \(Ignore the one from the archive zip\)
 4. Put the wheels.dff inside models/Generic folder
 5. Erase the current misc.txd inside the models folder with the one provided by the zip
 6. open gta3.dat with a notepad and add the following line at the bottom
