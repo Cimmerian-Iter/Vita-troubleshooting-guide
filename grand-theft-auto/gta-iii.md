@@ -76,7 +76,18 @@ Also in controls settings, set controls to classic
 
 ## Using HD models
 
-So you've played enough? You want to have those shiny models from the xbox version? You want to see fingers instead of plasticine? Well it's possible. Keep in mind that using those models will have little impact on performance. Like an average of 27 fps instead of 30 fps, and in heavy locations it can go down to 20 fps instead of 22-23fps. But hey, are you more a graphic fan or performance fan?
+So you've played enough? You want to have those shiny models from the xbox version? You want to see fingers instead of plasticine? Well it's possible. Keep in mind that using those models will have little impact on performance. Like an average of 27 fps instead of 30 fps, and in heavy locations it can go down to 20 fps instead of 22-23fps. But hey, are you more a graphic fan or performance fan?  
+  
+**Easy setup :** 
+
+1. **Download the** [**HD.zip**](https://drive.google.com/file/d/1aFcrJ4GtJlAcTqI11Nih1fmwP3S0yBN-/view?usp=sharing)\*\*\*\*
+2. **Extract the contents to your gta3 folder**
+3. **Remove txd.img and txd.dir**
+4. **In-game menu, chose player xbox model in the skin menu**
+
+\*\*\*\*
+
+**Manual setup :** \(If you want to understand what we do\)
 
 Let's first use the xbox peds files : 
 
