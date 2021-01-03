@@ -50,5 +50,5 @@ Once it's finished you can check if you have the .suprx in ur0:data.
   
 And that's all, now you are ready to use upcoming project that will rely on the shader compiler like flycast !  
   
-Note 2 : If the app relying on libshacccg doesn't work, make sure like with retroarch that you can access ur0:data folder with its inbuilt file manager. If not, then rename ur0:data to something else, then create a data folder and move all the files here. That should make the folder visible.
+**Note 2 : If the app relying on libshacccg doesn't work, make sure like with retroarch that you can access ur0:data folder with its inbuilt file manager. If not, then rename ur0:data to something else, then create a data folder and move all the files here. That should make the folder visible.**
 
