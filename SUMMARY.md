@@ -56,3 +56,7 @@
 
 * [Bonus](extra/bonus.md)
 
+## Live Area
+
+* [Editing the layout.xml](live-area/editing-the-layout.xml.md)
+
