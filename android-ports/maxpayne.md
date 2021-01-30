@@ -63,6 +63,8 @@ It should be there
 ux0:data/maxpayne
 ```
 
+NOTE : it's possible to put the maxpayne folder in uma0:data/ or imc0:data/  
+  
 Then we will need the .so library, you can find it there : `lib/armeabi-v7a/libMaxPayne.so`
 
 ![MaxPayne.so](../.gitbook/assets/image%20%2815%29.png)
