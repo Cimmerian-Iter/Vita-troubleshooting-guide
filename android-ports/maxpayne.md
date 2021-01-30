@@ -79,7 +79,7 @@ You can extract all of those files to the maxpayne folder again. And if you want
   
 NOTE : some obb ship the japanese sound bank as `MaxPayneSoundsJapanesev2`. If you want to use the japanese voices then rename it to `MaxPayneSoundsJapanesev3`
 
-Once it's done you can now extract the files from the data.zip you have downloaded from the github to the root of the maxpayne folder \(Overwrite files if asked\)
+Once it's done you can now extract the maxpayne folder from the data.zip you have downloaded from the github to the root of the ux0:data folder \(Overwrite files if asked\)
 
  And you should have everything you need in order to make it run! Now install the vpk and play the game.  
 If the game crash at boot make sure you have everything in place.  
