@@ -15,8 +15,6 @@ Since Rockstars decided to just skip the PSVita and focus on Android why not do 
 * Patience. I'm not joking you need to follow the steps closely.
 * This guide
 
-
-
 ## Kubridge? libshacccg? fdfix?
 
 Make sure you have **libshacccg** in ur0:data, if you don't have it then follow [that guide](https://samilops2.gitbook.io/vita-troubleshooting-guide/shader-compiler/extract-libshacccg.suprx) to have it 
@@ -44,10 +42,10 @@ Once you paid the game and installed it on your phone we will need to have the a
 The obb isn't hard to get, it's located in `/sdcard/android/obb/com.rockstar.maxpayne/main.3.com.rockstar.maxpayne.obb`
 
 As for the apk it's different.  
-Either you're a hackerman and know how to use adb you can follow [this ](https://stackoverflow.com/questions/11012976/how-do-i-get-the-apk-of-an-installed-app-without-root-access)  
+Either you're a hackerman and know how to use adb, you can follow [this ](https://stackoverflow.com/questions/11012976/how-do-i-get-the-apk-of-an-installed-app-without-root-access)  
 If using a terminal scares you and you never scrolled in the settings app, then just install [this app](https://play.google.com/store/apps/details?id=com.ses.app.apkexport&hl=fr&gl=US) on your phone to extract the apk of the game.  
   
-Once you have the two files put them somewhere on your pc. We will work with those 2 files.
+Once you have the two files, put them somewhere on your pc. We will work with those 2 files.
 
 ## So do I rename .apk to .vpk and install it?
 
