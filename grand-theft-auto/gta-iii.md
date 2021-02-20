@@ -11,7 +11,7 @@ PS1 had GTA and GTA2, Xbox PS2 and PC had GTA 3 VC SA, PSP had LCS and VCS, and 
 * A PSVita ofc
 * The GTA III vpk and data files zip. Available [here](https://vitadb.rinnegatamante.it/#/info/589)
 * A copy of GTA III. You can find one [here](https://store.steampowered.com/agecheck/app/12100/) or [here](https://www.rockstargames.com/fr/games/grandtheftauto3)
-* The [batch script](https://github.com/AGraber/re3-nx/releases/download/23092020/convert_gta3_audio.zip) for the sounds credit : AGraber
+* The [batch script](https://drive.google.com/file/d/1_bno16v9DROZ0-MEiwr8kkJEcl8B3RUt/view?usp=sharing) for the sounds credit : AGraber
 * 2.3GB +50MB free in the memorycard for Textures Generations. \(The game will create a txd.img after you start it and it's 46MB\)
 * [FdFix](https://github.com/TheOfficialFloW/FdFix) plugin by TheFloW \(Not needed if you have already repatch\)
 
