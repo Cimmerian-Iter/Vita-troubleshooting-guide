@@ -29,7 +29,27 @@ By default you have compressed audio files, using those wav files like that will
 3. Drop the two files from the zip you have downloaded. 
 4. Launch the bat file. It will create an audio folder containing audio files, this is the folder that we will use. 
 5. Copy sfx.raw and sfx.SDT and all the MP3 files to the audio folder created. \(If the MP3 are already in the folder forget it\)
-6. Once it's done, we will swap the original audio folder with this one. Just move the audio folder created somewhere, delete the original audio folder, and put back in the GTA III folder the audio folder created \(Check that the folder contains 197 files to be sure\)
+6. Once it's done, we will swap the original audio folder with this one. Just move the audio folder created somewhere, delete the original audio folder, and put back in the GTA III folder the audio folder created \(Check that the folder contains 197 files to be sure\) 
+
+### Getting the intro video working
+
+If you're a fan of the good old intro of gta3, you can follow these steps to get it working, if you don't care and usually press x to skip it, then you can get straight to the installation process
+
+Take the ffmepg.exe we downloaded earlier and put it in the movies folder this time. Then, open a cmd windows, and use the cd command to go into the movies folder.  
+for exemple
+
+```text
+cd C:\Users\cimmerian\Desktop\gta3\movies\
+```
+
+Then you will have to insert those two commands, one by one, not two at once.
+
+```text
+ffmpeg.exe -i Logo.mpg Logo.mp4
+ffmpeg.exe -i GTAtitles.mpg GTAtitles.mp4
+```
+
+You can then delete the original files \(.mpg files\) to save space. 
 
 ## Installing GTA III on your PSVita
 
