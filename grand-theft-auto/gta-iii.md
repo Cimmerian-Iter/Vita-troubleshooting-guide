@@ -31,7 +31,7 @@ By default you have compressed audio files, using those wav files like that will
 5. Copy sfx.raw and sfx.SDT and all the MP3 files to the audio folder created. \(If the MP3 are already in the folder forget it\)
 6. Once it's done, we will swap the original audio folder with this one. Just move the audio folder created somewhere, delete the original audio folder, and put back in the GTA III folder the audio folder created \(Check that the folder contains 197 files to be sure\) 
 
-### Getting the intro video working
+### Getting the intro video to work
 
 If you're a fan of the good old intro of gta3, you can follow these steps to get it working, if you don't care and usually press x to skip it, then you can get straight to the installation process
 
