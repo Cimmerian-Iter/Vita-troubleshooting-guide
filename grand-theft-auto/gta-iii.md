@@ -36,7 +36,7 @@ By default you have compressed audio files, using those wav files like that will
 If you're a fan of the good old intro of gta3, you can follow these steps to get it working, if you don't care and usually press x to skip it, then you can get straight to the installation process
 
 Take the ffmepg.exe we downloaded earlier and put it in the movies folder this time. Then, open a cmd windows, and use the cd command to go into the movies folder.  
-for exemple
+for example
 
 ```text
 cd C:\Users\cimmerian\Desktop\gta3\movies\
