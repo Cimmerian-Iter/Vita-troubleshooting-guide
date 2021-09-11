@@ -1,7 +1,8 @@
 # Welcome to the Vita Troubleshooting Guide!
 
-People hack their Vita for various reasons. It can be to enjoy the great world of emulators
-•	going on a rampage in GTA  
+People hack their Vita for various reasons.
+•	Enjoying the great world of emulators  
+•	Going on a rampage in GTA  
 •	Racing with Gran turismo  
 •	Playing an action-packed game like Pursuit Force  
 •	Feeding your nostalgia and playing the original Sonic, Mario, Metal Slug or even arcade games  
@@ -9,11 +10,11 @@ People hack their Vita for various reasons. It can be to enjoy the great world o
 They can also hack their Vita so they can hack their games or to use mods to improve the experience. Things like fan translations, season updates to games like FIFA or even texture packs in Minecraft.
 
 Usually when one hacks their Vita system, they try to unlock the full potential of the PSVita by modding it. Examples include:
-•	Using plugins to enhance the PSVita performance with overclocking
-•	Avoid getting their eyes burned with VitaBright
-•	Downloading files from the web browser
-•	Using a MicroSD in place of the proprietary PSVita memory cards to save thousands of bucks for a high storage capacity
-•	Playing ports of games on the PSVita or streaming PC games with Moonlight
+•	Using plugins to enhance the PSVita performance with overclocking  
+•	Avoid getting their eyes burned with VitaBright  
+•	Downloading files from the web browser  
+•	Using a MicroSD in place of the proprietary PSVita memory cards to save thousands of bucks for a high storage capacity  
+•	Playing ports of games on the PSVita or streaming PC games with Moonlight  
 
 There is so much stuff to do with the PSVita and thanks to the constant effort of the community it's getting better every day.
 
