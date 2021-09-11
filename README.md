@@ -1,10 +1,10 @@
 # Welcome to the Vita Troubleshooting Guide!
 
 People hack their Vita for various reasons. It can be to enjoy the great world of emulators
-•	going on a rampage in GTA
-•	Racing with Gran turismo
-•	Playing an action-packed game like Pursuit Force
-•	Feeding your nostalgia and playing the original Sonic, Mario, Metal Slug or even arcade games.
+•	going on a rampage in GTA  
+•	Racing with Gran turismo  
+•	Playing an action-packed game like Pursuit Force  
+•	Feeding your nostalgia and playing the original Sonic, Mario, Metal Slug or even arcade games  
 
 They can also hack their Vita so they can hack their games or to use mods to improve the experience. Things like fan translations, season updates to games like FIFA or even texture packs in Minecraft.
 
