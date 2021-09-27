@@ -3,9 +3,9 @@
 People hack their Vita for various reasons.  
 •	Enjoying the great world of emulators  
 •	Going on a rampage in GTA  
-•	Racing with Gran turismo  
+•	Racing with Gran Turismo  
 •	Playing an action-packed game like Pursuit Force  
-•	Feeding your nostalgia and playing the original Sonic, Mario, Metal Slug or even arcade games  
+•	Feeding your nostalgia and playing the original Sonic, Mario, Metal Slug or an assortment of arcade games
 
 They can also hack their Vita so they can hack their games or to use mods to improve the experience. Things like fan translations, season updates to games like FIFA or even texture packs in Minecraft.
 
@@ -20,7 +20,7 @@ There is so much stuff to do with the PSVita and thanks to the constant effort o
 
 But, to enjoy the great world of PSVita modding, we need to tackle every issue that arises. Otherwise, it can be frustrating to not know what to do when a simple Google search doesn't give you a straight answer.
 
-I will guide you through the most commons problems that may occur on your Vita. In the menu, select the topic where you face an issue and thoroughly read the guide associated with the problem. If you don't understand something, or are unsure about a step, you can join the [HENkaku Discord server](https://discord.gg/m7MwpKA) and ping the helper team to help you. Alternatively, you can contact me directly through Twitter at the following account: [@Cimmerian\_Iter](https://twitter.com/cimmerian_iter)
+I will guide you through the most common problems that may occur on your Vita. In the menu, select the topic where you face an issue and thoroughly read the guide associated with the problem. If you don't understand something, or are unsure about a step, you can join the [HENkaku Discord server](https://discord.gg/m7MwpKA) and ping the helper team to help you. Alternatively, you can contact me directly through Twitter at the following account: [@Cimmerian\_Iter](https://twitter.com/cimmerian_iter)
 
 Credit: I want to thank the awesome Vita community for the good memories I was able to make. Watching it grow from the start in 2016 to what it is today.  
 To have met different kind of people, whenever it's a simple end user asking for my help, or good buddies I was able to make like some CBPS members \(Dots TB, Coderx, Silica, Caghandemir\) or SKGleba with who I really enjoyed testing his stuff and beating him in PUBG or Killzone ;\)  
