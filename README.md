@@ -1,6 +1,6 @@
 # Welcome to the Vita Troubleshooting Guide!
 
-People hack their Vita for various reasons.
+People hack their Vita for various reasons.  
 •	Enjoying the great world of emulators  
 •	Going on a rampage in GTA  
 •	Racing with Gran turismo  
