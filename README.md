@@ -9,7 +9,7 @@ People hack their Vita for various reasons.
 
 They can also hack their Vita so they can hack their games or to use mods to improve the experience. Things like fan translations, season updates to games like FIFA or even texture packs in Minecraft.
 
-Usually when one hacks their Vita system, they try to unlock the full potential of the PSVita by modding it. Examples include:
+Usually when one hacks their Vita system, they try to unlock the full potential of the PSVita by modding it. Examples include:  
 •	Using plugins to enhance the PSVita performance with overclocking  
 •	Avoid getting their eyes burned with VitaBright  
 •	Downloading files from the web browser  
