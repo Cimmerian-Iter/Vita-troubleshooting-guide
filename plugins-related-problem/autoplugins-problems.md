@@ -1,17 +1,17 @@
-# Error when using autoplugin
+# Error when using Autoplugin
 
-#### Sometimes, autoplugin will fail and we know that autoplugin 1 tends to corrupt the config.txt \(and recently autoplugin 2 also corrupting the config.txt, although the issue has been solved in 1.05 as of today\) It is importantly to know how to deal with plugins. Autoplugin is a great homebrew, but it shouldn't replace totally the knowledge of plugins and you can't expect it to be fail-proof. So we will see how can we recover from autoplugin misbehavior by learning about how tweaks works.
+#### Sometimes, Autoplugin will fail and we know that Autoplugin tends to corrupt the config.txt. It is importantly to know how to deal with plugins. Autoplugin is a great homebrew, but it shouldn't totally replace knowledge of plugins and you can't expect it to be fail-proof. We will see how can we recover from Autoplugin misbehavior by learning about how tweaks works.
 
 ## What is a plugin?
 
-You may have already encountered it through the PSP area, plugins are micro programs that runs in background and enhance your experience. It's purpose can be various like dealing with overclocking, modification of the livearea or a native function \(like the screenshot or music player\). They are essentials nowadays. They are loaded by the framework TaiHEN thanks to the effort of the Molecule Team.  
+You may have already encountered it through the PSP era, plugins are micro programs that runs in background and enhance your experience. Their purposes can be various like dealing with overclocking, modification of the livearea or a native function \(like the screenshot or music player\). They are essentials nowadays. They are loaded by the framework TaiHEN thanks to the effort of the Team Molecule.  
 
 There are two types of plugins.  
   
-SKPRX : these are kernel plugins, most common nowadays, it modifies the overall functions of your PSVita. Like nonpdrm to fake the drm system, yamt-lite load the SD2VITA as a MemoryCard, and more. They need a reboot between the installation to run. \(Or use xerpi's plugin loader\)  
+SKPRX: These are kernel plugins, most common nowadays, it modifies the overall functions of your PSVita. Like nonpdrm to fake the drm system, YAMT to load the SD2VITA as a MemoryCard, and more. They need a reboot between the installation to run. \(Or use xerpi's plugin loader\)  
   
-SUPRX : these are users plugins, we can split this into two groups : those which modify the live area \(\*main\) system behavior, and those which modify the in-game/app \(\*ALL\) behavior. To know which category the plugin you have belongs, you either need to know what it does, or just read the github description \(they often tell you if you need to install it under \*main or \*ALL\)  
-They don't need a reboot to be loaded, reloading taihen config in henkaku settings should do the job.  
+SUPRX: these are users plugins, we can split this into two groups. Those which modify the live area \(\*main\) system behaviour, and those which modify the in-game/app \(\*ALL\) behaviour. To know which category the plugin you have belongs, you either need to know what it does, or just read the Github description \(they often tell you if you need to install it under \*main or \*ALL\)  
+They don't need a reboot to be loaded, reloading the taiHEN config in HENkaku settings should do the job.  
   
 
 
@@ -19,7 +19,7 @@ They don't need a reboot to be loaded, reloading taihen config in henkaku settin
 
 This part isn't really difficult. It is quite easy in fact. All you need to do is to write some lines.  
   
-To install plugins you need to do 2 things :
+To install plugins you need to do 2 things:
 
 ### Place the plugin file in ur0:tai folder \(or ux0:tai if you want to use ux0\)
 
@@ -29,9 +29,9 @@ Plugins belongs to the tai folder where the config.txt is. There may be an excep
 
 The path is the location of the file. If the plugin is located in ur0:tai, then the path is : ur0:tai/name.skprx  
 You need to write the path in the config.txt under the category of the plugin.  
-KERNEL : skprx  
-MAIN : livearea tweak  
-ALL : app tweaks  
+KERNEL: .skprx  
+MAIN: Bubble Launcher tweaks  
+ALL: App tweaks  
   
 Here an example. Let's imagine I have a tai directory in ur0 that contains:  
 KERNEL : storagemgr.skprx, lolicon.skprx, nonpdrm.skprx  
