@@ -9,7 +9,7 @@ Since Rockstar decided to just skip the PSVita and focus on Android why don’t 
 ## What do I need?
 
 * The game obviously. Don't go installing the .vpk and expecting the full game. First download the game on your phone. If you’re like me and an iOS (masterace) user, then you can install Bluestacks (Android emulator easy to use) to download the game on your PC directly.
-* The .vpk and data.zip from the [Github](https://github.com/fgsfdsfgs/max_vita/releases)
+* The .vpk and data.zip from the [Github](https://github.com/fgsfdsfgs/max\_vita/releases)
 * Approximately 1.8GB of data of free space
 * [kubridge](https://github.com/TheOfficialFloW/kubridge/releases/), libshacccg and [fdfix](https://github.com/TheOfficialFloW/FdFix/releases)
 * Patience. I'm not joking you need to follow the steps closely.
@@ -25,7 +25,7 @@ Download the required plugins and place them in the tai folder you use (If you d
 
 Then write those 2 lines under \*KERNEL in the config.txt (in case you put them in ur0:tai)
 
-```
+```shell-session
 *KERNEL
 ur0:tai/kubridge.skprx
 ur0:tai/fd_fix.skprx

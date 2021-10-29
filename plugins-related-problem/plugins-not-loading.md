@@ -4,17 +4,17 @@ description: halp they ate all my ram and now i can't breath
 
 # Plugins not loading
 
-Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin\(s\) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issue.  
-  
-Note: thanks to teakhanirons \(from the CBPS team\) you can use a tool from the future to ease the process. I'll describe it at the end of the tutorial.
+Dealing with plugins is kind of annoying and hard to debug in some cases. If it bootloops, we need to find the culprit plugin(s) through a witch hunt. Fortunately, through previous community experience, we can narrow down the issue.
+
+
 
 ## Plugins are programs.
 
-It may sound unrealistic but yeah. Plugins are microprograms that affect the system. You wonder why your phone/computer runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks for too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. \(Someone once reached out to me because he couldn't boot his Vita after installing ALL the plugins he found in Autoplugin 2\)
+It may sound unrealistic but yeah. Plugins are microprograms that affect the system. You wonder why your phone/computer runs slowly when you have a ton of apps installed and running? Well it's the same case here. The more plugins you try to load, the more system resources they will need, like RAM. If it asks for too much, it will lead to a bootloop. That's why you should moderate yourself and not install all plugins you can find. (Someone once reached out to me because he couldn't boot his Vita after installing ALL the plugins he found in Autoplugin 2)
 
 We will use an example on a common case I found during my time helping people:
 
-```text
+```
 # This file is used as an alternative if ux0:tai/config.txt is not found.
 # For users plugins, you must refresh taiHEN from HENkaku Settings for
 # changes to take place.
@@ -63,26 +63,26 @@ That's a pretty big list there. It's no wonder why his Vita doesn't load anymore
 
 ## Installing multiple plugins that do the same thing
 
-Yep, that's his first mistake. Let's take a closer look.  
-This guy want to use his DS4 \(PS4 controller enabler\) plugins, but he loaded all the plugins for it: minitv, ds3 and ds4.  
-He needs to make a choice, either use minitv or ds4. In this case let's go with minitv \(which uses DS3 as a dependency\)
+Yep, that's his first mistake. Let's take a closer look.\
+This guy want to use his DS4 (PS4 controller enabler) plugins, but he loaded all the plugins for it: minitv, ds3 and ds4.\
+He needs to make a choice, either use minitv or ds4. In this case let's go with minitv (which uses DS3 as a dependency)
 
 ## SD2VITA and ioplus plugin not being at the top.
 
-Another common mistake is to not put the SD2VITA at the begining of \*KERNEL. This is very important as normally every plugin need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.  
+Another common mistake is to not put the SD2VITA at the begining of \*KERNEL. This is very important as normally every plugin need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.\
 As for ioplus it is a dependency used by other plugins to have access to more IO operation in userland. It needs to be loaded before them.
 
 ## Loading heavy plugins when we don't always use them
 
 UCDCD's uvc plugin for streaming the PSVita screen through the USB is one of the most heavy plugins and need a lot of resources. If you want to use it, make some room for it. Let's see:
 
-* I don't think you need to activate the music related plugins, that already removes 3 plugins from the list. 
-* PS4 link controls? Not useful in that case. 
+* I don't think you need to activate the music related plugins, that already removes 3 plugins from the list.
+* PS4 link controls? Not useful in that case.
 * Nopowerlimit, unless you really want to leave the WI-FI open while playing a game that disables it you can also remove this one
-* Adrenaline plugin is one of the most useless plugins there. Just to avoid launching the app twice \(one time to inject the adrenaline.skprx, and a second time to open adrenaline\). Let's free our config from this one too.
-* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the Vita control.  We did some cleanup so let’s see what the config looks like 
+* Adrenaline plugin is one of the most useless plugins there. Just to avoid launching the app twice (one time to inject the adrenaline.skprx, and a second time to open adrenaline). Let's free our config from this one too.
+* Using remap plugins, analog enhancer and BackTouch when we use a DS4 controller is also useless. It's just wasting memory at this point since you will use your PS4 controller and not the Vita control. We did some cleanup so let’s see what the config looks like
 
-```text
+```
 # This file is used as an alternative if ux0:tai/config.txt is not found.
 # For users plugins, you must refresh taiHEN from HENkaku Settings for
 # changes to take place.
@@ -114,45 +114,12 @@ ur0:tai/shellbat.suprx
 ur0:tai/vitagrafix.suprx
 ```
 
-It looks way cleaner now. As you have seen, people always tend to load more plugins than they really need. Using only the plugins you need for the game session you will do allows you to enjoy your system without being blocked by a bootloop. You can create multiple config.txt's for each case if you want as long as the config isn't heavy \(more than 10 plugins at the same time is not recommended\).  
+It looks way cleaner now. As you have seen, people always tend to load more plugins than they really need. Using only the plugins you need for the game session you will do allows you to enjoy your system without being blocked by a bootloop. You can create multiple config.txt's for each case if you want as long as the config isn't heavy (more than 10 plugins at the same time is not recommended).\
 By following the same logic you can clear your config.txt easily without scratching your head over why it won't boot.
 
 Note: If vitabright doesn't work for you even though you did what I told you to do, then look at this: [https://github.com/devnoname120/vitabright/issues/13](https://github.com/devnoname120/vitabright/issues/13)
 
 ## Using Easy Switch Vita
 
-An app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)  
-  
-
-
-## Emergency Mount
-
-This plugin will save you a lot of trouble in case you run in a situation like this. And there's many things you want to avoid:
-
-* Loosing all your icon organisation you spent hours to finally complete it to your taste because it will trigger a database refresh \(Or for SD2Vita user, you will simply boot in a blank bubble launcher without access to any app\). Also making the boot time much longer than what it is originally
-* Especially for 3.65 users, being stuck with either formatting the memorycard or update since pressing L will remove the version spoof.
-
-It will mount one of those partitions: sonymc, internal storage, USB or ur0 \(what we really care\) through USB and you will have access to it with your computer \(just like what VitaShell does\). Then you can open the config.txt with notepad and edit it.
-
-#### How do I use it?
-
-That's simple. Remember when I said that for storagemgr to work correctly we need to put it first? Well, change of plan. We need to put emergency mount right below \*Kernel \(yeah since bootloop means some plugins cause it, and plugins that are loaded before emergency mount can crash before even letting emergency mount run.\)  
-  
-So, like before, you edit the config.txt like that
-
-```text
-*KERNEL
-ur0:tai/EmergencyMount.skprx
-```
-
-and then you add your favourite plugins after that line \(add storagemgr in second place ofc, the only case you want to still let it in first place would be to allow Emergency Mount to mount SD2Vita, but let's be honest, we don't need that option.\)  
-  
-When you're stuck in a bootloop, simply press the triangle button at boot and it will bring the menu of the plugin. Then you can mount the partition you want.  
-  
-You can also customise the background if you want.  
-  
-I recommend this plugin because it make it easier to edit config.txt, instead of doing the taiHEN reset option in HENkaku/HENcore that would reset the whole config so you need to rewrite every lines again \(time consuming\), you can just remove the faulty plugin line and reboot.  
-  
-For more information about the plugin, you can see the release post in the [CBPS forum](https://forum.devchroma.nl/index.php/topic,183.msg421.html#msg421) and talk with the dev.   
-
+An app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)
 
