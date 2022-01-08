@@ -108,3 +108,25 @@ Une fois choisi, vous êtes dans un lobby public.&#x20;
 ![Je me sens si seul..... Si seulement adopteunami.com existait](<../.gitbook/assets/image (19).png>)
 
 Au centre vous avez le chat général du lobby, à droite la liste des utilisateurs connecté au lobby ainsi que leurs ping qui s'affichera via une barre coloré en dessous de leurs nom.
+
+Mais comment ça marche maintenant? Et bien comme vous êtes dans un même lobby, vous pouvez soit host une partie Ad-Hoc sur votre vita du jeu de votre choix, ou rejoindre une partie avec votre jeu. Les PSVita des autres utilisateurs s'afficheront sur votre vita comme si elles étaient à 30cm de vous. C'est du Ad-Hoc, le principe reste le même. Maintenant amusez vous !
+
+
+
+
+
+{% hint style="info" %}
+Pour des jeux commes Freedom Wars, qui n'ont pas d'options créer, ou rejoindre une partie et qui s'occupe automatiquement de chercher d'abord si il y a une partie avant de créer soit même sa partie, le processus de connexion peut être plus fastidieux. En effet Freedom Wars prend 3 seconde pour chercher une partie ce qui peut être court; Je vous conseille de proceder comme cela :  \
+1 Rejoignez avec vos amis un lobby Freedom Wars\
+2 Lancer XLHA sur votre PC\
+3 Selectionner la chambre ou vous allez tous vous rejoindre sur Freedom Wars (room 1 par exempe)
+
+4 XLHA devrait se connecter immediatement à la PSVita et avec un peu de chance reussira à connecter la PSVita aux autres PSVita et ainsi créer la partie Ad-Hoc commune\
+\
+Note : Il se peut que une fois dans le jeu, vous ne voyez pas immédiatement les personnages des autres utilisateurs, c'est normal. Laissez quelque minutes le temps que le jeu finisse de se synchroniser et les personnages des joueurs devraient tous s'afficher.
+{% endhint %}
+
+{% hint style="info" %}
+Pour Soul Sacrifice Delta, il faut obligatoirement une PSVita hacké, en effet le jeu possède une limite de ping maximum de 30ms, or en utilisant Xlink, le ping est plus élevé. Le jeu va donc forcer la deconnexion. Pour contourner ce problème il faut patcher le jeu. Voici un [tutoriel](https://www.teamxlink.co.uk/wiki/Soul\_Sacrifice\_Delta)
+{% endhint %}
+
