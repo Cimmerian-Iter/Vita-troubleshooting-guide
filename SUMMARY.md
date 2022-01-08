@@ -17,7 +17,7 @@
 * [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
 * [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
 
-## Content manager connection issue <a id="you-worst-nightmare"></a>
+## Content manager connection issue <a href="#you-worst-nightmare" id="you-worst-nightmare"></a>
 
 * [QCMA](you-worst-nightmare/untitled.md)
 
@@ -25,7 +25,7 @@
 
 * [Adrenaline](adrenaline-problems/untitled.md)
 
-## PSN <a id="psn-1"></a>
+## PSN <a href="#psn-1" id="psn-1"></a>
 
 * [PSN](psn-1/psn.md)
 
@@ -64,3 +64,6 @@
 
 * [MaxPayne](android-ports/maxpayne.md)
 
+## Xlink
+
+* [Comment utiliser Xlink](xlink/comment-utiliser-xlink.md)

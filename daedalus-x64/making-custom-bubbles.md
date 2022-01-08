@@ -42,7 +42,7 @@ Once you have it, follow these instructions :
 
 Once it's done, you can put all these .png files in the asset folder and run build.bat again, it will generate a .vpk with your Super Mario themed bubble.
 
-![Oh, a Mario head](<../.gitbook/assets/image (16).png>)
+![Oh, a Mario head](<../.gitbook/assets/image (16) (1).png>)
 
 ![No Vita? No problem, vita3K exists](<../.gitbook/assets/image (3) (1).png>)
 
