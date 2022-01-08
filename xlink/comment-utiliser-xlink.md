@@ -7,7 +7,7 @@ description: Le multi des jeux Vita vivront éternellement yeahhhhhhhh
 Grâce à Xlink, nous pouvons maintenant sauver des jeux tel que Freedom Wars ou Soul Sacrifice Delta dont le multi-joueurs constituait une grande partie de l'intérêt de jouer à ces jeux. Grâce au mode Ad-Hoc, le PC va se connecter au réseau Ad-Hoc de la Vita, et faire une sorte de tunnel qui permettra aux Vita du monde entier de se connecter au réseau Ad-Hoc de la Vita.  C'est le même principe que Ad-Hoc Party sur PS3 pour la PSP. Le tout GRATUITEMENT\
 
 
-
+![Retour vers l'époque Windows 7](<../.gitbook/assets/image (26).png>)
 
 ## Comment j'installe Xlink?
 
@@ -18,6 +18,8 @@ Tout d'abord vous avez besoin de ces élements :&#x20;
 3. Un compte Xlink
 4. Une carte wifi compatible ou un adaptateur wifi compatible (Généralement votre carte wifi de base devrait marcher, si dans la suite du tutoriel vous n'arrivez pas a connecter votre Vita dans xlink, c'est qu'il faut acheter une carte wifi. Voici une list des carte wifi recommandé : [lien](https://www.teamxlink.co.uk/wiki/PSP\_WiFi\_Adapters) )
 5. Un moyen d'avoir Internet sur votre PC sans votre carte wifi (Comme on va utiliser la carte wifi pour se connecter au réseau de la Vita, il nous faut soit une connexion Ethernet, une deuxième carte wifi ou un partage de connexion de votre téléphone via USB pour que l'ordinateur puisse se connecter à Internet.)
+
+Pour le 5e point, je vous conseille vivement de forcer votre PC à utiliser la carte wifi/Ethernet/Partage de connection, pour cela vous pouvez deconnecter la carte wifi (que vous utiliserez pour la connecter à votre PSVita) du réseau auquel elle est connecté que vous utiliserez.  Votre PC va donc utiliser l'autre moyen de se connecter à internet.
 
 ## Obtenir un compte Xlink&#x20;
 
@@ -85,7 +87,7 @@ Il ne vous reste plus qu'à faire Start Engine, et le programme va chercher auto
 \
 
 
-![Ah non c'est une libellule en fait](<../.gitbook/assets/image (26).png>)
+![Ah non c'est une libellule en fait](<../.gitbook/assets/image (26) (1).png>)
 
 Voila, votre PSVita est bien connecté à votre PC comme vous pouvez le voir en haut à gauche avec le magnifique SCE (Sony Computer Entertainment)
 
