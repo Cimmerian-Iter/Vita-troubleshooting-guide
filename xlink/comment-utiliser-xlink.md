@@ -38,7 +38,7 @@ Pour un PC Windows
 4. Installez Xlink kai
 5. Lancez Xlink kai
 6. Connectez vous \
-   ![](<../.gitbook/assets/image (21).png>)
+   ![](<../.gitbook/assets/image (21) (1).png>)
 
 Vous voila donc dans le menu principal de Xlink kai. Veuillez laisser cette fenêtre ouverte, nous allons maintenant essayer de connecter votre Vita avec le PC\
 \
@@ -66,11 +66,11 @@ La partie la plus importante, et elle n'est pas plus compliqué.
 * Au prochain écran, naviguez vers Automatically Connect to PSVita networks et appuyez sur entrée pour le cocher (Cela permettra au programme de scanner automatiquement et de se connecter automatiquement à un réseau PSVita)
 * Dans Use the following Network, sélectionnez la carte wifi qui sera utilisé pour la connexion avec la PSVita. Si vous ne savez pas, ouvrez le panneau de configuration, puis allez dans "Réseau et Internet", puis "Centre Réseau et partage" puis "Modifier les paramètres de la carte" et vous aurez une liste des carte wifi sur votre PC ainsi que leurs nom.
 
-![J'utilise un adaptateur USB TP-Link pour la Vita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22).png>)
+![J'utilise un adaptateur USB TP-Link pour la Vita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1).png>)
 
 * Changez la valeur de "Reconnect after network has been inactive for \<seconds>" à 1 (C'est le temps nécessaire au programme pour tenter de se reconnecter à un réseau PSVita)
 
-![Voila à quoi doit ressembler votre écran](<../.gitbook/assets/image (20).png>)
+![Voila à quoi doit ressembler votre écran](<../.gitbook/assets/image (20) (1).png>)
 
 * Appuyez sur Next, puis encore sur Next (ne changez rien dans les ports et adresse IP)
 
@@ -78,8 +78,33 @@ Vous arrivez donc sur cet écran.&#x20;
 
 ![Oh le beau champignon](<../.gitbook/assets/image (16).png>)
 
-Il ne vous reste plus qu'a faire Start Engine, et le programme va chercher automatiquement un réseau PSVita
+Il ne vous reste plus qu'à faire Start Engine, et le programme va chercher automatiquement un réseau PSVita
 
 
 
-![](<../.gitbook/assets/image (26).png>)\
+\
+
+
+![Ah non c'est une libellule en fait](<../.gitbook/assets/image (26).png>)
+
+Voila, votre PSVita est bien connecté à votre PC comme vous pouvez le voir en haut à gauche avec le magnifique SCE (Sony Computer Entertainment)
+
+
+
+## Rejoindre un lobby&#x20;
+
+Se connecter c'est bien, jouer c'est mieux. Maintenant retournez dans votre fenêtre Xlink kai que nous avions ouvert avant. Si vous appuyez sur le bouton Metrics vous devirez voir votre PSP euh je veux dire votre PSVita connecté&#x20;
+
+![C'est forcement Sony derrière qui a crée Xlink Kai pour ne pas connaitre la PSVita et la considerer comme une PSP](<../.gitbook/assets/image (21).png>)
+
+&#x20;Appuyez sur Game Arenas pour avoir la listes des lobby selon les consoles.
+
+![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28).png>)
+
+Choisissez PSVita, puis selectionnez la categorie de jeux qui concerne le jeu auquel vous voulez jouer. Puis choissisez votre jeu dans la liste.
+
+Une fois choisi, vous êtes dans un lobby public.&#x20;
+
+![Je me sens si seul..... Si seulement adopteunami.com existait](<../.gitbook/assets/image (19).png>)
+
+Au centre vous avez le chat général du lobby, à droite la liste des utilisateurs connecté au lobby ainsi que leurs ping qui s'affichera via une barre coloré en dessous de leurs nom.
