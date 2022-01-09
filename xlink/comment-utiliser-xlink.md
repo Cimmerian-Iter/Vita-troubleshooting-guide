@@ -4,10 +4,18 @@ description: Le multi des jeux Vita vivront éternellement yeahhhhhhhh
 
 # Comment utiliser Xlink
 
-Grâce à Xlink, nous pouvons maintenant sauver des jeux tel que Freedom Wars ou Soul Sacrifice Delta dont le multi-joueurs constituait une grande partie de l'intérêt de jouer à ces jeux. Grâce au mode Ad-Hoc, le PC va se connecter au réseau Ad-Hoc de la Vita, et faire une sorte de tunnel qui permettra aux Vita du monde entier de se connecter au réseau Ad-Hoc de la Vita.  C'est le même principe que Ad-Hoc Party sur PS3 pour la PSP. Le tout GRATUITEMENT\
+Grâce à Xlink, nous pouvons maintenant sauver des jeux tel que Freedom Wars ou Soul Sacrifice Delta dont le multi-joueurs constituait une grande partie de l'intérêt de jouer à ces jeux. Grâce au mode Ad-Hoc, le PC va se connecter au réseau Ad-Hoc de la Vita, et faire une sorte de tunnel qui permettra aux Vita du monde entier de se connecter au réseau Ad-Hoc de la Vita.  C'est le même principe que Ad-Hoc Party sur PS3 pour la PSP. Le tout GRATUITEMENT
+
+\
 
 
 ![Retour vers l'époque Windows 7](<../.gitbook/assets/image (26).png>)
+
+{% hint style="info" %}
+Comme il s'agit d'une connexion Ad-Hoc, aucune données sensible n'est transmise comme votre id PlayStation Network. Les serveurs Xlink ne gardent pas de traces de vos parties, ils s'occupent uniquement de vous relier entre les PSVita du monde, la connexion est du P2P entres les ordinateurs. Donc si vous avez des craintes par rapport à votre privé et bien il n'y à rien à craindre.
+{% endhint %}
+
+
 
 ## Comment j'installe Xlink?
 
@@ -19,7 +27,9 @@ Tout d'abord vous avez besoin de ces élements :&#x20;
 4. Une carte wifi compatible ou un adaptateur wifi compatible (Généralement votre carte wifi de base devrait marcher, si dans la suite du tutoriel vous n'arrivez pas a connecter votre Vita dans xlink, c'est qu'il faut acheter une carte wifi. Voici une list des carte wifi recommandé : [lien](https://www.teamxlink.co.uk/wiki/PSP\_WiFi\_Adapters) )
 5. Un moyen d'avoir Internet sur votre PC sans votre carte wifi (Comme on va utiliser la carte wifi pour se connecter au réseau de la Vita, il nous faut soit une connexion Ethernet, une deuxième carte wifi ou un partage de connexion de votre téléphone via USB pour que l'ordinateur puisse se connecter à Internet.)
 
+{% hint style="info" %}
 Pour le 5e point, je vous conseille vivement de forcer votre PC à utiliser la carte wifi/Ethernet/Partage de connection, pour cela vous pouvez deconnecter la carte wifi (que vous utiliserez pour la connecter à votre PSVita) du réseau auquel elle est connecté que vous utiliserez.  Votre PC va donc utiliser l'autre moyen de se connecter à internet.
+{% endhint %}
 
 ## Obtenir un compte Xlink&#x20;
 
@@ -27,6 +37,8 @@ C'est très simple, allez dans le site puis créez un compte Xlink kai\
 [https://www.teamxlink.co.uk/u/register](https://www.teamxlink.co.uk/u/register)\
 \
 Gardez dans un coin de votre tête votre gamer tag et votre mot de passe, nous on aurons besoin de ceci ensuite.
+
+
 
 ## Installer Xlink kai sur votre PC
 
@@ -40,7 +52,9 @@ Pour un PC Windows
 4. Installez Xlink kai
 5. Lancez Xlink kai
 6. Connectez vous \
-   ![](<../.gitbook/assets/image (21) (1).png>)
+
+
+![uk? Les rosbeef ont fait ce truc?](<../.gitbook/assets/image (21) (1).png>)
 
 Vous voila donc dans le menu principal de Xlink kai. Veuillez laisser cette fenêtre ouverte, nous allons maintenant essayer de connecter votre Vita avec le PC\
 \
@@ -54,12 +68,12 @@ La partie la plus importante, et elle n'est pas plus compliqué.
 
 
 
-* Téléchargez [XLHA](https://github.com/codedwrench/xlinkhandheldassistant/releases/tag/REL\_1\_2), un outil qui s'occupera de gérer la connexion de la PSVita vers le PC (Si vous avez un PC Windows, téléchargez le zip Windows, puis extrayez le .exe de ce zip quelque part)
-* Lancez XLHA (Au cas ou, vous avez un readme qui vous détaille en anglais comment lancer XLHA selon votre système d'exploitation)\
+* Lancer un Jeu PSVita qui utilise le Ad-Hoc, et activez le Ad-Hoc dans ce jeu.\
+
+* Téléchargez [XLHA](https://github.com/codedwrench/xlinkhandheldassistant/releases/tag/REL\_1\_2), un outil qui s'occupera de gérer la connexion de la PSVita vers le PC (Si vous avez un PC Windows, téléchargez le zip Windows, puis extrayez le dossier de ce zip quelque part)
+* Lancez Xlink Handlheld Assistant (Au cas ou, vous avez un readme qui vous détaille en anglais comment lancer XLHA selon votre système d'exploitation)\
   \
   Vous vous retrouvez face à une fenêtre de ce type :&#x20;
-
-
 
 ![Ca fait très hackeur tout ça](<../.gitbook/assets/image (17).png>)
 
@@ -68,7 +82,7 @@ La partie la plus importante, et elle n'est pas plus compliqué.
 * Au prochain écran, naviguez vers Automatically Connect to PSVita networks et appuyez sur entrée pour le cocher (Cela permettra au programme de scanner automatiquement et de se connecter automatiquement à un réseau PSVita)
 * Dans Use the following Network, sélectionnez la carte wifi qui sera utilisé pour la connexion avec la PSVita. Si vous ne savez pas, ouvrez le panneau de configuration, puis allez dans "Réseau et Internet", puis "Centre Réseau et partage" puis "Modifier les paramètres de la carte" et vous aurez une liste des carte wifi sur votre PC ainsi que leurs nom.
 
-![J'utilise un adaptateur USB TP-Link pour la Vita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1).png>)
+![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1).png>)
 
 * Changez la valeur de "Reconnect after network has been inactive for \<seconds>" à 1 (C'est le temps nécessaire au programme pour tenter de se reconnecter à un réseau PSVita)
 
@@ -84,22 +98,30 @@ Il ne vous reste plus qu'à faire Start Engine, et le programme va chercher auto
 
 
 
-\
-
-
 ![Ah non c'est une libellule en fait](<../.gitbook/assets/image (26) (1).png>)
 
 Voila, votre PSVita est bien connecté à votre PC comme vous pouvez le voir en haut à gauche avec le magnifique SCE (Sony Computer Entertainment)
 
 
 
+{% hint style="info" %}
+Si votre PC n'arrive pas à detecter de réseau PSVita, vérifier que votre PSVita à bien lancé une connexion Ad-Hoc. Si cela ne marche toujours pas, il faudra changer de carte wifi.
+{% endhint %}
+
 ## Rejoindre un lobby&#x20;
 
-Se connecter c'est bien, jouer c'est mieux. Maintenant retournez dans votre fenêtre Xlink kai que nous avions ouvert avant. Si vous appuyez sur le bouton Metrics vous devirez voir votre PSP euh je veux dire votre PSVita connecté&#x20;
+Se connecter c'est bien, jouer c'est mieux. Maintenant retournez dans votre fenêtre Xlink kai que nous avions ouvert avant. Si vous appuyez sur le bouton Metrics vous devriez voir votre PSVita connecté&#x20;
 
-![C'est forcement Sony derrière qui a crée Xlink Kai pour ne pas connaitre la PSVita et la considerer comme une PSP](<../.gitbook/assets/image (21).png>)
+![2 consoles pour le prix d'une](<../.gitbook/assets/image (21).png>)
 
-&#x20;Appuyez sur Game Arenas pour avoir la listes des lobby selon les consoles.
+&#x20;
+
+{% hint style="info" %}
+Si vous ne voyez pas votre PSVita, essayer de rejoindre un lobby pour que la PSVita soit reconnu. Si votre PSVita n'est toujours pas reconnu malgrès que XLHA soit connecté au réseau Ad-Hoc de la PSVita, votre carte wifi est incompatible. Vous allez devoir en acheter une qui soit compatible.
+{% endhint %}
+
+\
+Appuyez sur Game Arenas pour avoir la listes des lobby selon les consoles.
 
 ![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28).png>)
 
@@ -130,5 +152,9 @@ Note : Il se peut que une fois dans le jeu, vous ne voyez pas immédiatement les
 
 {% hint style="info" %}
 Pour Soul Sacrifice Delta, il faut obligatoirement une PSVita hacké, en effet le jeu possède une limite de ping maximum de 30ms, or en utilisant Xlink, le ping est plus élevé. Le jeu va donc forcer la deconnexion. Pour contourner ce problème il faut patcher le jeu. Voici un [tutoriel](https://www.teamxlink.co.uk/wiki/Soul\_Sacrifice\_Delta)
+{% endhint %}
+
+{% hint style="info" %}
+Si vous voulez faire un lobby privé, appuyé sur le petit crayon à coté de l'étoile. Vous pourrez ensuite créer un lobby protégé par mot de passe.&#x20;
 {% endhint %}
 
