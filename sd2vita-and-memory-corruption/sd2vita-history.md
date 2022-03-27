@@ -12,11 +12,11 @@ And thus the SD2Vita was born.
 
 ## The prototype
 
-Using the cardridget slot wasn't the first attempt, we had before the black fin cobra dongle which used the cardridge slot to communicate with the pc to share games on a placeholder&#x20;
+Using the cartridge slot wasn't the first attempt, we had before the black fin cobra dongle which used the cartridge slot to communicate with the pc to share games on a placeholder&#x20;
 
 ![Weeee hacker stuff, seems like somthing from the Matrix](<../.gitbook/assets/image (33).png>)
 
-But using the cardridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use regular a SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connect the microsd pin to the cart ridge slot pin. \
+But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use regular a SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connect the microsd pin to the cartridge slot pin. Since a PSVita cartridge was just an SDcard with authentification.\
 \
 And thus was born the prototype, with the effort of xyz and motoharu who worked on reversing anything that has to do with memory card protocol, they made the first SD2Vita
 
