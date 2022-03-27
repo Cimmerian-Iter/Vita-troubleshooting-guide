@@ -4,7 +4,7 @@ description: begone pricy ugly fucking sony memorycard !
 
 # SD2VITA history
 
-Back then, we had two solutions. Either you buy a PSVita 3G and swap the 3G antenna with a psvsd to use a MicroSD, or else you destroy your wallet on amazon to order a memorycard. We kinda lost hope, or not. We begged yfanlu to find a solution, but it was xyz who managed to find THE solution to use a MicroSD on any PSVita, without opening the vita nor any modification of any kind.\
+Back then, we had two solutions. Either you buy a PSVita 3G and swap the 3G antenna with a psvsd to use a MicroSD, or else you destroy your wallet on amazon to order a memory card. We kinda lost hope, or not. We begged yfanlu to find a solution, but it was xyz who managed to find a solution to use a MicroSD on any PSVita, without opening the vita nor any modification of any kind.\
 \
 And thus the SD2Vita was born.
 
@@ -12,13 +12,13 @@ And thus the SD2Vita was born.
 
 ## The prototype
 
-Using the cartridge slot wasn't the first attempt, we had before the black fin cobra dongle which used the cartridge slot to communicate with the pc to share games on a placeholder&#x20;
+Using the cartridge slot wasn't the first attempt, we had before the black fin cobra dongle which used the cartridge slot to communicate with the pc to share games on a placeholder.
 
 ![Weeee hacker stuff, seems like somthing from the Matrix](<../.gitbook/assets/image (33).png>)
 
 But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use a regular SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connects the MicroSD pin to the cartridge slot pin. Since a PSVita cartridge was just an SDcard with authentification.\
 \
-And thus was born the prototype, with the effort of xyz and motoharu who worked on reversing anything that has to do with memory card protocol, they made the first SD2Vita
+And thus was born the prototype, with the effort of xyz and motoharu who worked on reversing anything that has to do with memory card protocol, they made the first SD2Vita.
 
 {% embed url="https://www.youtube.com/watch?v=x4QBZkWU104" %}
 Omg yfanlu finger nudes leak
@@ -30,7 +30,7 @@ But as you can see, it wasn't as simple as installing a plugin, the process of l
 
 The work was done, gamesd.skprx was released and the race had begun ! Xyz published the blueprint of the SD2Vita so anyone with PCB, soldering tools could create their own SD2Vita ! Although the one produced now doesn't use xyz blueprint but Gadorach version.
 
-Those were cheap to produce, and many people from the scene wanted to do their own so we had different variants of the sd2vita&#x20;
+Those were cheap to produce, and many people from the scene wanted to do their own so we had different variants of the sd2vita .
 
 ![The most popular one](<../.gitbook/assets/image (25).png>)
 
@@ -59,7 +59,7 @@ Oh yeah and I forgot to mention something.
 
 **It cost 15€**
 
-I don't really know who decided to put that price especially since buying a soldering kit + PCB wasn't that costly and the demand was high. But then again it's because the demand was high and it was a small price to pay for salvation compared to sony memorycard prices.
+I don't really know who decided to put that price, especially since buying a soldering kit + PCB wasn't that costly and the demand was high. But then again it's because the demand was high and it was a small price to pay for salvation compared to sony memory card prices.
 
 
 
@@ -90,11 +90,11 @@ So the SD2vita Plus project was born
 
 ![The super SD2Vita project, better than anything, stronger than anyone and scammier than VitaDock !](<../.gitbook/assets/image (19).png>)
 
-It was supposed to be a premium product and it was its main selling point when compared to the V2. But unfortunately their money hunger was stronger than their abilities and the project was a failure. They put a launch date without even being sure that it would be successfully made, and they took pre order.
+It was supposed to be a premium product and it was its main selling point when compared to the V2. But unfortunately, their money hunger was stronger than their abilities and the project was a failure. They put a launch date without even being sure that it would be successfully made, and they took pre order.
 
 ![Wait what's that? It's like some sort of silicon teeth with a chip inside](<../.gitbook/assets/image (38).png>)
 
-The main problem was the plastic which was not quite right, apparently their producer failed them and they had a lot of problems with
+The main problem was the plastic which was not quite right, apparently their producer failed them and they had a lot of problems with.
 
 ![Feeling down? The SD2Vita Plus too](<../.gitbook/assets/image (18).png>)
 
@@ -126,7 +126,7 @@ Anyway, why did we need a V5? To fix the rate of faulty SD2ita sold? Nope !
 
 The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge slot couldn't close on slim because the top of the SD2Vita would pop out. This redesign aims to fix that so it can easily fit on slim PSVita.
 
-There's different variations of the SD2vita on the market,&#x20;
+There's different variations of the SD2vita on the market :
 
 ![](<../.gitbook/assets/image (23).png>)![](<../.gitbook/assets/image (24).png>)![](<../.gitbook/assets/image (22).png>) wait compatible what?
 
