@@ -6,7 +6,6 @@
 
 * [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
 * [Firmware version : 3.61-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
-* [SD2VITA history](hack-problems-related/sd2vita-history.md)
 
 ## Plugins related problem
 
@@ -15,6 +14,7 @@
 
 ## SD2VITA and memory corruption
 
+* [SD2VITA history](sd2vita-and-memory-corruption/sd2vita-history.md)
 * [SD2VITA doesn't work](sd2vita-and-memory-corruption/untitled.md)
 * [Memory corruption](sd2vita-and-memory-corruption/untitled-1.md)
 
