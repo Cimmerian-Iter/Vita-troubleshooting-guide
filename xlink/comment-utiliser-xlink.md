@@ -9,7 +9,7 @@ Grâce à Xlink, nous pouvons maintenant sauver des jeux tel que Freedom Wars ou
 \
 
 
-![Retour vers l'époque Windows 7](<../.gitbook/assets/image (26).png>)
+![Retour vers l'époque Windows 7](<../.gitbook/assets/image (26) (1).png>)
 
 {% hint style="info" %}
 Comme il s'agit d'une connexion Ad-Hoc, aucune données sensible n'est transmise comme votre id PlayStation Network. Les serveurs Xlink ne gardent pas de traces de vos parties, ils s'occupent uniquement de vous relier entre les PSVita du monde, la connexion est du P2P entres les ordinateurs. Donc si vous avez des craintes par rapport à votre privé et bien il n'y à rien à craindre.
@@ -54,7 +54,7 @@ Pour un PC Windows
 6. Connectez vous \
 
 
-![uk? Les rosbeef ont fait ce truc?](<../.gitbook/assets/image (21) (1).png>)
+![uk? Les rosbeef ont fait ce truc?](<../.gitbook/assets/image (21) (1) (1).png>)
 
 Vous voila donc dans le menu principal de Xlink kai. Veuillez laisser cette fenêtre ouverte, nous allons maintenant essayer de connecter votre Vita avec le PC\
 \
@@ -82,11 +82,11 @@ La partie la plus importante, et elle n'est pas plus compliqué.
 * Au prochain écran, naviguez vers Automatically Connect to PSVita networks et appuyez sur entrée pour le cocher (Cela permettra au programme de scanner automatiquement et de se connecter automatiquement à un réseau PSVita)
 * Dans Use the following Network, sélectionnez la carte wifi qui sera utilisé pour la connexion avec la PSVita. Si vous ne savez pas, ouvrez le panneau de configuration, puis allez dans "Réseau et Internet", puis "Centre Réseau et partage" puis "Modifier les paramètres de la carte" et vous aurez une liste des carte wifi sur votre PC ainsi que leurs nom.
 
-![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1).png>)
+![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1) (1).png>)
 
 * Changez la valeur de "Reconnect after network has been inactive for \<seconds>" à 1 (C'est le temps nécessaire au programme pour tenter de se reconnecter à un réseau PSVita)
 
-![Voila à quoi doit ressembler votre écran](<../.gitbook/assets/image (20) (1).png>)
+![Voila à quoi doit ressembler votre écran](<../.gitbook/assets/image (20) (1) (1).png>)
 
 * Appuyez sur Next, puis encore sur Next (ne changez rien dans les ports et adresse IP)
 
@@ -98,7 +98,7 @@ Il ne vous reste plus qu'à faire Start Engine, et le programme va chercher auto
 
 
 
-![Ah non c'est une libellule en fait](<../.gitbook/assets/image (26) (1).png>)
+![Ah non c'est une libellule en fait](<../.gitbook/assets/image (26) (1) (1).png>)
 
 Voila, votre PSVita est bien connecté à votre PC comme vous pouvez le voir en haut à gauche avec le magnifique SCE (Sony Computer Entertainment)
 
@@ -112,7 +112,7 @@ Si votre PC n'arrive pas à detecter de réseau PSVita, vérifier que votre PSVi
 
 Se connecter c'est bien, jouer c'est mieux. Maintenant retournez dans votre fenêtre Xlink kai que nous avions ouvert avant. Si vous appuyez sur le bouton Metrics vous devriez voir votre PSVita connecté&#x20;
 
-![2 consoles pour le prix d'une](<../.gitbook/assets/image (21).png>)
+![2 consoles pour le prix d'une](<../.gitbook/assets/image (21) (1).png>)
 
 &#x20;
 
@@ -123,13 +123,13 @@ Si vous ne voyez pas votre PSVita, essayer de rejoindre un lobby pour que la PSV
 \
 Appuyez sur Game Arenas pour avoir la listes des lobby selon les consoles.
 
-![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28).png>)
+![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28) (1).png>)
 
 Choisissez PSVita, puis selectionnez la categorie de jeux qui concerne le jeu auquel vous voulez jouer. Puis choissisez votre jeu dans la liste.
 
 Une fois choisi, vous êtes dans un lobby public.&#x20;
 
-![Je me sens si seul..... Si seulement adopteunami.com existait](<../.gitbook/assets/image (19).png>)
+![Je me sens si seul..... Si seulement adopteunami.com existait](<../.gitbook/assets/image (19) (1).png>)
 
 Au centre vous avez le chat général du lobby, à droite la liste des utilisateurs connecté au lobby ainsi que leurs ping qui s'affichera via une barre coloré en dessous de leurs nom.
 

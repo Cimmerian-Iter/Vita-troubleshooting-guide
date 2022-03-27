@@ -6,6 +6,7 @@
 
 * [Firmware version : 3.60](hack-problems-related/firmware-version-3.60.md)
 * [Firmware version : 3.61-3.73](hack-problems-related/firmware-version-3.63-3.68.md)
+* [SD2VITA history](hack-problems-related/sd2vita-history.md)
 
 ## Plugins related problem
 
