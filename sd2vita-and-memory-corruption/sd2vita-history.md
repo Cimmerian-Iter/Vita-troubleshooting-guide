@@ -4,7 +4,7 @@ description: begone pricy ugly fucking sony memorycard !
 
 # SD2VITA history
 
-Back then, we had two solution. Either you buy a PSVita 3G and swap the 3G antenna with a psvsd to use a microsd, or else you destroy your wallet in amazon to order a memorycard. We kinda lost hope, or not. We begged yfanlu to find a solution, but it was xyz who managed to find THE solution to use a microsd on any PSVita, without opening the vita nor any modification of any kind.\
+Back then, we had two solutions. Either you buy a PSVita 3G and swap the 3G antenna with a psvsd to use a MicroSD, or else you destroy your wallet on amazon to order a memorycard. We kinda lost hope, or not. We begged yfanlu to find a solution, but it was xyz who managed to find THE solution to use a MicroSD on any PSVita, without opening the vita nor any modification of any kind.\
 \
 And thus the SD2Vita was born.
 
@@ -16,7 +16,7 @@ Using the cartridge slot wasn't the first attempt, we had before the black fin c
 
 ![Weeee hacker stuff, seems like somthing from the Matrix](<../.gitbook/assets/image (33).png>)
 
-But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use regular a SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connect the microsd pin to the cartridge slot pin. Since a PSVita cartridge was just an SDcard with authentification.\
+But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use a regular SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connects the MicroSD pin to the cartridge slot pin. Since a PSVita cartridge was just an SDcard with authentification.\
 \
 And thus was born the prototype, with the effort of xyz and motoharu who worked on reversing anything that has to do with memory card protocol, they made the first SD2Vita
 
@@ -24,13 +24,13 @@ And thus was born the prototype, with the effort of xyz and motoharu who worked 
 Omg yfanlu finger nudes leak
 {% endembed %}
 
-But as you can see, it wasn't as simple as installing a plugin, the process of loading the sd2vita was not yet complete. And they had no plan on producing these like before where yfanlu sold the psvsd.
+But as you can see, it wasn't as simple as installing a plugin, the process of loading the SD2Vita was not yet complete. And they had no plan on producing these like before where yfanlu sold the psvsd.
 
 ## The first version
 
-The work was done, gamesd.skprx was released and the race begun ! Xyz published the blueprint of the sd2vita so anyone with PCB, soldering tools could create their own sd2vita ! Although the one produced now doesn't use xyz blueprint but Gadorach version.
+The work was done, gamesd.skprx was released and the race had begun ! Xyz published the blueprint of the SD2Vita so anyone with PCB, soldering tools could create their own SD2Vita ! Although the one produced now doesn't use xyz blueprint but Gadorach version.
 
-Those were cheap to produce, and many people from the scene wanted to do their own so we had differents variants of the sd2vita&#x20;
+Those were cheap to produce, and many people from the scene wanted to do their own so we had different variants of the sd2vita&#x20;
 
 ![The most popular one](<../.gitbook/assets/image (25).png>)
 
@@ -43,9 +43,9 @@ Those were cheap to produce, and many people from the scene wanted to do their o
 The first one was only PCB, and it had a major advantage which is the MicroSD push to eject system which makes it easy to insert and remove the MicroSD.\
 The same can't be said about removing the sd2vita from the vita, as you can see it's barebone, so there's no PCB that handles the eject mechanism of the cartridge slot. So you insert the sd2vita annnd, good luck removing it.&#x20;
 
-Most people just left the sd2vita inside the vita, and thanks to the push up mechanism of the MicroSD they could easily access it even if the sd2vita was blocked inside the vita.&#x20;
+Most people just left the sd2vita inside the vita, and thanks to the push mechanism of the SD2Vita they could easily access it even if the sd2vita was blocked inside the vita.&#x20;
 
-Then again some people found some tricks, the first one was to grab one of the sides of the sd2vita with that tool, and remove it like a horn on your toe.
+Then again some people found some tricks, the first one was to grab one of the sides of the SD2Vita with that tool, and remove it like a horn on your toe.
 
 ![Your best vita companion ](<../.gitbook/assets/image (35).png>)
 
@@ -57,7 +57,7 @@ The second solution was to put some tape on the sd2vita that came off the cartri
 
 Oh yeah and I forgot to mention something.
 
-**It costed 15€**
+**It cost 15€**
 
 I don't really know who decided to put that price especially since buying a soldering kit + PCB wasn't that costly and the demand was high. But then again it's because the demand was high and it was a small price to pay for salvation compared to sony memorycard prices.
 
@@ -65,13 +65,13 @@ I don't really know who decided to put that price especially since buying a sold
 
 The one I showed you were the most popular and the most RELIABLE.
 
-One problem with that kind of sd2vita is that if the build quality was messed up it could turn off your PSVita if you plugged the sd2vita in. Because it would create a short circuit.
+One problem with that kind of SD2Vita is that if the build quality was messed up it could turn off your PSVita if you plugged the SD2Vita in. Because it would create a short circuit.
 
 
 
 ## The second version
 
-So as I said, removing the sd2vita would be tricky, so a V2 was made. A V2 was released, it's the same as the V1 but with an extra PCB layer that would handle the push to eject mechanism of the vita.\
+So as I said, removing the sd2vita would be tricky, so a V2 was made. It's the same as the V1 but with an extra PCB layer that would handle the push to eject mechanism of the PSVita.\
 
 
 ![Oh god oh fuck that smile it scares me](<../.gitbook/assets/image (21).png>)
@@ -110,7 +110,7 @@ The white version had a problem (damn again) : the glue was melting and the SD2V
 
 The red version which is labeled V3.5 (but often labeled V3 as it replaced all the white versions in the market) fix that issue. \
 \
-It also had a price drop, it wasn't 15€, but around 5-10€ at release. Thanks China !........ Or not, since it's China and it came from one producer and was mass produced, there was a lot of faulty ones produced and sold. And since there were no competitors, there was no alternative. So generally you had to buy another one if the one you got was not working.
+It also had a price drop, it wasn't 15€, but around 5-10€ at release. Thanks China !........ Or not, since it's China and it came from one producer and was mass produced, there were a lot of faulty ones produced and sold. And since there were no competitors, there was no alternative. So generally you had to buy another one if the one you got was not working.
 
 ## The V5
 
@@ -122,17 +122,17 @@ Where is the V4?
 
 Well technically the V4 is the V3.5 which is the black and red version. As to who decided how to label those SD2Vita I guess it's the Chinese manufacturer.
 
-Anyway, why did we need a V5? To fix the rate of faulty sd2vita sold? Nope !
+Anyway, why did we need a V5? To fix the rate of faulty SD2ita sold? Nope !
 
-The V3 couldn't really fit in a slim vita as it was too high, so the cartridge slot couldn't close on slim because the top of the sd2vita would pop out. This redesign aims to fix that so it can easily fit on slim vita.
+The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge slot couldn't close on slim because the top of the SD2Vita would pop out. This redesign aims to fix that so it can easily fit on slim PSVita.
 
-There's different variation of the SD2vita on the market,&#x20;
+There's different variations of the SD2vita on the market,&#x20;
 
 ![](<../.gitbook/assets/image (23).png>)![](<../.gitbook/assets/image (24).png>)![](<../.gitbook/assets/image (22).png>) wait compatible what?
 
 
 
-All I can say is that we should avoid the sd2vita which presentation miss MicroSD or Compatible. Not because it's some kind of version, but those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product.
+All I can say is that we should avoid the SD2Vita which presentation miss MicroSD or Compatible. Not because it's some kind of version, but those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product.
 
 
 
