@@ -113,7 +113,7 @@ I don't really know who decided to put that price, especially since buying a sol
 
 
 
-The one I showed you were the most popular and the most RELIABLE.
+The ones I showed you were the most popular and the most RELIABLE.
 
 One problem with that kind of SD2Vita is that if the build quality was messed up it could turn off your PSVita if you plugged the SD2Vita in. Because it would create a short circuit.
 
@@ -126,7 +126,7 @@ So as I said, removing the sd2vita would be tricky, so a V2 was made. It's the s
 
 ![Oh god oh fuck that smile it scares me](<../.gitbook/assets/image (21) (1).png>)
 
-It was a nice idea, frankly. And it would have met its success if it wasn't for the bad quality of the whole thing. It keeps catching the springs when trying to pop out of the cartridge slot which damaged the slot, and they were less reliable meaning there was a higher chance of your vita being powered off after inserting that one. It was kind of a disaster and was shortly not recommended.
+It was a nice idea, frankly. And it would have met its success if it wasn't for the poor quality of the whole thing. It keeps catching the springs when trying to pop out of the cartridge slot which damaged the slot, and they were less reliable meaning there was a higher chance of your vita being powered off after inserting that one. It was kind of a disaster and was shortly not recommended.
 
 ## The third version
 
