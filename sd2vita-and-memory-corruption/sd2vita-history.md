@@ -28,7 +28,7 @@ So RichDevX made multiple attempts in order to create that adapter
 
 ![How it should look at the end. Not very confortable......](<../.gitbook/assets/image (20).png>)
 
-But then why is it not on sale? Why did nobody hear about that adapter? Well because firstly it was mainly an overpriced adapter, lot of talking and little real progress made although he posted a video with his adapter in action which the PSVita is supposed to "recognize" by prompting to format the memory card. (In reality that just proves nothing, the PSVita cannot read the MicroSD so it asks to format). Lastly, the most important point was that the memory card authentification protocol was not totally reversed engineered. So at the time, there was no way we could create a fake Sony memory card nor even some kind of Sony memory card reader. The project just died on its own and we never got any update about it.
+But then why is it not on sale? Why did nobody hear about that adapter? Well because firstly it was mainly an overpriced adapter, lot of talking and little real progress made although he posted a video with his adapter in action which the PSVita is supposed to "recognize" by prompting to format the memory card. (In reality that just proves nothing, the PSVita cannot read the MicroSD so it asks to format). Lastly, the most important point was that the memory card authentification protocol was not totally reversed. So at the time, there was no way we could create a fake Sony memory card nor even some kind of Sony memory card reader. The project just died on its own and we never got any update about it.
 
 ![The Frankenstein MicroSD adapter ](<../.gitbook/assets/image (21).png>)
 
