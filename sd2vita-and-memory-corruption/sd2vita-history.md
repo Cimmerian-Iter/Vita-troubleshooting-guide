@@ -4,7 +4,7 @@ description: begone pricy ugly weak sony memorycard !
 
 # SD2VITA history
 
-Back then, we had two solutions. Either you buy a PSVita 3G and swap the 3G antenna with a psvsd to use a MicroSD, or else you destroy your wallet on amazon to order a memory card. We kinda lost hope, or not. We begged yfanlu to find a solution, but it was xyz who managed to find a solution to use a MicroSD on any PSVita, without opening the vita nor any modification of any kind.\
+Back then, we had two solutions. Either you buy a PSVita 3G and swap the 3G modem with a PSVSD to use a MicroSD, or else you destroy your wallet on amazon to order a memory card. We kinda lost hope, or not. We begged yfanlu to find a solution, but it was xyz who managed to find a way to use a MicroSD on any PSVita, without opening the vita nor any modification of this kind.\
 \
 And thus the SD2Vita was born.
 
