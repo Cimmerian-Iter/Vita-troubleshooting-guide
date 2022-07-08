@@ -88,7 +88,11 @@ Seeing this some people wanted to improve the SD2Vita blueprint and an unknown e
 
 ![Gadorach version](<../.gitbook/assets/image (36) (1).png>)
 
-![Cpasjuste version, mostly known around logic sunrise members](<../.gitbook/assets/image (29).png>)
+![Cpasjuste version, mostly known around logic sunrise members
+
+](<../.gitbook/assets/image (29).png>)
+
+![Russia finest engineering product, 100% handmade](<../.gitbook/assets/image (38).png>)
 
 The first SD2Vita version sold was only PCB, and it had a major advantage which is the MicroSD push-to-eject system which makes it easy to insert and remove the MicroSD.\
 The same can't be said about removing the sd2vita from the vita, as you can see it's barebone, so there's no PCB that handles the eject mechanism of the cartridge slot. So you insert the sd2vita annnd, good luck removing it.&#x20;
@@ -142,7 +146,7 @@ So the SD2vita Plus project was born
 
 It was supposed to be a premium product and it was its main selling point when compared to the V2. But unfortunately, their money hunger was stronger than their abilities and the project was a failure. They put a launch date without even being sure that it would be successfully made, and they took pre order.
 
-![Wait what's that? It's like some sort of silicon teeth with a chip inside](<../.gitbook/assets/image (38).png>)
+![Wait what's that? It's like some sort of silicon teeth with a chip inside](<../.gitbook/assets/image (38) (1).png>)
 
 The main problem was the plastic which was not quite right, apparently their producer failed them and they had a lot of problems with.
 
