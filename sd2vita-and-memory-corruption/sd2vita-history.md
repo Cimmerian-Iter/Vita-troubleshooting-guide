@@ -1,5 +1,5 @@
 ---
-description: begone pricy ugly fucking sony memorycard !
+description: begone pricy ugly weak sony memorycard !
 ---
 
 # SD2VITA history
