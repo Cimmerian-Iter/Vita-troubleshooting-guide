@@ -121,7 +121,13 @@ The ones I showed you were the most popular and the most RELIABLE.
 
 One problem with that kind of SD2Vita is that if the build quality was messed up it could turn off your PSVita if you plugged the SD2Vita in. Because it would create a short circuit.
 
+\
+\
 
+
+![Cyberpunk SD2Vita](<../.gitbook/assets/image (23).png>)
+
+Some vendors did not apply any solder masks so the pins are out there breathing. And if you put the SD2Vita the wrong way, the pins get shorted and the PSVita will shutdown immediately. Which is why you had to be cautious about the way you insert the PSVita
 
 ## The second version
 
@@ -186,7 +192,7 @@ The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge
 
 There's different variations of the SD2vita on the market :
 
-![](<../.gitbook/assets/image (23).png>)![](<../.gitbook/assets/image (24).png>)![](<../.gitbook/assets/image (22) (1).png>) wait compatible what?
+![](<../.gitbook/assets/image (23) (1).png>)![](<../.gitbook/assets/image (24).png>)![](<../.gitbook/assets/image (22) (1).png>) wait compatible what?
 
 
 
