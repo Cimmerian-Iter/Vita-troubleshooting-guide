@@ -54,7 +54,7 @@ Pour un PC Windows
 6. Connectez vous \
 
 
-![uk? Les rosbeef ont fait ce truc?](<../.gitbook/assets/image (21) (1) (1).png>)
+![uk? Les rosbeef ont fait ce truc?](<../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 Vous voila donc dans le menu principal de Xlink kai. Veuillez laisser cette fenêtre ouverte, nous allons maintenant essayer de connecter votre Vita avec le PC\
 \
@@ -82,11 +82,11 @@ La partie la plus importante, et elle n'est pas plus compliqué.
 * Au prochain écran, naviguez vers Automatically Connect to PSVita networks et appuyez sur entrée pour le cocher (Cela permettra au programme de scanner automatiquement et de se connecter automatiquement à un réseau PSVita)
 * Dans Use the following Network, sélectionnez la carte wifi qui sera utilisé pour la connexion avec la PSVita. Si vous ne savez pas, ouvrez le panneau de configuration, puis allez dans "Réseau et Internet", puis "Centre Réseau et partage" puis "Modifier les paramètres de la carte" et vous aurez une liste des carte wifi sur votre PC ainsi que leurs nom.
 
-![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1) (1).png>)
+![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1) (1) (1).png>)
 
 * Changez la valeur de "Reconnect after network has been inactive for \<seconds>" à 1 (C'est le temps nécessaire au programme pour tenter de se reconnecter à un réseau PSVita)
 
-![Voila à quoi doit ressembler votre écran](<../.gitbook/assets/image (20) (1) (1).png>)
+![Voila à quoi doit ressembler votre écran](<../.gitbook/assets/image (20) (1) (1) (1).png>)
 
 * Appuyez sur Next, puis encore sur Next (ne changez rien dans les ports et adresse IP)
 
@@ -112,7 +112,7 @@ Si votre PC n'arrive pas à detecter de réseau PSVita, vérifier que votre PSVi
 
 Se connecter c'est bien, jouer c'est mieux. Maintenant retournez dans votre fenêtre Xlink kai que nous avions ouvert avant. Si vous appuyez sur le bouton Metrics vous devriez voir votre PSVita connecté&#x20;
 
-![2 consoles pour le prix d'une](<../.gitbook/assets/image (21) (1).png>)
+![2 consoles pour le prix d'une](<../.gitbook/assets/image (21) (1) (1).png>)
 
 &#x20;
 

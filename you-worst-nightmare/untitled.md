@@ -20,7 +20,7 @@ For that we will do it in 2 step. The first one is to delete the driver of the P
 
 Right click on it, go to properties, then uninstall the device (make sure you tick the delete the driver box)
 
-Second step is to download the software zadig (no virus guarantee) You can get it [there](https://zadig.akeo.ie).
+Second step is to download the software zadig (no virus guarantee) You can get it [there](https://zadig.akeo.ie/).
 
 Once you have installed the app and run it, list all the devices and select the PSVita (make sure the PSVita is connected ofc).
 

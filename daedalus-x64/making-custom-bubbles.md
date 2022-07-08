@@ -32,7 +32,7 @@ Yeah OK, it's all grey and it's not fun, we got it. You can customize the backgr
 * Icon picture is a .png file and has dimensions of 128x128. The file must be named: icon0.png
 * Startup button icon is a .png file and has dimensions of 280x158. The file must be named: startup.png
 
-Nearly there, we still need to do a last conversion. The Vita only allows 8bit .png's. In order to respect this limitation we will use pngquant for the conversion. You can grab pngquant from [here](https://pngquant.org) (Download the Windows binary)\
+Nearly there, we still need to do a last conversion. The Vita only allows 8bit .png's. In order to respect this limitation we will use pngquant for the conversion. You can grab pngquant from [here](https://pngquant.org/) (Download the Windows binary)\
 Once you have it, follow these instructions :
 
 1. Put the .png files in a folder, and extract pngquant into the same folder
