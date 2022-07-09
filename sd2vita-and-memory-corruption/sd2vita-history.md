@@ -84,7 +84,7 @@ Seeing this some people wanted to improve the SD2Vita blueprint and an unknown e
 
 ![The most popular one](<../.gitbook/assets/image (25).png>)
 
-![Made by our french producer srident !](<../.gitbook/assets/image (37).png>)
+![Made by our french producer srident !](<../.gitbook/assets/image (37) (1).png>)
 
 ![Gadorach version](<../.gitbook/assets/image (36) (1).png>)
 
@@ -196,9 +196,17 @@ There's different variations of the SD2vita on the market :
 
 
 
-All I can say is that we should avoid the SD2Vita which presentation miss MicroSD or Compatible. Not because it's some kind of version, but those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product.
+All I can say is that we should avoid the SD2Vita which presentation miss MicroSD or Compatible. Not because it's some kind of version, but those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product.\
+\
+Also the funny thing is that the V3 was updated to be a V5. The shape looks exactly like the V5 but the color design is still the same as the V3\
 
 
+![The V35
+](<../.gitbook/assets/image (37).png>)
+
+![The old V3](<../.gitbook/assets/image (40).png>)
+
+So nowadays you can still find on the market the V3 or the V35 or the V5, it's quite the mess to be honest and I think that it's because the black one and white one isn't produced by the same Chinese manufacturer. So one just updated his SD2Vita to fix the shape without really labelling it as V5.
 
 ## The V6
 
@@ -208,7 +216,7 @@ Well the aim of the V6 was to do some kind of SD2Vita plus, a premium product. S
 
 So it ended up being a total failure and not sold anymore. Which is a shame because the original idea was great.
 
-![The rarest SD2Vita in the world](<../.gitbook/assets/image (40).png>)
+![The rarest SD2Vita in the world](<../.gitbook/assets/image (40) (1).png>)
 
 ![The design was made to match 1:1 a real vita cartridge](<../.gitbook/assets/image (27).png>)
 
