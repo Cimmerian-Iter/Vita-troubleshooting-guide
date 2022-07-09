@@ -10,7 +10,7 @@ And thus the SD2Vita was born.
 
 ## A little bit of history
 
-Before creating the SD2Vita there was 2 other different attempt. One made for PSVita 3G model which replaced the 3G modem with a MicroSD adapter. That was made possible because the 3G modem was just a USB device.&#x20;
+Before creating the SD2Vita there were two previous attempts. One was created for the PSVita 3G model which replaced the 3G modem with a MicroSD adapter. This was made possible because the 3G modem was just a USB device.
 
 ![The PSVSD army](../.gitbook/assets/in-vita-yifan-lu-sexprime-sur-les-ports-usb-le-psvsd-et-sur-son-lavenir-1.jpg)
 
@@ -22,7 +22,7 @@ With that in mind, let's try to create a MicroSD to PSVita memory card adapter !
 
 So RichDevX made multiple attempts in order to create that adapter
 
-![The first version](<../.gitbook/assets/image (36).png>)
+![The first version](<../.gitbook/assets/image (36) (1).png>)
 
 ![There's more name on it than actual pins](<../.gitbook/assets/image (39).png>)
 
@@ -86,7 +86,7 @@ Seeing this some people wanted to improve the SD2Vita blueprint and an unknown e
 
 ![Made by our french producer srident !](<../.gitbook/assets/image (37) (1).png>)
 
-![Gadorach version](<../.gitbook/assets/image (36) (1).png>)
+![Gadorach version](<../.gitbook/assets/image (36) (1) (1).png>)
 
 ![Cpasjuste version, mostly known around logic sunrise members
 
@@ -188,25 +188,32 @@ Well, technically the V4 is the V3.5 which is the black and red version. As to w
 
 Anyway, why did we need a V5? To fix the rate of faulty SD2Vita sold? Nope !
 
-The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge slot couldn't close on slim because the top of the SD2Vita would pop out. This redesign aims to fix that so it can easily fit on a slim PSVita.
-
-There's different variations of the SD2vita on the market :
-
-![](<../.gitbook/assets/image (23) (1).png>)![](<../.gitbook/assets/image (24).png>)![](<../.gitbook/assets/image (22) (1).png>) wait compatible what?
-
-
-
-All I can say is that we should avoid the SD2Vita which presentation miss MicroSD or Compatible. Not because it's some kind of version, but those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product.\
+The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge slot couldn't close on slim because the top of the SD2Vita would pop out. This redesign aims to fix that so it can easily fit on a slim PSVita.\
 \
-Also the funny thing is that the V3 was updated to be a V5. The shape looks exactly like the V5 but the color design is still the same as the V3\
 
 
-![The V35
-](<../.gitbook/assets/image (37).png>)
+![The SD2Vita V5.5](<../.gitbook/assets/image (41).png>)
 
-![The old V3](<../.gitbook/assets/image (40).png>)
 
-So nowadays you can still find on the market the V3 or the V35 or the V5, it's quite the mess to be honest and I think that it's because the black one and white one isn't produced by the same Chinese manufacturer. So one just updated his SD2Vita to fix the shape without really labelling it as V5.
+
+
+
+Since october 2019 the white SD2Vita V5 got a little revision like the V3, so a V5.5 (and not V6 as it is often mislabelled by the others as there's no major revision). It didn't aim to fix a specific issue but instead improve the reliability of the adapter by using a different kind of plastic.
+
+> Smooth plastic instead of rough surface
+>
+> Plastic is slightly bendable instead of rigid
+>
+> easier to remove microsd card
+>
+> No plastic between individual metal contacts, making it possible to clean any oxidation
+>
+> \
+> u/yussoffb01
+
+![Despite what is written it's not V6, it's V5.5 or so](<../.gitbook/assets/image (36).png>)
+
+
 
 ## The V6
 
@@ -214,11 +221,39 @@ Wait what V6? I don't see it anywhere. And why V6?
 
 Well the aim of the V6 was to do some kind of SD2Vita plus, a premium product. So yeah the inside was better made, and the quality of the end product did feel premium compared to the Chinese version, and it was also originally intended to have the push to eject MicroSD mechanism that was left behind starting V3, but the problem was the price. Why buy a SD2Vita V6 for 15-20€ when you can buy a V5 for 2-3€ ?
 
-So it ended up being a total failure and not sold anymore. Which is a shame because the original idea was great.
+So it ended up being a total failure and not sold anymore (through amazon the original seller has no stocks left) unless you go to ebay or the chinese market. Which is a shame because the original idea was great.
 
 ![The rarest SD2Vita in the world](<../.gitbook/assets/image (40) (1).png>)
 
 ![The design was made to match 1:1 a real vita cartridge](<../.gitbook/assets/image (27).png>)
 
+
+
+## Which version do I have?
+
+The answer is very simple, check the color and you know the version............Or not.\
+\
+My guess is that there are 2 Chinese manufacturers, and one does the black sd2vita and the other one does the white one.&#x20;
+
+There are different variations of the SD2vita V5 on the market :
+
+![](<../.gitbook/assets/image (23) (1).png>)![](<../.gitbook/assets/image (24).png>)
+
+&#x20;wait compatible what?
+
+
+
+All I can say is that we should avoid the SD2Vita which presentation miss the MicroSD or Compatible tag. Since those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product. A V5.5 (or V6 as it is often labelled on the internet) is the best version today for a cheap SD2Vita.\
+\
+Also the funny thing is that the V3 was updated to be a V5.5. The shape looks exactly like the V5.5 but the color design is still the same as the V3. Not mentioning that you can find V3 with either bright red text, dark red or even silver text...\
+
+
+![The V35
+](<../.gitbook/assets/image (37).png>)
+
+![The old V3](<../.gitbook/assets/image (40).png>)
+
+So nowadays you can still find on the market the V3 or the V35 or the V5 or the V5.5, it's quite the mess to be honest and I think that it's because the black one and white one isn't produced by the same Chinese manufacturer. So one just updated his SD2Vita to fix the shape without really labelling it as V5. The only thing you can really trust to know the version of the adapter is the shape.\
+\
 
 
