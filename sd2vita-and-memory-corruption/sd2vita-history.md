@@ -221,7 +221,7 @@ Wait what V6? I don't see it anywhere. And why V6?
 
 Well the aim of the V6 was to do some kind of SD2Vita plus, a premium product. So yeah the inside was better made, and the quality of the end product did feel premium compared to the Chinese version, and it was also originally intended to have the push to eject MicroSD mechanism that was left behind starting V3, but the problem was the price. Why buy a SD2Vita V6 for 15-20€ when you can buy a V5 for 2-3€ ?
 
-So it ended up being a total failure and not sold anymore (through amazon the original seller has no stocks left) unless you go to ebay or the chinese market. Which is a shame because the original idea was great.
+So it ended up being a total failure (only japanese people really bought that adapter. Maybe because the adapter comes from a japanese manufacturer as seen with the japanese letters on the front) and not sold anymore (through amazon the original seller has no stocks left) unless you go to ebay or the chinese market. Which is a shame because the original idea was great.
 
 ![The rarest SD2Vita in the world](<../.gitbook/assets/image (40) (1).png>)
 
