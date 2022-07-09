@@ -22,7 +22,7 @@ With that in mind, let's try to create a MicroSD to PSVita memory card adapter !
 
 So RichDevX made multiple attempts in order to create that adapter
 
-![The first version](<../.gitbook/assets/image (36) (1).png>)
+![The first version](<../.gitbook/assets/image (36) (1) (1).png>)
 
 ![There's more name on it than actual pins](<../.gitbook/assets/image (39).png>)
 
@@ -84,9 +84,9 @@ Seeing this some people wanted to improve the SD2Vita blueprint and an unknown e
 
 ![The most popular one](<../.gitbook/assets/image (25).png>)
 
-![Made by our french producer srident !](<../.gitbook/assets/image (37) (1).png>)
+![Made by our french producer srident !](<../.gitbook/assets/image (37) (1) (1).png>)
 
-![Gadorach version](<../.gitbook/assets/image (36) (1) (1).png>)
+![Gadorach version](<../.gitbook/assets/image (36) (1) (1) (1).png>)
 
 ![Cpasjuste version, mostly known around logic sunrise members
 
@@ -142,7 +142,7 @@ It was a nice idea, frankly. And it would have met its success if it wasn't for 
 
 With the V2 failure, people still tried to find a way to make a sd2vita that can use the push to eject mechanism. And Gadorach, who made one of the first versions of the SD2Vita, had an idea in mind. Let's forget about using PCB and replicate a real vita cartridge.
 
-![](<../.gitbook/assets/image (28).png>)![](<../.gitbook/assets/image (26).png>)![](<../.gitbook/assets/image (20) (1).png>)![](<../.gitbook/assets/image (39) (1).png>)
+![](<../.gitbook/assets/image (28) (1).png>)![](<../.gitbook/assets/image (26).png>)![](<../.gitbook/assets/image (20) (1).png>)![](<../.gitbook/assets/image (39) (1).png>)
 
 HackInformer decided to team up with Gadorach in order to create those sd2vita (alongside having the exclusivity of selling those.
 
@@ -192,7 +192,7 @@ The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge
 \
 
 
-![The SD2Vita V5.5](<../.gitbook/assets/image (41).png>)
+![The SD2Vita V5.5](<../.gitbook/assets/image (41) (1).png>)
 
 
 
@@ -211,7 +211,7 @@ Since october 2019 the white SD2Vita V5 got a little revision like the V3, so a 
 > \
 > u/yussoffb01
 
-![Despite what is written it's not V6, it's V5.5 or so](<../.gitbook/assets/image (36).png>)
+![Despite what is written it's not V6, it's V5.5 or so](<../.gitbook/assets/image (36) (1).png>)
 
 
 
@@ -227,7 +227,9 @@ So it ended up being a total failure and not sold anymore (through amazon the or
 
 ![The design was made to match 1:1 a real vita cartridge](<../.gitbook/assets/image (27).png>)
 
+![The SD2Vita V6 has a separate part to handle the MicroSD as seen with the shadow](<../.gitbook/assets/image (37).png>)
 
+![VS the inside of a SD2Vita V5](<../.gitbook/assets/image (41).png>)
 
 ## Which version do I have?
 
@@ -243,17 +245,19 @@ There are different variations of the SD2vita V5 on the market :
 
 
 
-All I can say is that we should avoid the SD2Vita which presentation miss the MicroSD or Compatible tag. Since those tend to have a higher faulty rate. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product. A V5.5 (or V6 as it is often labelled on the internet) is the best version today for a cheap SD2Vita.\
+All I can say is that we should avoid the SD2Vita which presentation miss the MicroSD or Compatible tag. Better find a good reseller who does his job correctly and doesn't just pick an image from google image to showcase his product. \
 \
-Also the funny thing is that the V3 was updated to be a V5.5. The shape looks exactly like the V5.5 but the color design is still the same as the V3. Not mentioning that you can find V3 with either bright red text, dark red or even silver text...\
+A V5.5 (or Version 6.0 as it is often labeled on the internet) is the best version today for a cheap SD2Vita.\
+\
+Also the funny thing is that the black and red SD2Vita was updated to be a V5.5. The shape looks exactly like the V5.5 but the color design is still the same as the V3. Not mentioning that you can find V3 with either bright red text, dark red or even silver text...\
 
 
 ![The V35
-](<../.gitbook/assets/image (37).png>)
+](<../.gitbook/assets/image (37) (1).png>)
 
 ![The old V3](<../.gitbook/assets/image (40).png>)
 
-So nowadays you can still find on the market the V3 or the V35 or the V5 or the V5.5, it's quite the mess to be honest and I think that it's because the black one and white one isn't produced by the same Chinese manufacturer. So one just updated his SD2Vita to fix the shape without really labelling it as V5. The only thing you can really trust to know the version of the adapter is the shape.\
+So nowadays you can still find on the market the V3 or the V35 or the V5 or the V5.5, it's quite a mess to be honest and I think that it's because the black one and white one aren't produced by the same Chinese manufacturer. So one just updated his SD2Vita to fix the shape without really labeling it as V5. The only thing you can really trust to know the version of the adapter is the shape.\
 \
 
 

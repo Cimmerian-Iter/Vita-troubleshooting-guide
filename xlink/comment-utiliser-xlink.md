@@ -123,7 +123,7 @@ Si vous ne voyez pas votre PSVita, essayer de rejoindre un lobby pour que la PSV
 \
 Appuyez sur Game Arenas pour avoir la listes des lobby selon les consoles.
 
-![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28) (1).png>)
+![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28) (1) (1).png>)
 
 Choisissez PSVita, puis selectionnez la categorie de jeux qui concerne le jeu auquel vous voulez jouer. Puis choissisez votre jeu dans la liste.
 
