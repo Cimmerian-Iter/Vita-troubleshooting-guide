@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to the Vita troubleshooting guide !](README.md)
+* [Vita Hacking History](vita-hacking-history.md)
 
 ## Hack problems related
 

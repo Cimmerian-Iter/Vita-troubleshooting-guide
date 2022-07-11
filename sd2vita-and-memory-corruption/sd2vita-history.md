@@ -156,7 +156,7 @@ It was supposed to be a premium product and it was its main selling point when c
 
 The main problem was the plastic which was not quite right, apparently their producer failed them and they had a lot of problems with.
 
-![Feeling down? The SD2Vita Plus too](<../.gitbook/assets/image (18).png>)
+![Feeling down? The SD2Vita Plus too](<../.gitbook/assets/image (18) (1).png>)
 
 The failure of the project made Gadorach release the blueprint and China took a hold of them. If anyone can manufacture anything, it's them. No more competition like in the V1 era where anyone could produce those, the market changed. The producer was now China, and the V1 creators began to change into resellers, so anywhere you go, you buy an SD2vita from a reseller, but the product is the same.
 
