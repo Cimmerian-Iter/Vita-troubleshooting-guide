@@ -32,9 +32,9 @@ The 14 September 2014, a leak of more than 50 ePSP exploits was released online 
 
 3 years after the release of the PSVita, nothing has been done natively and people lost hope about a PSVita native hack and decided to hold on to those ePSP hacks thinking it's the best that the PSVita has to offer.\
 \
-We also lost Total\_N00B after a recent [controversy](https://wololo.net/2015/03/18/total-noobs-response-to-latest-tn-x-debate-about-the-z/comment-page-1/) where he included a erasing code in TN-X targeting TheZett (who he didn't want him to use his software after a beaf). After several conditions were met, the TN-X showed a red screen preventing TheZett from using the TN-X. If TheZett tried to bypass that by tempering with TN-X, the erasing code was activated and ux0:pspemu was cleaned.
+We also lost Total\_Noob after a recent [controversy](https://wololo.net/2015/03/18/total-noobs-response-to-latest-tn-x-debate-about-the-z/comment-page-1/) where he included a erasing code in TN-X targeting TheZett (who he didn't want him to use his software after a beaf). After several conditions were met, the TN-X showed a red screen preventing TheZett from using the TN-X. If TheZett tried to bypass that by tempering with TN-X, the erasing code was activated and ux0:pspemu was cleaned.
 
-It was a shame and Total\_N00B, although his attitude wasn't liked by many in the community and his reputation tarnished after that controversy, was a big element of the PSVita hacking community and losing him only fueled the pessimism of the community about a native PSVita hack.
+It was a shame and Total\_Noob, although his attitude wasn't liked by many in the community and his reputation tarnished after that controversy, was a big element of the PSVita hacking community and losing him only fueled the pessimism of the community about a native PSVita hack.
 
 
 
@@ -256,7 +256,7 @@ The second solution will be brought by Celeste-Blue with ReStore and ReNpDRM. It
 
 The problem was that the success of the operation was a hit and miss, a lot of users complained that it didn't work, others stated we needed restore v1 with renpdrm v5 in order for it to work. Other had stated that sony automatically removes restore from ur0:tai (I'm sure it's bullshit). So we needed another reliable solution.\
 \
-Remember that promising young dev called TheFloW? He came out and revealed a big shocking news that nobody was ready for (yeah nobody I tell you !) He was actually [TotalN00B](https://wololo.net/2017/06/10/big-reveal-theflow-actually-total\_noob-promises-huge-release-september/) All along ! (pretend to be shocked).
+Remember that promising young dev called TheFloW? He came out and revealed a big shocking news that nobody was ready for (yeah nobody I tell you !) He was actually [Total\_Noo](https://wololo.net/2017/06/10/big-reveal-theflow-actually-total\_noob-promises-huge-release-september/)b All along ! (pretend to be shocked).
 
 ![Top 10 anime vilain reveal](<.gitbook/assets/image (62).png>)
 
