@@ -22,9 +22,9 @@ With that in mind, let's try to create a MicroSD to PSVita memory card adapter !
 
 So RichDevX made multiple attempts in order to create that adapter
 
-![The first version](<../.gitbook/assets/image (36) (1) (1).png>)
+![The first version](<../.gitbook/assets/image (36) (1) (1) (1).png>)
 
-![There's more name on it than actual pins](<../.gitbook/assets/image (39).png>)
+![There's more name on it than actual pins](<../.gitbook/assets/image (39) (1).png>)
 
 ![How it should look at the end. Not very confortable......](<../.gitbook/assets/image (20).png>)
 
@@ -36,15 +36,15 @@ But then why is it not on sale? Why did nobody hear about that adapter? Well bec
 
 But there were other attempts made by RichDevX like plugging a USB stick into the mysterious 1000 port. A project that will be finalized by the CBPS team with a real POC but only much later.
 
-![Finally, USB on PSVita, no more PSTV needed to plug my 10TB of games](<../.gitbook/assets/image (22).png>)
+![Finally, USB on PSVita, no more PSTV needed to plug my 10TB of games](<../.gitbook/assets/image (22) (1).png>)
 
 ## The prototype
 
 Using the cartridge slot wasn't the first attempt, we had before the Black Fin Cobra dongle which used the cartridge slot to communicate with the pc to share games on a placeholder.
 
-![Weeee hacker stuff, seems like somthing from the Matrix](<../.gitbook/assets/image (33) (1).png>)
+![Weeee hacker stuff, seems like somthing from the Matrix](<../.gitbook/assets/image (33) (1) (1).png>)
 
-![The inside of the black fin](<../.gitbook/assets/image (33).png>)
+![The inside of the black fin](<../.gitbook/assets/image (33) (1).png>)
 
 But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use a regular SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connects the MicroSD pin to the cartridge slot pin. Since a PSVita cartridge was just an SD card with authentification.\
 \
@@ -82,17 +82,17 @@ Seeing this some people wanted to improve the SD2Vita blueprint and an unknown e
 > \
 > Gadorach
 
-![The most popular one](<../.gitbook/assets/image (25).png>)
+![The most popular one](<../.gitbook/assets/image (25) (1).png>)
 
-![Made by our french producer srident !](<../.gitbook/assets/image (37) (1) (1).png>)
+![Made by our french producer srident !](<../.gitbook/assets/image (37) (1) (1) (1).png>)
 
-![Gadorach version](<../.gitbook/assets/image (36) (1) (1) (1).png>)
+![Gadorach version](<../.gitbook/assets/image (36) (1) (1) (1) (1).png>)
 
 ![Cpasjuste version, mostly known around logic sunrise members
 
-](<../.gitbook/assets/image (29).png>)
+](<../.gitbook/assets/image (29) (1).png>)
 
-![Russia finest engineering product, 100% handmade](<../.gitbook/assets/image (38).png>)
+![Russia finest engineering product, 100% handmade](<../.gitbook/assets/image (38) (1).png>)
 
 The first SD2Vita version sold was only PCB, and it had a major advantage which is the MicroSD push-to-eject system which makes it easy to insert and remove the MicroSD.\
 The same can't be said about removing the sd2vita from the vita, as you can see it's barebone, so there's no PCB that handles the eject mechanism of the cartridge slot. So you insert the sd2vita annnd, good luck removing it.&#x20;
@@ -101,7 +101,7 @@ Most people just left the sd2vita inside the vita, and thanks to the push mechan
 
 Then again some people found some tricks, the first one was to grab one of the sides of the SD2Vita with that tool, and remove it like a horn on your toe.
 
-![Your best vita companion ](<../.gitbook/assets/image (35).png>)
+![Your best vita companion ](<../.gitbook/assets/image (35) (1).png>)
 
 The problem is that removing the sd2vita with that was still tricky, while it worked, it could damage both the sd2vita PCB and the cartridge slot. Mine suffered enough with that one.
 
@@ -125,7 +125,7 @@ One problem with that kind of SD2Vita is that if the build quality was messed up
 \
 
 
-![Cyberpunk SD2Vita](<../.gitbook/assets/image (23).png>)
+![Cyberpunk SD2Vita](<../.gitbook/assets/image (23) (1).png>)
 
 Some vendors did not apply any solder masks so the pins are out there breathing. And if you put the SD2Vita the wrong way, the pins get shorted and the PSVita will shutdown immediately. Which is why you had to be cautious about the way you insert the PSVita
 
@@ -142,17 +142,17 @@ It was a nice idea, frankly. And it would have met its success if it wasn't for 
 
 With the V2 failure, people still tried to find a way to make a sd2vita that can use the push to eject mechanism. And Gadorach, who made one of the first versions of the SD2Vita, had an idea in mind. Let's forget about using PCB and replicate a real vita cartridge.
 
-![](<../.gitbook/assets/image (28) (1).png>)![](<../.gitbook/assets/image (26).png>)![](<../.gitbook/assets/image (20) (1).png>)![](<../.gitbook/assets/image (39) (1).png>)
+![](<../.gitbook/assets/image (28) (1) (1).png>)![](<../.gitbook/assets/image (26).png>)![](<../.gitbook/assets/image (20) (1).png>)![](<../.gitbook/assets/image (39) (1) (1).png>)
 
 HackInformer decided to team up with Gadorach in order to create those sd2vita (alongside having the exclusivity of selling those.
 
 So the SD2vita Plus project was born
 
-![The super SD2Vita project, better than anything, stronger than anyone and scammier than VitaDock !](<../.gitbook/assets/image (19).png>)
+![The super SD2Vita project, better than anything, stronger than anyone and scammier than VitaDock !](<../.gitbook/assets/image (19) (1).png>)
 
 It was supposed to be a premium product and it was its main selling point when compared to the V2. But unfortunately, their money hunger was stronger than their abilities and the project was a failure. They put a launch date without even being sure that it would be successfully made, and they took pre order.
 
-![Wait what's that? It's like some sort of silicon teeth with a chip inside](<../.gitbook/assets/image (38) (1).png>)
+![Wait what's that? It's like some sort of silicon teeth with a chip inside](<../.gitbook/assets/image (38) (1) (1).png>)
 
 The main problem was the plastic which was not quite right, apparently their producer failed them and they had a lot of problems with.
 
@@ -166,7 +166,7 @@ The failure of the project made Gadorach release the blueprint and China took a 
 
 And thus officially, the V3 was born :&#x20;
 
-![Sexy](<../.gitbook/assets/image (30).png>)
+![Sexy](<../.gitbook/assets/image (30) (1).png>)
 
 Wait, it's not red? Mine is red. Which version is it?
 
@@ -192,7 +192,7 @@ The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge
 \
 
 
-![The SD2Vita V5.5](<../.gitbook/assets/image (41) (1).png>)
+![The SD2Vita V5.5](<../.gitbook/assets/image (41) (1) (1).png>)
 
 
 
@@ -211,7 +211,7 @@ Since october 2019 the white SD2Vita V5 got a little revision like the V3, so a 
 > \
 > u/yussoffb01
 
-![Despite what is written it's not V6, it's V5.5 or so](<../.gitbook/assets/image (36) (1).png>)
+![Despite what is written it's not V6, it's V5.5 or so](<../.gitbook/assets/image (36) (1) (1).png>)
 
 
 
@@ -223,13 +223,13 @@ Well the aim of the V6 was to do some kind of SD2Vita plus, a premium product. S
 
 So it ended up being a total failure (only japanese people really bought that adapter. Maybe because the adapter comes from a japanese manufacturer as seen with the japanese letters on the front) and not sold anymore (through amazon the original seller has no stocks left) unless you go to ebay or the chinese market. Which is a shame because the original idea was great.
 
-![The rarest SD2Vita in the world](<../.gitbook/assets/image (40) (1).png>)
+![The rarest SD2Vita in the world](<../.gitbook/assets/image (40) (1) (1).png>)
 
 ![The design was made to match 1:1 a real vita cartridge](<../.gitbook/assets/image (27).png>)
 
-![The SD2Vita V6 has a separate part to handle the MicroSD as seen with the shadow](<../.gitbook/assets/image (37).png>)
+![The SD2Vita V6 has a separate part to handle the MicroSD as seen with the shadow](<../.gitbook/assets/image (37) (1).png>)
 
-![VS the inside of a SD2Vita V5](<../.gitbook/assets/image (41).png>)
+![VS the inside of a SD2Vita V5](<../.gitbook/assets/image (41) (1).png>)
 
 ## Which version do I have?
 
@@ -239,7 +239,7 @@ My guess is that there are 2 Chinese manufacturers, and one does the black sd2vi
 
 There are different variations of the SD2vita V5 on the market :
 
-![](<../.gitbook/assets/image (23) (1).png>)![](<../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (23) (1) (1).png>)![](<../.gitbook/assets/image (24) (1).png>)
 
 &#x20;wait compatible what?
 
@@ -253,9 +253,9 @@ Also the funny thing is that the black and red SD2Vita was updated to be a V5.5.
 
 
 ![The V35
-](<../.gitbook/assets/image (37) (1).png>)
+](<../.gitbook/assets/image (37) (1) (1).png>)
 
-![The old V3](<../.gitbook/assets/image (40).png>)
+![The old V3](<../.gitbook/assets/image (40) (1).png>)
 
 So nowadays you can still find on the market the V3 or the V35 or the V5 or the V5.5, it's quite a mess to be honest and I think that it's because the black one and white one aren't produced by the same Chinese manufacturer. So one just updated his SD2Vita to fix the shape without really labeling it as V5. The only thing you can really trust to know the version of the adapter is the shape.\
 \

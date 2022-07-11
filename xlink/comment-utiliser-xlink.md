@@ -82,7 +82,7 @@ La partie la plus importante, et elle n'est pas plus compliqué.
 * Au prochain écran, naviguez vers Automatically Connect to PSVita networks et appuyez sur entrée pour le cocher (Cela permettra au programme de scanner automatiquement et de se connecter automatiquement à un réseau PSVita)
 * Dans Use the following Network, sélectionnez la carte wifi qui sera utilisé pour la connexion avec la PSVita. Si vous ne savez pas, ouvrez le panneau de configuration, puis allez dans "Réseau et Internet", puis "Centre Réseau et partage" puis "Modifier les paramètres de la carte" et vous aurez une liste des carte wifi sur votre PC ainsi que leurs nom.
 
-![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1) (1) (1).png>)
+![J'utilise un adaptateur USB TP-Link pour la PSVita donc son nom est Wi-Fi 2](<../.gitbook/assets/image (22) (1) (1) (1) (1).png>)
 
 * Changez la valeur de "Reconnect after network has been inactive for \<seconds>" à 1 (C'est le temps nécessaire au programme pour tenter de se reconnecter à un réseau PSVita)
 
@@ -123,13 +123,13 @@ Si vous ne voyez pas votre PSVita, essayer de rejoindre un lobby pour que la PSV
 \
 Appuyez sur Game Arenas pour avoir la listes des lobby selon les consoles.
 
-![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28) (1) (1).png>)
+![Des gens qui jouent a Black ops Cold War??? Alors que les serveurs marchent? Ca doit être des gens qui veulent pas payer le PS+](<../.gitbook/assets/image (28) (1) (1) (1).png>)
 
 Choisissez PSVita, puis selectionnez la categorie de jeux qui concerne le jeu auquel vous voulez jouer. Puis choissisez votre jeu dans la liste.
 
 Une fois choisi, vous êtes dans un lobby public.&#x20;
 
-![Je me sens si seul..... Si seulement adopteunami.com existait](<../.gitbook/assets/image (19) (1).png>)
+![Je me sens si seul..... Si seulement adopteunami.com existait](<../.gitbook/assets/image (19) (1) (1).png>)
 
 Au centre vous avez le chat général du lobby, à droite la liste des utilisateurs connecté au lobby ainsi que leurs ping qui s'affichera via une barre coloré en dessous de leurs nom.
 
