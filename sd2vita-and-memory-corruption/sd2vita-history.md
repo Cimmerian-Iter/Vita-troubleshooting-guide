@@ -101,7 +101,7 @@ Most people just left the sd2vita inside the vita, and thanks to the push mechan
 
 Then again some people found some tricks, the first one was to grab one of the sides of the SD2Vita with that tool, and remove it like a horn on your toe.
 
-![Your best vita companion ](<../.gitbook/assets/image (35) (1).png>)
+![Your best vita companion ](<../.gitbook/assets/image (35) (1) (1).png>)
 
 The problem is that removing the sd2vita with that was still tricky, while it worked, it could damage both the sd2vita PCB and the cartridge slot. Mine suffered enough with that one.
 

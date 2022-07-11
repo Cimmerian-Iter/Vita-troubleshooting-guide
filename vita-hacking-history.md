@@ -30,7 +30,11 @@ The 14 September 2014, a leak of more than 50 ePSP exploits was released online 
 
 
 
-3 years after the release of the PSVita, nothing has been done natively and people lost hope about a PSVita native hack and decided to hold on to those ePSP hacks thinking it's the best that the PSVita has to offer.
+3 years after the release of the PSVita, nothing has been done natively and people lost hope about a PSVita native hack and decided to hold on to those ePSP hacks thinking it's the best that the PSVita has to offer.\
+\
+We also lost Total\_N00B after a recent [controversy](https://wololo.net/2015/03/18/total-noobs-response-to-latest-tn-x-debate-about-the-z/comment-page-1/) where he included a erasing code in TN-X targeting TheZett (who he didn't want him to use his software after a beaf). After several conditions were met, the TN-X showed a red screen preventing TheZett from using the TN-X. If TheZett tried to bypass that by tempering with TN-X, the erasing code was activated and ux0:pspemu was cleaned.
+
+It was a shame and Total\_N00B, although his attitude wasn't liked by many in the community and his reputation tarnished after that controversy, was a big element of the PSVita hacking community and losing him only fueled the pessimism of the community about a native PSVita hack.
 
 
 
@@ -81,7 +85,7 @@ The first native hack didn't go well, but it was still useful as much progress h
 
 Now that YfanLu is gone, the only capable person remaining on the scene were Major\_Tom and Mr.Gas, and they brought up for the 3.52 firmware another exploit called the Mail trick. This exploit allows writing anywhere on the memorycard and then later, anywhere on the system. This exploit enabled customization on the PSVita with custom bubbles, Pakcage installer bubble, no more PSTV blacklist, changing the region of the PSVita and most importantly the use of custom themes for the PSVita !
 
-![Oh someone sent me some photos? I hope it's some nudes](<.gitbook/assets/image (35).png>)
+![Oh someone sent me some photos? I hope it's some nudes](<.gitbook/assets/image (35) (1).png>)
 
 ## December 2015 - Black Fin Cobra
 
@@ -199,7 +203,7 @@ Well, there was an Adrenaline easy installer app made anyway.&#x20;
 
 
 
-## 2017 The arrival of Enso
+## 2017 - The arrival of Enso
 
 ![Credit : Widvern](<.gitbook/assets/image (48).png>)
 
@@ -250,13 +254,18 @@ The second solution will be brought by Celeste-Blue with ReStore and ReNpDRM. It
 
 ![Que dice?](<.gitbook/assets/image (51).png>)
 
-The problem was that the success of the operation was a hit and miss, a lot of users complained that it didn't work, others stated we needed restore v1 with renpdrm v5 in order for it to work. Other had stated that sony automatically removes restore from ur0:tai (I'm sure it's bullshit). So we needed another reliable solution.
+The problem was that the success of the operation was a hit and miss, a lot of users complained that it didn't work, others stated we needed restore v1 with renpdrm v5 in order for it to work. Other had stated that sony automatically removes restore from ur0:tai (I'm sure it's bullshit). So we needed another reliable solution.\
+\
+Remember that promising young dev called TheFloW? He came out and revealed a big shocking news that nobody was ready for (yeah nobody I tell you !) He was actually [TotalN00B](https://wololo.net/2017/06/10/big-reveal-theflow-actually-total\_noob-promises-huge-release-september/) All along ! (pretend to be shocked).
+
+![Top 10 anime vilain reveal](<.gitbook/assets/image (62).png>)
 
 
 
-The end of the year saw the release of the 3.67 firmware which fix the KRACK vulnerability on the wifi firmware as well as patching a vulnerability that used in chain with other vulnerabilities allows for persistence.
+The end of the year saw the release of the 3.67 firmware which fix the KRACK vulnerability on the wifi firmware as well as patching a vulnerability that used in chain with other vulnerabilities allows for persistence.\
 
-## 2018 VitaGL and 3.65/8 now hacked
+
+## 2018 - VitaGL and 3.65/8 now hacked
 
 2018 started with a huge showcase : VitaGL was announced which would open the door to 3D homebrew and ports using OpenGL on the PSVita ! No more gxm learning to develop something in 3D ! At the same time, Vita3K was announced and showcased homebrew using VitaGL running on it. The 3D era of the PSVita has begun !\
 VitaQuake 2.5 was released and it was the first hardware-accelerated homebrew on the vita using OpenGL. We had vitaXash3D next, a port of Half-Life. The saga continues and we saw more ports using OpenGL on the PSVita increasing its library.\
@@ -298,7 +307,7 @@ Day after day, the PSVita capacities were improved and 2018 is a major turn poin
 
 
 
-## 2019 PSVita security defeated, scam everywhere
+## 2019 - PSVita security defeated, scam everywhere
 
 2019 is probably the year where the PSVita security was gone forever, in 2012 what was once estimated as the toughest security system made in place for a mobile device is now completely defeated in 2019. \
 F00D is a crypto-security processor which handles most of the PSVita cryptography tasks including storing and handling of the most secure keys. The article from [Wololo](https://wololo.net/2018/12/30/psvita-hacking-35c3-summary-of-talk-f00d-bootloader-key-revealed-and-team-molecule-releases-various-decryption-tools-now-the-psvitas-security-is-effectively-blown-wide-open/) covers well the matter. But it's kind of funny that the key found by the most absurd way by xyz (bruteforcing a AES-128 key, you must be either a genius or an idiot to attempt that) is an amazon product :joy:.\
@@ -320,7 +329,10 @@ F00D control also allows to remove the blacklist made by sony and thus allowing 
 
 ![Let's enter into the PSVita matrix !](<.gitbook/assets/image (30).png>)
 
-Following the wave of popularity that the PSVita is going through, a homebrew contest and an indieGoGo campaign have been done. The first one is called VitaGamJam. It's a Game contest made for the vita by an unknown person from Twitter who appeared from nowhere. The organization was very very sketchy with a Twitter poll voting system and a 500$ price for the winner. After some investigation, it turned out that the whole thing was a scam as the author of the contest was disappointed by the entries and decided to submit his own project and make it win to save his money. The whole explanation about that scam can be found [here.](https://wololo.net/2019/05/22/vitajam2019-explained-opinion/)
+Following the wave of popularity that the PSVita is going through, a homebrew contest and an indieGoGo campaign have been done. The first one is called VitaGamJam. It's a Game contest made for the vita by an unknown person from Twitter who appeared from nowhere. The organization was very very sketchy with a Twitter poll voting system and a 500$ price for the winner. After some investigation, it turned out that the whole thing was a scam as the author of the contest was disappointed by the entries and decided to submit his own project and make it win to save his money. The whole explanation about that scam can be found [here.](https://wololo.net/2019/05/22/vitajam2019-explained-opinion/)\
+
+
+![This contest doesn't exist in my book](<.gitbook/assets/image (35).png>)
 
 The second scam is the VitaDock. The original goal was to provide the community with a device that act as a dock which like the Nintendo Switch will stream the PSVita screen to the TV and thus act like a PSTV if used with a ds4 plugin. The campaign collected around 17,700$ in total.&#x20;
 
@@ -335,7 +347,7 @@ VitaNuova bounty system is set in place and many bounties comes up from it. This
 
 
 
-## 2020 Emulation and Port era
+## 2020 - Emulation and Port era
 
 \
 With Covid happening, 2020 saw a spike in activity. Since devs had now more free time on their hands, a lot of progress has been made.
@@ -356,7 +368,7 @@ CBPS also found a way to use the shader compiler from the PSM runtime. Previousl
 
 The PSVita alongside the Nintendo Switch were the two consoles which hacking community was as alive as ever and it was very exciting to be a PSVita user back then. Unfortunately, while the PSVita community was small but enjoyable, some drama still happened and we had some tension going on around CBPS vs Rinnegatamante and DolceSDK vs VitaSDK for "license poisoning" which makes it unable to backport changes from DolceSDK to VitaSDK. The opposite isn't true.
 
-## 2021 KyuHEN and San andreas
+## 2021 - KyuHEN and San andreas
 
 
 
