@@ -12,9 +12,11 @@ After all those years, we finally have a legal shader compiler. And thanks again
 
 ### The automatic way.
 
-You can use an automatic installer by installing this vpk and launching it : [https://github.com/EliCrystal2001/CrystalPSM/releases/tag/v1](https://github.com/EliCrystal2001/CrystalPSM/releases/tag/v1)
+You can use an automatic installer by installing this vpk and launching it :&#x20;
 
-Run the application and it will automatically download the PSM component. Once it's done, head down to the Extracting with SharKF00D section.
+{% embed url="https://vitadb.rinnegatamante.it/#/info/997" %}
+
+It will download automatically the PSM runtime and extract the libshacccg.suprx and put it in the right place.
 
 
 
