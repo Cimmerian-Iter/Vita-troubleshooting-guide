@@ -6,11 +6,11 @@ description: Ever heard of PSM?
 
 After all those years, we finally have a legal shader compiler. And thanks again to PSM. It may not have served well its original purpose, but for us it's a gift. We saw the first native hack (rejuvenate), allowing newcomer to make unity homebrew easly on our vita, and now it provide us a way to have a legal shader compiler. But for that we need to extract libshacccg.suprx first.
 
-## Installing the PSM runtime
 
 
 
-### The automatic way.
+
+## The automatic way.
 
 You can use an automatic installer by installing this vpk and launching it :&#x20;
 
@@ -20,7 +20,9 @@ It will download automatically the PSM runtime and extract the libshacccg.suprx 
 
 
 
-### The manual way
+## The manual way
+
+### Installing the PSM runtime
 
 First of all we need to have the PSM runtime, for those who already have the 2.01 you can skip this part.\
 You will need 4 files.
@@ -42,7 +44,7 @@ Once it's done, you can check in system info -> PlayStation Mobile tab the versi
 
 ![I hope you didn't sleep during french classe](<../.gitbook/assets/2020-07-09-213320 (1).png>)
 
-## Extracting with ShaRKF00D
+### Extracting with ShaRKF00D
 
 ShaRKF00D is an app by [OsirizX](https://github.com/OsirizX/ShaRKF00D) made to allow user to dump the libshacccg.suprx in one step. You can get it [here](https://github.com/OsirizX/ShaRKF00D/releases/download/1.3/ShaRKF00D.vpk)
 
@@ -59,6 +61,10 @@ Once it's finished you can check if you have the .suprx in ur0:data.
 ![Too fast for the menu to catch me](<../.gitbook/assets/2020-07-09-213049 (1).png>)
 
 And that's all, now you are ready to use upcoming project that will rely on the shader compiler like flycast !
+
+
+
+## Extra
 
 \*\*Note 2 : If the app relying on libshacccg doesn't work, make sure like with retroarch that you can access ur0:data folder with its inbuilt file manager. If not, then rename ur0:data to something else, then create a data folder and move all the files here. That should make the folder visible.
 
