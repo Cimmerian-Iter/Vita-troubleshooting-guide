@@ -12,7 +12,7 @@ Vitashell is a powerful tool, not only it's a file manager but it's also a multi
 
 First let's start with the basics, the main menu of Vitashell
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is "home", here you have all the partitions the vita has. But what are they?\
 
@@ -78,7 +78,7 @@ First highlight the file you want to bookmark, then select the New menu and use 
 
 You can then use the show bookmark option to get access to this file directly
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,7 +86,7 @@ You can then use the show bookmark option to get access to this file directly
 
 You can edit text files directly from Vitashell. Any files that aren't vpk, mp3, pictures, and compressed files will be opened by the text editor.&#x20;
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>let's open the most important text file of the PSVita</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>let's open the most important text file of the PSVita</p></figcaption></figure>
 
 You can move between each line, and press x on the line you want to edit, it will bring the PSVita keyboard.&#x20;
 
@@ -132,6 +132,10 @@ And now you should find your PSVita mounted as a USB drive on your windows explo
 
 
 
+<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+It will be usually mounted as D drive if you don't have anything else, and you can see the hidden folders such as app pspemu etc.&#x20;
+
 ### FTP
 
 This method is wireless, and while it is convenient as it allows you to access all partitions (instead of just restricting you to a memory device like in USB mode) it is limited by the PSVita slow Wifi speed. So if you have big files to transfer avoid using this mode.
@@ -144,7 +148,7 @@ You can then use any FTP client you want from any device that supports it so lik
 
 In this case we will still use Windows as an example.
 
-Open the windows explorer, and write the ftp address in the navigation bar. Since windows explorer has a FTP mode built in, it can access the FTP server created by the PSVita
+Open the windows explorer, and write the FTP address in the navigation bar. Since windows explorer has a FTP mode built in, it can access the FTP server created by the PSVita
 
 <figure><img src=".gitbook/assets/image (21).png" alt=""><figcaption><p>Write it here</p></figcaption></figure>
 
@@ -163,3 +167,28 @@ If your friend has a funny screenshot or music and he wants to send it to you wi
 Select the file you want to send, then use the Send option. On the second PSVita, use the option Receive to start listening for any files incoming. Vitashell will initiate a connection between the two PSVita and send the file
 
 ## Issues with Vitashell
+
+### 0xFFFFFFF error&#x20;
+
+USB transfer can sometimes introduce corruption, if you have that error, then try using FTP instead to transfer the vpk you wanted to install. Beware that USB mode can lead to serious corruption issues although it's not happening a lot
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>my memory nooo it's broken</p></figcaption></figure>
+
+### C2-12828-1 When opening Vitashell
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+There is no fix for this error. If it isn't because your hack setup is wrong, then it's a hardware problem. We are unsure what causes these issues but the only way to fix this is to change the motherboard.
+
+### Black screen when opening Vitashell
+
+> The cause is probably due to the function of "Recent files" VitaShell has a function to delete Shortcut files of Recent files after a certain period of time has passed If there are too many shortcut files for that Recent files, it takes quite a while to delete them, and it appears to stop on a black screen\
+> \
+> Princess of Sleeping
+
+So the fix is really simple, just hold the L trigger when booting Vitashell to bypass this.
+
+### 0x8054360C when trying to open USB connection
+
+This happens when you have the udcd\_uvc.skprx loaded, simply disable it.
+

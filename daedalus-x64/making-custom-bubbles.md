@@ -44,6 +44,6 @@ Once it's done, you can put all these .png files in the asset folder and run bui
 
 ![Oh, a Mario head](<../.gitbook/assets/image (16) (1).png>)
 
-![No Vita? No problem, vita3K exists](<../.gitbook/assets/image (3) (1).png>)
+![No Vita? No problem, vita3K exists](<../.gitbook/assets/image (3) (1) (1).png>)
 
 And that's it, you have a nice Super Mario themed bubble. I chose Super Mario 64 as an example but you can do the same thing with any game you want. Enjoy!

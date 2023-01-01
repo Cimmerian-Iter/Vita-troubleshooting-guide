@@ -34,7 +34,7 @@ Once this is done, we need to know the IP of your computer. Not a hard task, ope
 
 You should easily notice your local IPv4 address
 
-![If a hacker happens to pass by plz don't hack me](<../.gitbook/assets/image (7) (1).png>)
+![If a hacker happens to pass by plz don't hack me](<../.gitbook/assets/image (7) (1) (1).png>)
 
 ## 2 Access the local webserver with Daedalusx64
 
