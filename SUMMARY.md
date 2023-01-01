@@ -23,6 +23,10 @@
 
 * [QCMA](you-worst-nightmare/untitled.md)
 
+***
+
+* [Vitashell](vitashell.md)
+
 ## Adrenaline problems
 
 * [Adrenaline](adrenaline-problems/untitled.md)
@@ -42,17 +46,21 @@
 * [Load Rom through a web server](daedalus-x64/load-rom-through-a-web-server.md)
 * [Making Custom Bubbles](daedalus-x64/making-custom-bubbles.md)
 
-## Game Modding
-
-* [Borderlands 2](game-modding/borderlands-2.md)
-
 ## Shader Compiler
 
 * [Extract libshacccg.suprx](shader-compiler/extract-libshacccg.suprx.md)
 
+## Game Modding
+
+* [Borderlands 2](game-modding/borderlands-2.md)
+
 ## Grand Theft Auto
 
 * [GTA III](grand-theft-auto/gta-iii.md)
+
+## Android Ports
+
+* [MaxPayne](android-ports/maxpayne.md)
 
 ## Extra
 
@@ -61,10 +69,6 @@
 ## Live Area
 
 * [Editing the layout.xml](live-area/editing-the-layout.xml.md)
-
-## Android Ports
-
-* [MaxPayne](android-ports/maxpayne.md)
 
 ## Xlink
 

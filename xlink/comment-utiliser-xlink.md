@@ -75,7 +75,7 @@ La partie la plus importante, et elle n'est pas plus compliqué.
   \
   Vous vous retrouvez face à une fenêtre de ce type :&#x20;
 
-![Ca fait très hackeur tout ça](<../.gitbook/assets/image (17).png>)
+![Ca fait très hackeur tout ça](<../.gitbook/assets/image (17) (1).png>)
 
 * Naviguez avec les touches directionnel, sélectionnez Vita Device, puis appuyez sur entrée pour le cocher
 * Naviguez vers NEXT puis appuyez sur Entrée

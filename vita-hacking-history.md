@@ -24,7 +24,7 @@ Aside from vHBL we had two main ePSP hacks : TN-V and Ark. Ark was just an iso l
 
 
 
-![TN-X launched from a PSX game exploited](<.gitbook/assets/image (29).png>)
+![TN-X launched from a PSX game exploited](<.gitbook/assets/image (29) (2).png>)
 
 The 14 September 2014, a leak of more than [50 ePSP](https://wololo.net/2014/09/14/the-day-the-vita-scene-imploded-more-than-50-psp-game-exploits-leaked/) exploits was released online by Acid\_Snake and qwikrazor87. This split the community into two sides : those who think that hackers will finally try to find a native hack of the PSVita, and those who are totally unmotivated to continue after this and decide to drop the PSVita hacking community.
 
@@ -126,7 +126,7 @@ A french review of the Black Fin dongle in action
 With the release of the Black Fin dongle, we begin to see dump of games on the internet like the Uncharted cartridge backup by [PiCO](https://wololo.net/2016/06/21/ps-vita-cartridge-dumps-available-warez-sites-cobra-blackfin/). While the BlackFin resurfaces later after radio silence from the Cobra Team on a [japanese market website](https://wololo.net/2016/05/09/cobra-blackfin-resurfaces/).\
 
 
-![The interface of the BlackFin](<.gitbook/assets/image (23).png>)
+![The interface of the BlackFin](<.gitbook/assets/image (23) (2).png>)
 
 &#x20;
 
@@ -164,13 +164,13 @@ Yfanlu doesn't endorse piracy and decided to make the job harder for pirates by 
 
 Fortunately, after that incident, TheFloW changed his mind and released the V1.0 but Mr.Gas and MajorTom decided to leave permanently. It's a big shame as they were 2 promising members of the scene (and they were fellow French).
 
-![Hey isn't that the PSP recovery menu?](<.gitbook/assets/image (63).png>)
+![Hey isn't that the PSP recovery menu?](<.gitbook/assets/image (63) (1).png>)
 
 After Vitamin was released another program to dump games was released by a Chinese dev. The name? MaidumpTool.\
 \
 
 
-![That apple looks so tasty](<.gitbook/assets/image (28).png>)
+![That apple looks so tasty](<.gitbook/assets/image (28) (2).png>)
 
 The dumping process was simple, load the game files in the ram and let the vita decrypt it. It was a dirty method of dumping game and did introduce several problems like save data corruption.
 
@@ -227,7 +227,7 @@ Alongside the release of Enso we had another dream come true : MicroSD adapter f
 
 With such progress, we totally broke through the limits of the PSVita and began to dream of other innovations like with this [Wololo post](https://wololo.net/2017/08/30/whats-next-ps-vita-scene/) which represents the mindset of every user back then.
 
-![Oh you don't say?](<.gitbook/assets/image (18).png>)
+![Oh you don't say?](<.gitbook/assets/image (18) (2).png>)
 
 
 
@@ -289,7 +289,7 @@ This has left most people questioning themselves if they should do the jump to e
 5 months later, with the release of 3.68, TheFloW confirms that it hasn't patched his vulnerability and decided shortly after, the 1 July, to release h-encore. We finally had another exploit 2 years after HENkaku !\
 
 
-![I'm blue dabedi dabeda](<.gitbook/assets/image (45).png>)
+![I'm blue dabedi dabeda](<.gitbook/assets/image (45) (1).png>)
 
 The exploit was a more traditional one, a save data exploit from a demo of a dating game called bittersmile. Since it's a demo, we can inject the game through the package manager or with QCMA since it's drm free !
 
@@ -334,7 +334,7 @@ Trinity was released and the latest up-to-date hack for the Vita was what allowe
 \
 F00D control also allows to remove the blacklist made by sony and thus allowing us to bring back the PSM for dev and Unity for Dev apps used back then in rejuvenate ! This means that unity homebrew was possible on the PSVita !
 
-![Let's enter into the PSVita matrix !](<.gitbook/assets/image (30).png>)
+![Let's enter into the PSVita matrix !](<.gitbook/assets/image (30) (2).png>)
 
 Following the wave of popularity that the PSVita is going through, a homebrew contest and an indieGoGo campaign have been done. The first one is called VitaGameJam. It's a Game contest made for the vita by an unknown person from Twitter who appeared from nowhere. The organization was very very sketchy with a Twitter poll voting system and a 500$ price for the winner. After some investigation, it turned out that the whole thing was a scam as the author of the contest was disappointed by the entries and decided to submit his own project and make it win to save his money. The whole explanation about that scam can be found [here.](https://wololo.net/2019/05/22/vitajam2019-explained-opinion/)\
 
