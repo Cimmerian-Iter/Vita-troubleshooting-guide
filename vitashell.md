@@ -4,7 +4,7 @@ description: PSVita swiss knife
 
 # Vitashell
 
-Vitashell is a powerful tool, not only it's a file manager but it's also a multimedia tool that plays music and shows pictures, and install applications and share the content of your memory with other devices. Problem being, you don't really know what to do with it right? Then fear not ! We will uncover each and every secret of this amazing tool !
+Vitashell is a powerful tool, not only it's a file manager but it's also a multimedia tool that plays music and shows pictures, installs applications and shares the content of your memory with other devices. The problem is, you don't really know what to do with it right? Then fear not ! We will uncover each and every secret of this amazing tool !
 
 ## How to use Vitashell
 
@@ -12,7 +12,7 @@ Vitashell is a powerful tool, not only it's a file manager but it's also a multi
 
 First let's start with the basics, the main menu of Vitashell
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption><p>I'm blue dabedydabeday</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 This is "home", here you have all the partitions the vita has. But what are they?\
 
@@ -21,7 +21,7 @@ This is "home", here you have all the partitions the vita has. But what are they
 * grw0: this partition is the writable area of the gamecard, generally used to save the savedata inside the gamecard. Stands for GamecardReadWrite
 * imc0: is the internal memory of the PSTV and PSVita slim, when unused it is mounted to this partition.
 * os0: is the partition that contains the OS kernel modules, very important (it is read-only)
-* pd0: stands for padoruuuuuuuu
+* pd0: stands for pidata, it contains the welcome park app as well as the introductory video you see when you first setup a PSVita.
 * sa0: is the partition that contains the dictionary and font file used by the vita
 * tm0: is the partition related to activation, it contains the act.dat&#x20;
 * ud0: is the partition used to temporarily hold the update file so that the firmware can be installed. When you update your vita, the pup file downloaded is moved there.
@@ -33,11 +33,11 @@ This is "home", here you have all the partitions the vita has. But what are they
 
 So that's it for the partition you can see, if you press triangle, you can have the little menu on the right you see in the screenshot. Let's describe the options :&#x20;
 
-
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 * Mount imc0: allows mounting the unused internal partition to access its content
 * Mount uma0: used to mount any USB drive as uma0: directly from Vitashell.&#x20;
-* Mount the USB device as xmc0: if either you have imc0, uma0 already used. Can happen in a system with 4 storages : PSVSD or USB drive, SD2Vita, Memorycard, and Internal memory.
+* Mount  xmc0: used to mount the memorycard if it's not mounted elsewhere and unused. Kind of like imc0 for the internal memory.
 * Unmount uma0:, xmc0: imc0: you unmount the selected partition
 * Mount USB/Gamecard as ux0: Allows to mount a USB drive or an SD2Vita as ux0 on the fly without a reboot. This will not refresh the Live Area so if the bubble of your application installed on the SD2Vita isn't available on the LiveArea before you mount the device, it will not appear like you would if you used a standard SD2Vita plugin and reboot.\
   **NOTE :** You must mount the USB as uma0: first before you can use this option ****&#x20;
@@ -58,15 +58,17 @@ Once you select a partition, you have access to the content of that partition, a
 * Sort By : Allows sorting the files and folder with the setting you want
 * Ad-hoc : Open an Ad-Hoc connection so that you can share a file between two PSVita that use vitashell in Ad-Hoc mode
 
-<figure><img src=".gitbook/assets/image (63).png" alt=""><figcaption><p>Options available in More</p></figcaption></figure>
+#### More options
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 * Compress : create a zip of your selected files/folder
 * Install all : install selected vpk in a row
 * Install folder : Old option that we used to install an application by highlighting the folder and using that option to install the app
 * Export media : Used to add video/music to the database so that they would appear in the official music/video app
-* Calculate SHA1 : self explanatory
+* Calculate SHA1 : Create a SHA1 hash which is used to verify the integrity of the file by comparing the SHA1 hash of the file you have with the original SHA1.
 
-<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption><p>Bookmarks option</p></figcaption></figure>
+#### Bookmarks
 
 Lastly, the Bookmarks option can be quite useful, you can either view a list of recent files you have opened with Vitashell, or bookmark your important files so that you don't have to navigate between all those directories again.
 
@@ -76,13 +78,15 @@ First highlight the file you want to bookmark, then select the New menu and use 
 
 You can then use the show bookmark option to get access to this file directly
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ### Text editing
 
 You can edit text files directly from Vitashell. Any files that aren't vpk, mp3, pictures, and compressed files will be opened by the text editor.&#x20;
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>let's open the most important text file of the PSVita</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>let's open the most important text file of the PSVita</p></figcaption></figure>
 
 You can move between each line, and press x on the line you want to edit, it will bring the PSVita keyboard.&#x20;
 
@@ -98,7 +102,7 @@ You also have the ability to open the file with a hex editor instead
 
 When you press start, you have access to a mini menu where you can change the main settings.
 
-You can change the theme of Vitashell if you feel full black is bad for your eyes, you can change the USB device that will be mounted if you decide to use the USB connection mode. So you can access either the SD2vita, the PSVSD, the gamecard or the memorycard on your PC.
+You can change the theme of Vitashell if you feel full black is bad for your eyes, and you can change the USB device that will be mounted if you decide to use the USB connection mode. So you can access either the SD2vita, the PSVSD, the gamecard (which is different from the SD2Vita option, it is used if you want to mount the gamecard to dump its content) or the memorycard on your PC.
 
 You can also swap between FTP mode or USB mode when you press the SELECT button.
 
