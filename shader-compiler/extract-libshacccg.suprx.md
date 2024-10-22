@@ -14,7 +14,7 @@ After all those years, we finally have a legal shader compiler. And thanks again
 
 You can use an automatic installer by installing this vpk and launching it :&#x20;
 
-{% embed url="https://vitadb.rinnegatamante.it/#/info/997" %}
+[DOWNLOAD](https://www.rinnegatamante.eu/vitadb/#/info/877)
 
 It will download automatically the PSM runtime and extract the libshacccg.suprx and put it in the right place.
 
