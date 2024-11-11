@@ -67,5 +67,3 @@ And that's all, now you are ready to use upcoming project that will rely on the 
 ## Extra
 
 \*\*Note 2 : If the app relying on libshacccg doesn't work, make sure like with retroarch that you can access ur0:data folder with its inbuilt file manager. If not, then rename ur0:data to something else, then create a data folder and move all the files here. That should make the folder visible.
-
-Note 3 : if none of that worked you can install this\*\* [**vpk**](https://github.com/SonicMastr/PIB-Configuration-Tool/releases) **and install libshacccg from it**
