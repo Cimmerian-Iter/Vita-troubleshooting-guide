@@ -48,7 +48,7 @@ This exploit allows dumping a list of modules and the support of URi calls which
 
 ![Nice, now uh can you please give me vitashell? No? Okay....](<.gitbook/assets/image (52).png>)
 
-The other good news is the [custom bubble method](https://wololo.net/2014/12/26/release-tom-mr-gas-publish-custom-bubbles-trick-for-ps-vita/) found by Mr.Gas and frtomtomdu80 (later known as Major\_Tom). This method allows the user to create ePSP bubble on the live area so that we can boot vHBL directly from the liveara. It was very cool to have your own bubble but it was just an illusion of hack. Later in June 2016 a PS1 bubble method will be released. It was still an ePSP hack and the native hack hope faded away.
+The other good news is the [custom bubble method](https://wololo.net/2014/12/26/release-tom-mr-gas-publish-custom-bubbles-trick-for-ps-vita/) found by Mr.Gas and frtomtomdu80 (later known as Major\_Tom). This method allows the user to create ePSP bubble on the live area so that we can boot vHBL directly from the livearea. It was very cool to have your own bubble but it was just an illusion of hack. Later in June 2016 a PS1 bubble method will be released. It was still an ePSP hack and the native hack hope faded away.
 
 
 
@@ -95,13 +95,13 @@ After that rejuvenate failed to bring piracy on the PSVita, an unknown team usin
 
 The process was simple, the black device you see is a device where you plug your games, then the device will share those games over a P2P network. Someone who wants to play for example need for speed will have to wait until someone has shared his need for speed copy with the Black fin dongle and retrieve the game over P2P to the cartridge dongle which will emulate a real cartridge with the game shared. It's like a sky3DS linker as there is no vulnerability involved.
 
-![A Bluetooth USB adapter, The black fin card emulator which is the precursor of the SD2Vita, with bluetooth included to communicate with the computer and the Black fin cartridge reader](<.gitbook/assets/image (61).png>)
+![A Bluetooth USB adapter, The black fin card emulator which is the precursor of the SD2Vita, with Bluetooth included to communicate with the computer and the Black fin cartridge reader](<.gitbook/assets/image (61).png>)
 
 Here's the description of the product from the website :&#x20;
 
 > ### _**What does Cobra Black Fin do?**_
 >
-> The Black Fin allows Vita and Vita Slim Wifi and 3G users to share their Vita games over the internet.
+> The Black Fin allows Vita and Vita Slim WiFi and 3G users to share their Vita games over the internet.
 >
 > The Cobra Black Fin Emulator card stores game ISO's on Micro SD and the Black Fin Card is then inserted into the Vita/Vita Slim console
 >
@@ -123,7 +123,7 @@ The dongle didn't meet his success for 3 reasons
 A french review of the Black Fin dongle in action
 {% endembed %}
 
-With the release of the Black Fin dongle, we begin to see dump of games on the internet like the Uncharted cartridge backup by [PiCO](https://wololo.net/2016/06/21/ps-vita-cartridge-dumps-available-warez-sites-cobra-blackfin/). While the BlackFin resurfaces later after radio silence from the Cobra Team on a [japanese market website](https://wololo.net/2016/05/09/cobra-blackfin-resurfaces/).\
+With the release of the Black Fin dongle, we begin to see dump of games on the internet like the Uncharted cartridge backup by [PiCO](https://wololo.net/2016/06/21/ps-vita-cartridge-dumps-available-warez-sites-cobra-blackfin/). While the BlackFin resurfaces later after radio silence from the Cobra Team on a [Japanese market website](https://wololo.net/2016/05/09/cobra-blackfin-resurfaces/).\
 
 
 ![The interface of the BlackFin](<.gitbook/assets/image (23) (2).png>)
@@ -141,7 +141,7 @@ This is it, after some teasing, the 29 July 2016, HENkaku was released by Team M
 
 ![Wow such sexy appeal](<.gitbook/assets/image (38).png>)
 
-The fact that HENkaku used a website and was not permanent meant that if you reboot and you don't have wifi access, you wouldn't be able to hack your vita to launch homebrew. Fortunately, xyz found a trick and included the HENkaku exploit inside the mail app of the vita which contains a Webkit browser inside. So we could trigger HENkaku while being offline. Just open the mail and boom hacked.
+The fact that HENkaku used a website and was not permanent meant that if you reboot and you don't have WiFi access, you wouldn't be able to hack your vita to launch homebrew. Fortunately, xyz found a trick and included the HENkaku exploit inside the mail app of the vita which contains a Webkit browser inside. So we could trigger HENkaku while being offline. Just open the mail and boom hacked.
 
 ![Wow the official molecule team sent me an email, I wonder what they wrote](<.gitbook/assets/image (31).png>)
 
@@ -192,7 +192,7 @@ Oh yeah and at the time there was no vitashell USB support so transferring a vpk
 The advantage of using a decrypted game came down to using plugins. Dumped games allow loading plugins from ux0:plugins. The main use was the amphetamine plugin which allows you to select the CPU and GPU clock speed while playing a game and also the RinCheat plugin.\
 
 
-![Ok it's definitly drugs](<.gitbook/assets/image (36).png>)
+![Ok it's definitely drugs](<.gitbook/assets/image (36).png>)
 
 Fortunately, the next release will bring us a step further to the CFW experience on the vita, and it's the release of Taikaku which is a framework that allows devs to create plugins. Known today as TaiHEN. It was now possible to hook and patch on the kernel and user space. Also fun fact, TaiHEN is based on substitute which is a framework used in the iOS jailbreak scene to load tweaks (plugins) on the system. (Additionally, we were now able to open uncompressed FSELF).\
 It was released as beta so we had two options. Either we load HENkaku or taiHENkaku. When it was stable enough it was merged with HENkaku.
@@ -221,7 +221,7 @@ Enso Xana edition
 
 
 
-It was such a birthday gift for us as it was released on the 29 july 2017, the same day as Henkaku, and I remember that I was waiting all day night then dozed off for like 3 hours and my body woke me up automatically 5 min after enso was released at 3 am. I tested immediately the program but refused to install it as I had a DEX mod on my vita. I reinstalled the 3.60 firmware and could finally profit from enso on the vita !
+It was such a birthday gift for us as it was released on the 29 July 2017, the same day as Henkaku, and I remember that I was waiting all day night then dozed off for like 3 hours and my body woke me up automatically 5 min after enso was released at 3 am. I tested immediately the program but refused to install it as I had a DEX mod on my vita. I reinstalled the 3.60 firmware and could finally profit from enso on the vita !
 
 Alongside the release of Enso we had another dream come true : MicroSD adapter for the PSVita ! Finally, no more me being stuck with my 8GB memory card and having to deal with QCMA every week to change games. First the PSVSD by Yfanlu and then the SD2Vita by xyz. You can find more information in the SD2VITA History article I made below.
 
@@ -233,7 +233,7 @@ With such progress, we totally broke through the limits of the PSVita and began 
 
 
 
-Piracy was blooming with vitamin and MaiDump, but TheFloW released a surprise that changed the piracy side of the Vita : Nonpdrm ! No more vpk or game folder with maidump, no more risk of having malware inside ! 100% legit game dump untouched (apart the eboot for the fake license)  and still encrypted ! It also fix an issue we had with decrypted game dump : the ability to install updates from liverea ! (granted the update doesn't require a fw higher than 3.60.&#x20;
+Piracy was blooming with vitamin and MaiDump, but TheFloW released a surprise that changed the piracy side of the Vita : Nonpdrm ! No more vpk or game folder with maidump, no more risk of having malware inside ! 100% legit game dump untouched (apart the eboot for the fake license)  and still encrypted ! It also fix an issue we had with decrypted game dump : the ability to install updates from livearea ! (granted the update doesn't require a fw higher than 3.60.&#x20;
 
 Motoharu also provided another way of having a completely legit backup dump with psgamesd which creates a 1:1 dump of the cartridge and allows playing it by creating a virtual cartridge on the vita. This format is considered as the best one if we go into the preservation of the Vita library but it won't meet its success as nonpdrm was more practical.
 
@@ -243,7 +243,7 @@ As for better 3D homebrew support, we had an amazing exploit by VitaHex, who gra
 
 ![On par with Killzone](<.gitbook/assets/image (64).png>)
 
-What about streaming the PSVita screen on the PC? Well, we have Vita2PC by Rinnegatamante which allows streaming the PSVita through wifi, and xerpi teased his USB solution. On the other hand, we had moonlight and PC-Link to stream the PC screen on the PSVita.
+What about streaming the PSVita screen on the PC? Well, we have Vita2PC by Rinnegatamante which allows streaming the PSVita through WiFi, and xerpi teased his USB solution. On the other hand, we had moonlight and PC-Link to stream the PC screen on the PSVita.
 
 ![The dream of everyone, Nintendo Vita !](<.gitbook/assets/image (19).png>)
 
@@ -257,13 +257,13 @@ There was a first solution called MLTactivator (don't use it) which replace your
 ![Que dice?](<.gitbook/assets/image (51).png>)
 
 \
-The second solution will be brought by Celeste-Blue with ReStore and ReNpDRM. It was first deemed impossible by Yfanlu without an f00d exploit (f00d is the security processor of the PSVita) but he managed to bring back the activation on 3.60 ! The purpose is simple : it constantly refreshes for activation so even if sony automatically removes the activation it gets back. But how does it get the activation file if we can't activate our PSVita the normal way?
+The second solution will be brought by Celeste-Blue with ReStore and ReNpDRM. It was first deemed impossible by Yfanlu without an f00d exploit (f00d is the security processor of the PSVita) but he managed to bring back the activation on 3.60 ! The purpose is simple : it constantly refreshes for activation so even if Sony automatically removes the activation it gets back. But how does it get the activation file if we can't activate our PSVita the normal way?
 
-The problem was that the success of the operation was a hit and miss, a lot of users complained that it didn't work, others stated we needed restore v1 with renpdrm v5 in order for it to work. Other had stated that sony automatically removes restore from ur0:tai (I'm sure it's bullshit). So we needed another reliable solution.\
+The problem was that the success of the operation was a hit and miss, a lot of users complained that it didn't work, others stated we needed restore v1 with renpdrm v5 in order for it to work. Other had stated that Sony automatically removes restore from ur0:tai (I'm sure it's bullshit). So we needed another reliable solution.\
 \
 Remember that promising young dev called TheFloW? He came out and revealed a big shocking news that nobody was ready for (yeah nobody I tell you !) He was actually [Total\_Noo](https://wololo.net/2017/06/10/big-reveal-theflow-actually-total\_noob-promises-huge-release-september/)b All along ! (pretend to be shocked).
 
-![Top 10 anime vilain reveal](<.gitbook/assets/image (62).png>)
+![Top 10 anime villain reveal](<.gitbook/assets/image (62).png>)
 
 
 

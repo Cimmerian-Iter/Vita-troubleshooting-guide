@@ -1,5 +1,5 @@
 ---
-description: PSVita swiss knife
+description: PSVita Swiss knife
 ---
 
 # Vitashell
@@ -108,7 +108,7 @@ You can also swap between FTP mode or USB mode when you press the SELECT button.
 
 Then you have some self-explanatory options.
 
-## Transfering files from PSVita to PC/VITA
+## Transferring files from PSVita to PC/VITA
 
 Thanks to Vitashell, you can access the content of your PSVita easily on your PC and transfer files between them.
 
@@ -138,7 +138,7 @@ It will be usually mounted as D drive if you don't have anything else, and you c
 
 ### FTP
 
-This method is wireless, and while it is convenient as it allows you to access all partitions (instead of just restricting you to a memory device like in USB mode) it is limited by the PSVita slow Wifi speed. So if you have big files to transfer avoid using this mode.
+This method is wireless, and while it is convenient as it allows you to access all partitions (instead of just restricting you to a memory device like in USB mode) it is limited by the PSVita slow WiFi speed. So if you have big files to transfer avoid using this mode.
 
 Make sure you select FTP as the SELECT button mode, then same as USB mode, press the SELECT button to open the FTP connection.
 

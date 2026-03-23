@@ -69,7 +69,7 @@ He needs to make a choice, either use minitv or ds4. In this case let's go with 
 
 ## SD2VITA and ioplus plugin not being at the top.
 
-Another common mistake is to not put the SD2VITA at the begining of \*KERNEL. This is very important as normally every plugin need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.\
+Another common mistake is to not put the SD2VITA at the beginning of \*KERNEL. This is very important as normally every plugin need to be loaded after the storage is mounted or else there will be problems upon boot because of the sudden storage change.\
 As for ioplus it is a dependency used by other plugins to have access to more IO operation in userland. It needs to be loaded before them.
 
 ## Loading heavy plugins when we don't always use them

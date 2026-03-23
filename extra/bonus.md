@@ -30,9 +30,9 @@ But apart from that kind of stuff, some things are worth being mentioned:
 
 Did you spend 40 min of your time trying to figure out why the HENkaku browser exploit doesn't work? Did the the user assure you that he is on 3.60? At the end you notice that said user downgraded to 1.60 instead of 3.60? \(Like how the fuck he was intelligent enough to find a 1.60 .PUP in the first place\) Sometimes they amaze me by pushing the limits.
 
-#### Formating the PSVita memorycard using windows
+#### Formatting the PSVita memorycard using windows
 
-Yeah, you heard it right, someone did try to format the PSVita memorycard by opening VitaShell, pressing select to mount the PSVita in the file explorer, and formating it there. 
+Yeah, you heard it right, someone did try to format the PSVita memorycard by opening VitaShell, pressing select to mount the PSVita in the file explorer, and formatting it there. 
 
 #### Trying to be more intelligent than me
 
@@ -99,7 +99,7 @@ After installing plugins and bootlooping, some people decided that it was fine t
 
 
 
-Surely the biggest thing I took part in it. The Vita scene doesn't have a lot of drama, previously there was the memorycard formater known as harrypotter.vpk, Silica released a proof of concept of an eraser, which was then used by someone and shared it as a harrypotter game dump. The problem? the .vpk was less than 2mb. People were stupid enough to install it. Well, this time, there's a mix of users stupidity and a fault from the dev side. Enso_EX was supposed to be a enso with more customization, with a better SD2Vita support and features like choosing the logo, choosing to install the tai folder in ur0 or vs0 \(still have henkaku enso even after restoring the vita\). And an update blocker. So where did it fuck up? - User’s stupidity: They see a button, they press it.
+Surely the biggest thing I took part in it. The Vita scene doesn't have a lot of drama, previously there was the memorycard formatter known as harrypotter.vpk, Silica released a proof of concept of an eraser, which was then used by someone and shared it as a harrypotter game dump. The problem? the .vpk was less than 2mb. People were stupid enough to install it. Well, this time, there's a mix of users stupidity and a fault from the dev side. Enso_EX was supposed to be a enso with more customization, with a better SD2Vita support and features like choosing the logo, choosing to install the tai folder in ur0 or vs0 \(still have henkaku enso even after restoring the vita\). And an update blocker. So where did it fuck up? - User’s stupidity: They see a button, they press it.
 
 
 
