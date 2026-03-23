@@ -27,7 +27,7 @@ It will automatically place the libshacccg.suprx in the correct location. Instal
 First of all we need to have the PSM runtime, for those who already have the 2.01 you can skip this part.\
 You will need 4 files.
 
-1. [PKGinstallerLauncher by SKGleba](https://vitadb.rinnegatamante.it/#/info/381)
+1. [PKGinstallerLauncher by SKGleba](https://www.rinnegatamante.eu/vitadb/#/info/381)
 2. [The 3 files of the PSM runtime ](http://psm.cbps.xyz/devtools.php?type=psm-runtime)(1.00, 2.00, 2.01)
 
 Put the 3 files of the PSM runtime in ux0:package (create the folder) then open PKGInstallerLauncher

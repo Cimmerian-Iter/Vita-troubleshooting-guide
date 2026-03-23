@@ -121,5 +121,5 @@ Note: If vitabright doesn't work for you even though you did what I told you to 
 
 ## Using Easy Switch Vita
 
-An app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://vitadb.rinnegatamante.it/#/info/398)
+An app was made so that if you use the uvc plugin, you could control what plugins were enabled when you connected the Vita to a big screen, or disabled when you're using it as a handheld. [You can get it here](https://www.rinnegatamante.eu/vitadb/#/info/398)
 
