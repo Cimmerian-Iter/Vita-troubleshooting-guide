@@ -19,7 +19,7 @@ In order to reinstall the firmware, we shall update the system. "Update to 3.60"
 * 3.60 [https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.60/PSP2UPDAT.PUP)
 * 3.65 [https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.65/PSP2UPDAT.PUP)
 * 3.68 [https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP](https://yatsukiko.me/psvu/3.68/PSP2UPDAT.PUP)
-* UP TO DATE FW : go download it from sony and don't forget to rename it into PSP2UPDAT.PUP
+* UP TO DATE FW : go download it from Sony and don't forget to rename it into PSP2UPDAT.PUP
 
 Once you have downloaded the pup, make sure you have qcma installed, and put the pup file in the update directory. (look in qcma settings where is the update foledr. Usually called PSV updates.)
 

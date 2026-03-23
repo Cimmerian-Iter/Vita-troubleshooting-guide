@@ -55,7 +55,7 @@ ux0:vitacheat/vitacheat.suprx
 ```
 
   
-You can also specify which app will load the plugin, for example if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app \(often easy to guess with the names\), or you Google the code name of the game you want. For testkit users, you can easly know the code name of an app by showing the information of the app in the live area.  
+You can also specify which app will load the plugin, for example if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app \(often easy to guess with the names\), or you Google the code name of the game you want. For testkit users, you can easily know the code name of an app by showing the information of the app in the live area.  
 Additionally, you can specify which app will not load the plugin. It can be useful for example when an overclock tweak crashes Adrenaline. To do that, you need to add a ! before the code name which stops the plugin running when opening the specified app.  
   
 Here's an example, I want to enable vitacheat in Killzone only, and I don't want to load lolicon in adrenaline.  
@@ -72,11 +72,11 @@ ur0:tai/lolicon.skprx
 ###  Note : 
 
 1. If you use a SD2VITA, ux0:tai MUST NOT exist. Delete it and put every plugins in ur0:tai.  
-The SD2VITA plugin you use always need to be at the top of \*KERNEL, else the other plugins won't work correctly. The reason you'll have to do this is that when you load the SD2VITA plugin from ux0, it will swap the ux0 directory for your SD2VITA's. The problem is that it tries to acess the plugin again but since ux0 has been swapped it can't find the plugin.
+The SD2VITA plugin you use always need to be at the top of \*KERNEL, else the other plugins won't work correctly. The reason you'll have to do this is that when you load the SD2VITA plugin from ux0, it will swap the ux0 directory for your SD2VITA's. The problem is that it tries to access the plugin again but since ux0 has been swapped it can't find the plugin.
 
 2. Be aware that plugins have an impact, if you load too many plugins, you can expect some lags or in the worst case, a bootloop. That is especially true if you tend to have more than 10 plugins, or load xerpi usb screenshare plugin \(which is heavy\) with a lot of plugins.  
   
 Try to load only the necessary plugins. If your vita bootloop, you can for enso users hold L button when booting to avoid loading plugins, or for 3.61+ open hencore and do a reset taihen.  
   
-3.65 enso users might have to format their memory card if id.dat is still in the MemoryCard \(the file that indicate the firmware and the PSN account of the user\) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 \(at this time\). 3.60 users can always reset HENkaku through the WebKit exploit without formating the MemoryCard \(you will boot in a blank livearea\) and unlink the MemoryCard through HENkaku settings, but for 3.65 users since you don't have access to the MemoryCard you won't be able to reset taiHEN. \(Another reason why I recommend everyone to go to 3.60\)
+3.65 enso users might have to format their memory card if id.dat is still in the MemoryCard \(the file that indicate the firmware and the PSN account of the user\) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 \(at this time\). 3.60 users can always reset HENkaku through the WebKit exploit without formatting the MemoryCard \(you will boot in a blank livearea\) and unlink the MemoryCard through HENkaku settings, but for 3.65 users since you don't have access to the MemoryCard you won't be able to reset taiHEN. \(Another reason why I recommend everyone to go to 3.60\)
 

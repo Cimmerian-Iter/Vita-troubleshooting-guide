@@ -12,7 +12,7 @@ This particularly affects 3.60 users when you have downgraded with modoru from 3
 
 ## PSN works fine, but when I enter the PSN settings i have an error code
 
-It appears that Sony recently changed something in their servers. If you're getting this error it means that you have ITLS enso. Disable and renable it when you have done your business with the settings.
+It appears that Sony recently changed something in their servers. If you're getting this error it means that you have iTLS-enso. Disable and re-enable it when you have done your business with the settings.
 
 ## Can't connect to the PSN, I have a NP error code
 

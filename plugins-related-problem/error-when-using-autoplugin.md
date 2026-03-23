@@ -8,7 +8,7 @@ description: robot does break
 
 ## What is a plugin?
 
-you may have already encountered it through the PSP area, plugins are micro programm that runs in background and enhance your experience. It's purpose can be various like dealing witht the overclock, modification of the live area or native function (like the screenshot or music player). They are essentials nowadays. They are loaded by the framework Taihen thanks to the effort of the Molecule Team.\
+you may have already encountered it through the PSP area, plugins are micro program that runs in background and enhance your experience. It's purpose can be various like dealing with the overclock, modification of the live area or native function (like the screenshot or music player). They are essentials nowadays. They are loaded by the framework Taihen thanks to the effort of the Molecule Team.\
 There is two types of plugins.
 
 SKPRX : those are kernel plugins, most commons nowadays, it modify the overall functions of the vita. Like nonpdrm fake the drm system, storagemgr load the sd2vita as a memorycard, and more. They need a reboot between the installation to run. (Or use xerpi plugin loader)
@@ -24,7 +24,7 @@ To install plugins you need to do 2 things :
 
 ### Place the plugin file in ur0:tai folder (or ux0:tai if you want to use ux0)
 
-Plugins belongs to the tai folder where the config.txt is. There may be some exeption like vitacheat.suprx which need to be in it's vitacheat folder in ux0
+Plugins belongs to the tai folder where the config.txt is. There may be some exception like vitacheat.suprx which need to be in it's vitacheat folder in ux0
 
 ### Write the path to the plugin in the config.txt
 
@@ -34,7 +34,7 @@ KERNEL : skprx\
 MAIN : live area tweak\
 ALL : apps tweak
 
-Here an exemple. Let's imagine i have a tai folder in ur0 that contain\
+Here an example. Let's imagine i have a tai folder in ur0 that contain\
 KERNEL : storagemgr.skprx, lolicon.skprx, nonpdrm.skprx\
 MAIN : shellbat, download enabler\
 ALL : vitacheat (skprx is in ur0:tai/, suprx is in ux0:vitacheat/)
@@ -54,10 +54,10 @@ ur0:tai/download_enabler.suprx
 ux0:vitacheat/vitacheat.suprx
 ```
 
-You can also specify which app will load the plugin, for exemple if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app (often easy to guess with the names), or you google the code name of the game you want. For testkit users, you can easly know the code name of an app by showing the information of the app in the live area.\
+You can also specify which app will load the plugin, for example if you want to enable vitacheat only in certain game, you need to write the path of the file under the code name of the app. To know the code name of the app, either you look with vitashell for the code name of the homebrew in ux0:app (often easy to guess with the names), or you google the code name of the game you want. For testkit users, you can easily know the code name of an app by showing the information of the app in the live area.\
 Additionally, you can specify which app will not load the plugin. It can be useful if your app crash because of loaded plugins.
 
-Here's an exemple, I want to enable vitacheat in killzone only, and I don't want to load vitagrafix plugin inside Need for Speed, but I still want vitagrafix to be enabled in all other games. And I also want to load the timetracker plugin inside Need for Speed.
+Here's an example, I want to enable vitacheat in killzone only, and I don't want to load vitagrafix plugin inside Need for Speed, but I still want vitagrafix to be enabled in all other games. And I also want to load the timetracker plugin inside Need for Speed.
 
 ```
 *!PCBS00183 #Need for speed most wanted title ID
@@ -83,6 +83,6 @@ The sd2vita plugin you use always need to be at the top of \*KERNEL, else the ot
 
 Try to load only the necessary plugins. If your vita bootloop, you can for enso users hold L button when booting to avoid loading plugins, or for 3.67+ open hencore and do a reset taihen.
 
-3.65 enso users might have to format their memorycard if id.dat is still in the memorycard (the file that indicate the firmware and the psn account of the user) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 (at this time). 3.60 users can always reset henkaku through the webkit exploit without formating the memorycard (you will boot in a blank livearea) and unlink the memorycard through henkaku settings, but for 3.65 users since you don't have access to the memorycard you won't be able to reset taihen (Another reason why i recommend everyone to go to 3.60).
+3.65 enso users might have to format their memorycard if id.dat is still in the memorycard (the file that indicate the firmware and the psn account of the user) and since we unload the plugins, we also disable the firmware spoof, so when the vita will read that file, it will ask you to update in order to use it or format it. You will have no other choice but to format or update to 3.73 (at this time). 3.60 users can always reset henkaku through the webkit exploit without formatting the memorycard (you will boot in a blank livearea) and unlink the memorycard through henkaku settings, but for 3.65 users since you don't have access to the memorycard you won't be able to reset taihen (Another reason why i recommend everyone to go to 3.60).
 
 You can always come in the henkaku server discord if you want more information about plugins or contact me directly.

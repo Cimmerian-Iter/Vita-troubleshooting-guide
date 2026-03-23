@@ -26,9 +26,9 @@ So RichDevX made multiple attempts in order to create that adapter
 
 ![There's more name on it than actual pins](<../.gitbook/assets/image (39) (1).png>)
 
-![How it should look at the end. Not very confortable......](<../.gitbook/assets/image (20).png>)
+![How it should look at the end. Not very comfortable......](<../.gitbook/assets/image (20).png>)
 
-But then why is it not on sale? Why did nobody hear about that adapter? Well because firstly it was mainly an overpriced adapter, lot of talking and little real progress made although he posted a video with his adapter in action which the PSVita is supposed to "recognize" by prompting to format the memory card. (In reality that just proves nothing, the PSVita cannot read the MicroSD so it asks to format). Lastly, the most important point was that the memory card authentification protocol was not totally reversed. So at the time, there was no way we could create a fake Sony memory card nor even some kind of Sony memory card reader. The project just died on its own and we never got any update about it.
+But then why is it not on sale? Why did nobody hear about that adapter? Well because firstly it was mainly an overpriced adapter, lot of talking and little real progress made although he posted a video with his adapter in action which the PSVita is supposed to "recognize" by prompting to format the memory card. (In reality that just proves nothing, the PSVita cannot read the MicroSD so it asks to format). Lastly, the most important point was that the memory card authentication protocol was not totally reversed. So at the time, there was no way we could create a fake Sony memory card nor even some kind of Sony memory card reader. The project just died on its own and we never got any update about it.
 
 ![The Frankenstein MicroSD adapter ](<../.gitbook/assets/image (21) (2).png>)
 
@@ -42,11 +42,11 @@ But there were other attempts made by RichDevX like plugging a USB stick into th
 
 Using the cartridge slot wasn't the first attempt, we had before the Black Fin Cobra dongle which used the cartridge slot to communicate with the pc to share games on a placeholder.
 
-![Weeee hacker stuff, seems like somthing from the Matrix](<../.gitbook/assets/image (33) (1) (1).png>)
+![Weeee hacker stuff, seems like something from the Matrix](<../.gitbook/assets/image (33) (1) (1).png>)
 
 ![The inside of the black fin](<../.gitbook/assets/image (33) (1).png>)
 
-But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use a regular SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connects the MicroSD pin to the cartridge slot pin. Since a PSVita cartridge was just an SD card with authentification.\
+But using the cartridge slot as a memory card slot was made possible thanks to xyz. Devkit and Prototype vita could use a regular SD card, so there was a driver for that for the vita. The idea was to hook that driver to the cartridge slot, and create an adapter that connects the MicroSD pin to the cartridge slot pin. Since a PSVita cartridge was just an SD card with authentication.\
 \
 And thus was born the prototype, with the effort of xyz and motoharu who worked on reversing anything that has to do with memory card protocol, they made the first SD2Vita.
 
@@ -113,7 +113,7 @@ Oh yeah and I forgot to mention something.
 
 **It cost 15€**
 
-I don't really know who decided to put that price, especially since buying a soldering kit + PCB wasn't that costly and the demand was high. But then again it's because the demand was high and it was a small price to pay for salvation compared to sony memory card prices.
+I don't really know who decided to put that price, especially since buying a soldering kit + PCB wasn't that costly and the demand was high. But then again it's because the demand was high and it was a small price to pay for salvation compared to Sony memory card prices.
 
 
 
@@ -198,7 +198,7 @@ The V3 couldn't really fit in a slim PSVita as it was too high, so the cartridge
 
 
 
-Since october 2019 the white SD2Vita V5 got a little revision like the V3, so a V5.5 (and not V6 as it is often mislabelled by the others as there's no major revision). It didn't aim to fix a specific issue but instead improve the reliability of the adapter by using a different kind of plastic.
+Since October 2019 the white SD2Vita V5 got a little revision like the V3, so a V5.5 (and not V6 as it is often mislabelled by the others as there's no major revision). It didn't aim to fix a specific issue but instead improve the reliability of the adapter by using a different kind of plastic.
 
 > Smooth plastic instead of rough surface
 >
@@ -221,7 +221,7 @@ Wait what V6? I don't see it anywhere. And why V6?
 
 Well the aim of the V6 was to do some kind of SD2Vita plus, a premium product. So yeah the inside was better made, and the quality of the end product did feel premium compared to the Chinese version, and it was also originally intended to have the push to eject MicroSD mechanism that was left behind starting V3, but the problem was the price. Why buy a SD2Vita V6 for 15-20€ when you can buy a V5 for 2-3€ ?
 
-So it ended up being a total failure (only japanese people really bought that adapter. Maybe because the adapter comes from a japanese manufacturer as seen with the japanese letters on the front) and not sold anymore (through amazon the original seller has no stocks left) unless you go to ebay or the chinese market. Which is a shame because the original idea was great.
+So it ended up being a total failure (only Japanese people really bought that adapter. Maybe because the adapter comes from a Japanese manufacturer as seen with the Japanese letters on the front) and not sold anymore (through amazon the original seller has no stocks left) unless you go to eBay or the Chinese market. Which is a shame because the original idea was great.
 
 ![The rarest SD2Vita in the world](<../.gitbook/assets/image (40) (1) (1).png>)
 
