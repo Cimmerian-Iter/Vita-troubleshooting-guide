@@ -20,7 +20,7 @@ The file you need to launch is the build.bat. You will have a nice CMD window as
 
 * Name of the .vpk: Either simple like supermario64 or something fancy like peachgotcapturedagainpart4 if you like.
 * The name of the rom. You will need to enter the path of the rom. Standard path for roms is ux0:data/DaedalusX64/Roms so, for example, you will need to input `ux0:data/DaedalusX64/Roms/sm64.n64`. But if you want a custom path it should still work. For example: `ux0:roms/sm64.n64`
-* The title ID: This part is up to you, it must be 9 letters in uppercase and can contain numbers. You can't use the same title ID for 2 bubbles, each one is unique. `DAEDALUS3` will work, `SuPeRmArIo` won't because it's not 9 characters and not full uppercase. Avoid using any title IDs found [here](https://vitadb.rinnegatamante.it/#/titleids).
+* The title ID: This part is up to you, it must be 9 letters in uppercase and can contain numbers. You can't use the same title ID for 2 bubbles, each one is unique. `DAEDALUS3` will work, `SuPeRmArIo` won't because it's not 9 characters and not full uppercase. Avoid using any title IDs found [here](https://www.rinnegatamante.eu/vitadb/#/titleids).
 
 Once it's done it will generate a .vpk file that you can install on your Vita. That's all you have to do to have a custom bubble!
 
